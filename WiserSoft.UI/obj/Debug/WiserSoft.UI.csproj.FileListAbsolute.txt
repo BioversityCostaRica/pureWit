@@ -1,0 +1,1270 @@
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\AutoMapper.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ServiceStack.Common.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ServiceStack.Interfaces.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ServiceStack.OrmLite.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\ServiceStack.Text.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\josed\Desktop\WiserSoftApp\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\ahora\WiserSoft Oscar Login+Brandon Compras\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft Brandon Pagar\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Oscar\Desktop\WiserSoft _v1\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v2\WiserSoft _v2\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\cuatro y tres\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\ApplicationInsights.config
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.exe
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.exe.config
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.rsp
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csi.exe
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csi.rsp
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.exe
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.exe.config
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.rsp
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.pdb
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Antlr3.Runtime.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Newtonsoft.Json.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Helpers.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Mvc.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Optimization.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Razor.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WebGrease.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DAL.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DATA.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Helpers.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Mvc.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Optimization.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Razor.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Newtonsoft.Json.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+D:\Universidad\Programacion V\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\ApplicationInsights.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\csc.exe
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\csc.exe.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\csc.rsp
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\csi.exe
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\csi.rsp
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.AppContext.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\vbc.exe
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\vbc.exe.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\vbc.rsp
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.UI.dll.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.UI.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Antlr3.Runtime.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.Web.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Newtonsoft.Json.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Helpers.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Mvc.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Optimization.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Razor.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.Razor.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WebGrease.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DAL.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Helpers.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Mvc.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Optimization.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.Razor.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\System.Web.WebPages.Razor.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Antlr3.Runtime.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Newtonsoft.Json.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\Microsoft.AI.Web.xml
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.Razor.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\obj\Debug\WiserSoft.UI.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\obj\Debug\WiserSoft.UI.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.UI\obj\Debug\WiserSoft.UI.pdb

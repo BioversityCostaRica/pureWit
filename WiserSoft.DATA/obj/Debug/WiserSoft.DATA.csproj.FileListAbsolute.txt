@@ -1,0 +1,64 @@
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\ServiceStack.Common.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.SqlServer.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\bin\Debug\ServiceStack.Text.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Documents\Visual Studio 2013\Projects\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\josed\Downloads\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Oscar\Desktop\WiserSoft Oscar+Brandon Compras\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Nueva carpeta\WiserSoft _v3\WiserSoft _v3\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\josed\Downloads\WiserSoft _v4\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\WiserSoft _v5\WiserSoft _v5\WiserSoft _v4\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\laptop HP\Desktop\Proyecto Final\Final\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
