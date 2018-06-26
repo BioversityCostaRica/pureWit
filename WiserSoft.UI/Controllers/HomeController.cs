@@ -27,25 +27,27 @@ namespace WiserSoft.UI.Controllers
             var passwordEncripted = Encriptacion.Encriptacion.Encriptar(usuario.Password);
             var loginResultUsers = usu.BuscarUsuarios(usuario.Username, passwordEncripted);
             Console.WriteLine(passwordEncripted);
-            /*if (loginResultClients != null)
+            if (loginResultUsers)
             { //Si es nulo no existe
-                Session["UserID"] = users.Us_User_Name;
-                Session["Nombre"] = loginResultClients.Cl_Nombre?? users.Us_User_Name; //Si el campo de nombre es nulo entonces se muestra el usuario
-                Session["Type"] = "cliente";
-                Session["Cedula"] = loginResultClients.Cl_Cedula ?? "0"; //Si el campo es nulo pone un 0 por default
-                return RedirectToAction("Index", "SeleccionDeFeria");
-            }
-            else if (loginResultUsers)
-            {
-                Session["UserID"] = users.Us_User_Name;
-                Session["Type"] = "admin";
-                return RedirectToAction("UserDashboard");
+                DATA.Usuarios datos = usu.BuscarUsuarios(usuario.Username);
+                Session["Username"] = datos.Username;
+                Session["Rol"] = datos.Id_rol;
+
+                if (datos.Id_rol == 1)
+                {
+                    return RedirectToAction("Index", "Contactos");
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Administrador");
+                }
+                
             }
             else
             {
-                ModelState.AddModelError("errorLogin", "Usuario y/o contrasena incorrectos");
+                ModelState.AddModelError("errorLogin", "Usuario y/o contraseña incorrectos.");
                 return View("Index");
-            }*/
+            }
 
             return View("Index");
         }
