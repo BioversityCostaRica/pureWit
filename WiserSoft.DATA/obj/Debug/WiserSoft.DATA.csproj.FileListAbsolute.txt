@@ -62,3 +62,20 @@ C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSof
 C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
 C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
 C:\Users\Priscilla\Desktop\Proyecto Analisis\Proyecto Analisis\Analisis\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.MySql.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.MySql.xml
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojResolveAssemblyReference.cache
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\MySql.Data.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Common.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Text.dll
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Common.xml
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.xml
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.xml
+D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Text.xml

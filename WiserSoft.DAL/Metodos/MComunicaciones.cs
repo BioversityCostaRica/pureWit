@@ -19,7 +19,7 @@ namespace WiserSoft.DAL.Metodos
         public MComunicaciones()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+              MySqlDialect.Provider);
         }
         public void ActualizarComunicaciones(Comunicaciones comunicaciones)
         {

@@ -18,7 +18,7 @@ namespace WiserSoft.DAL.Metodos
         public MUsers()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+              MySqlDialect.Provider);
         }
 
         public List<Users> ListarUsers()

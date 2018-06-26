@@ -26,8 +26,7 @@ namespace WiserSoft.DAL {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=BIODIVERSITY\\SQLEXPRESS;Initial Catalog=FERIAS_AGRICOLAS_VIRTUALES;In" +
-            "tegrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("server=db4free.net;user id=mapache;password=mapachemapache;database=purewit")]
         public string conexion {
             get {
                 return ((string)(this["conexion"]));

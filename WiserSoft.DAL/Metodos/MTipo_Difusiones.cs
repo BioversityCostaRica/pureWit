@@ -18,7 +18,7 @@ namespace WiserSoft.DAL.Metodos
         public MTipo_Difusiones()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+              MySqlDialect.Provider);
         }
         public List<Tipo_Difusiones> ListarTipoDifusiones()
         {

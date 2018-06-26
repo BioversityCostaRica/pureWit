@@ -11,23 +11,23 @@ namespace WiserSoft.UI.Controllers
 {
     public class HomeController : Controller
     {
-        IUsers use;
+        IUsuarios usu;
 
         public HomeController()
         {
-            use = new MUsers();
+            usu = new MUsuarios();
         }
         public ActionResult Index()
         {
             return View();
         }
         [HttpPost]
-        public ActionResult Index(Models.Users users)
+        public ActionResult Index(Models.Usuarios usuario)
         {
-            /*var passwordEncripted = Encriptacion.Encriptacion.Encriptar(users.Us_Password);
-            var loginResultClients = cli.BuscarClientePorLogin(users.Us_User_Name, passwordEncripted);
-            var loginResultUsers = use.BuscarUsers(users.Us_User_Name, passwordEncripted);
-            if (loginResultClients != null)
+            var passwordEncripted = Encriptacion.Encriptacion.Encriptar(usuario.Password);
+            var loginResultUsers = usu.BuscarUsuarios(usuario.Username, passwordEncripted);
+            Console.WriteLine(passwordEncripted);
+            /*if (loginResultClients != null)
             { //Si es nulo no existe
                 Session["UserID"] = users.Us_User_Name;
                 Session["Nombre"] = loginResultClients.Cl_Nombre?? users.Us_User_Name; //Si el campo de nombre es nulo entonces se muestra el usuario
@@ -46,6 +46,7 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("errorLogin", "Usuario y/o contrasena incorrectos");
                 return View("Index");
             }*/
+
             return View("Index");
         }
 

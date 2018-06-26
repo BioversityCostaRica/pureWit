@@ -1,4 +1,4 @@
-﻿@model WiserSoft.UI.Models.Users
+﻿@model WiserSoft.UI.Models.Usuarios
 
 @{ 
     Layout = null;
@@ -48,11 +48,11 @@
                                     @Html.AntiForgeryToken()
                                     <div class="form-group">
                                         <label>Nombre de usuario</label>
-                                        @Html.TextBoxFor(model => model.Us_User_Name, new { @placeholder = "Nombre de usuario", @class = "form-control" })
+                                        @Html.TextBoxFor(model => model.Username, new { @placeholder = "Nombre de usuario", @class = "form-control" })
                                     </div>
                                     <div class="form-group">
                                         <label>Password</label>
-                                        @Html.PasswordFor(model => model.Us_Password, new { @placeholder = "Password", @class = "form-control" })
+                                        @Html.PasswordFor(model => model.Password, new { @placeholder = "Password", @class = "form-control" })
                                     </div>
                                     <!--div class="checkbox">
                                         <label>

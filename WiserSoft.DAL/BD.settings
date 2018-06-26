@@ -5,10 +5,10 @@
     <Setting Name="conexion" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;ConnectionString&gt;Data Source=BIODIVERSITY\SQLEXPRESS;Initial Catalog=FERIAS_AGRICOLAS_VIRTUALES;Integrated Security=True&lt;/ConnectionString&gt;
-  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+  &lt;ConnectionString&gt;server=db4free.net;user id=mapache;password=mapachemapache;database=purewit&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;MySql.Data.MySqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
-      <Value Profile="(Default)">Data Source=BIODIVERSITY\SQLEXPRESS;Initial Catalog=FERIAS_AGRICOLAS_VIRTUALES;Integrated Security=True</Value>
+      <Value Profile="(Default)">server=db4free.net;user id=mapache;password=mapachemapache;database=purewit</Value>
     </Setting>
   </Settings>
 </SettingsFile>

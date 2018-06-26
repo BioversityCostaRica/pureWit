@@ -18,7 +18,7 @@ namespace WiserSoft.DAL.Metodos
         public MListas()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+              MySqlDialect.Provider);
         }
         public void ActualizarLista(Listas listas)
         {

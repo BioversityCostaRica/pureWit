@@ -18,8 +18,7 @@ namespace WiserSoft.DAL.Metodos
 
         public MUsuarios()
         {
-            _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+            _conexion = new OrmLiteConnectionFactory(BD.Default.conexion, MySqlDialect.Provider);
         }
 
 

@@ -18,7 +18,7 @@ namespace WiserSoft.DAL.Metodos
         public MContactos_Por_Lista()
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
-              SqlServerDialect.Provider);
+              MySqlDialect.Provider);
         }
 
         public void ActualizarContactos_Por_Listas(Contactos_Por_Listas contactos_x_lista)
