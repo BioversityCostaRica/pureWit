@@ -89,6 +89,7 @@
     <Compile Include="Metodos\MContactos_Por_Lista.cs" />
     <Compile Include="Metodos\MDifusiones.cs" />
     <Compile Include="Metodos\MEstados.cs" />
+    <Compile Include="Metodos\MHistoriales.cs" />
     <Compile Include="Metodos\MListas.cs" />
     <Compile Include="Metodos\MMensajes.cs" />
     <Compile Include="Metodos\MRoles.cs" />

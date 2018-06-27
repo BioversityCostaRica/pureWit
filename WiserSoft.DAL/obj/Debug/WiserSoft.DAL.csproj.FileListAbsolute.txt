@@ -134,3 +134,45 @@ D:\Universidad\Analisis ll\Fuente\WiserSoft.DAL\bin\Debug\ServiceStack.Interface
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.xml
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.xml
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\MySql.Data.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Common.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Text.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Common.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.dll
+C:\Users\Priscilla\Source\Repos\pureWit\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DAL.pdb
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\MySql.Data.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Common.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Text.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Common.xml
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.xml
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.OrmLite.MySql.dll.config
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\bin\Debug\ServiceStack.Text.xml
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.dll
+C:\Users\Priscilla\Source\Repos\pureWit3\WiserSoft.DAL\obj\Debug\WiserSoft.DAL.pdb
