@@ -19,6 +19,7 @@ namespace WiserSoft.DAL.Metodos
         {
             _conexion = new OrmLiteConnectionFactory(BD.Default.conexion,
               MySqlDialect.Provider);
+
         }
 
         public void ActualizaContactos(Contactos contactos)

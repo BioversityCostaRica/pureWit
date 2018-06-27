@@ -1,8 +1,56 @@
-﻿
+﻿@model IEnumerable<WiserSoft.UI.Models.Contactos>
 
 @{
-    ViewBag.title = "Contactos";
+    Layout = "~/Views/Shared/Master.cshtml";
 }
 
-<p>estamos trabajando contactos</p>
-<h2>Prueba de session @ViewBag.userId</h2>
+<h2>Lista de Contactos</h2>
+
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Numero)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Detalle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Correo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Numero)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Nombre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Detalle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Correo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Username)
+        </td>
+        <td>
+            @Html.ActionLink("Editar", "Edit", new { Numero = item.Numero  }) |
+            @Html.ActionLink("Eliminar", "Delete", new { Numero = item.Numero })
+        </td>
+    </tr>
+}
+
+</table>

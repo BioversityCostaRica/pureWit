@@ -8,7 +8,7 @@ using WiserSoft.DATA;
 
 namespace WiserSoft.DAL.Interfaces
 {
-    interface IContactos
+    public interface IContactos
     {
         List<Contactos> ListarContactos();
         Contactos BuscarContactos(int numero);

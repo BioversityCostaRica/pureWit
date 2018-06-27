@@ -16,7 +16,8 @@ namespace WiserSoft.UI.App_Start
 
                 cfg.CreateMap<Models.Users, DATA.Users>();
                 cfg.CreateMap<DATA.Users, Models.Users>();
-                
+                cfg.CreateMap<Models.Contactos, DATA.Contactos>();
+                cfg.CreateMap<DATA.Contactos, Models.Contactos>();
 
             });
         }

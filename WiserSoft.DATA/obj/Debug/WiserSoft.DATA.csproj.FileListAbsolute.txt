@@ -79,3 +79,23 @@ D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Common.x
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.xml
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.xml
 D:\Universidad\Analisis ll\Fuente\WiserSoft.DATA\bin\Debug\ServiceStack.Text.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll.config
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\WiserSoft.DATA.pdb
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\MySql.Data.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Common.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.MySql.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Text.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Common.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Interfaces.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.MySql.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.OrmLite.MySql.dll.config
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\bin\Debug\ServiceStack.Text.xml
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csprojAssemblyReference.cache
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csproj.CoreCompileInputs.cache
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.csproj.CopyComplete
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.dll
+C:\Users\Rossmon\Source\Repos\pureWit2\WiserSoft.DATA\obj\Debug\WiserSoft.DATA.pdb
