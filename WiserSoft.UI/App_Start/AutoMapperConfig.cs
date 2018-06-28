@@ -12,10 +12,12 @@ namespace WiserSoft.UI.App_Start
         {
             Mapper.Initialize(cfg =>
             {
-                
+                cfg.CreateMap<Models.Users, DATA.Users>();
+                cfg.CreateMap<DATA.Users, Models.Users>();
+                cfg.CreateMap<Models.Contactos, DATA.Contactos>();
+                cfg.CreateMap<DATA.Contactos, Models.Contactos>();
                 cfg.CreateMap<Models.Usuarios, DATA.Usuarios>();
                 cfg.CreateMap<DATA.Usuarios, Models.Usuarios>();
-                
 
             });
         }

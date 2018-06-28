@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< HEAD
+    "\\WiserSoft.UI",
+    "\\WiserSoft.UI\\Views",
+    "\\WiserSoft.UI\\Views\\Home",
+    "\\WiserSoft.UI\\WiserSoft\\DATA"
+  ],
+  "SelectedNode": "\\WiserSoft.UI\\Views\\Home\\Index.cshtml",
+=======
     "\\WiserSoft.DAL",
     "\\WiserSoft.DAL\\Interfaces",
     "\\WiserSoft.DAL\\Metodos",
@@ -11,5 +19,6 @@
     "\\WiserSoft.UI\\Views\\Home"
   ],
   "SelectedNode": "\\WiserSoft.UI",
+>>>>>>> base
   "PreviewInSolutionExplorer": false
 }

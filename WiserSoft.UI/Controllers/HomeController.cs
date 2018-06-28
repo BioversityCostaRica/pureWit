@@ -49,7 +49,7 @@ namespace WiserSoft.UI.Controllers
                 return View("Index");
             }
 
-            return View("Index");
+            //return View("Index");
         }
 
         public ActionResult UserDashboard()
