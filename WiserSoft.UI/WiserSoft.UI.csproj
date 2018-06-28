@@ -178,6 +178,7 @@
     <Compile Include="Controllers\ContactosController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Encriptacion\Encriptacion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -955,6 +956,8 @@
     <Content Include="Views\Contactos\Create.cshtml" />
     <Content Include="Views\Contactos\Edit.cshtml" />
     <Content Include="Views\Contactos\Delete.cshtml" />
+    <Content Include="Views\Usuarios\Index.cshtml" />
+
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
