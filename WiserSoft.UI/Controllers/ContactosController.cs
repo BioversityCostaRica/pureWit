@@ -35,20 +35,28 @@ namespace WiserSoft.UI.Controllers
 
         public ActionResult Create()
         {
+            ViewBag.userId = Session["Username"];
             return View();
         }
 
         [HttpPost]
         public ActionResult Create(Models.Contactos contactos)
         {
-            var usuarios = usa.ListarUsuarios();
-            var listaUsuarios = new SelectList(usuarios, "Username", "Username");
+            try
+            {
+                if (ModelState.IsValid)
+                {
 
-            ViewData["usuarios"] = listaUsuarios;
-
-            var contactoInsertar = Mapper.Map<DATA.Contactos>(contactos);
-            cont.InsertarContactos(contactoInsertar);
-            return RedirectToAction("Index");
+                    var contactoInsertar = Mapper.Map<DATA.Contactos>(contactos);
+                    cont.InsertarContactos(contactoInsertar);
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (Exception)
+            {
+                ModelState.AddModelError("error", "No se ha podido insertar");
+                return RedirectToAction("Index");
+            }
         }
 
         public ActionResult Edit(int numero)
