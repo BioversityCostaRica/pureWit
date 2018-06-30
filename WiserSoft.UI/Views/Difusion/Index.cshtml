@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "Difusión";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="container-fluid">
+    <!-- Start Page Content -->
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card card-outline-primary">
+                <div class="card-header">
+                    <h4 class="m-b-0 text-white">Creación de difusión</h4>
+                </div>
+                <div class="card-body">
+                    <form action="#">
+                        <div class="form-body">
+                            <h3 class="box-title m-t-40">Campaña</h3>
+                            <hr>
+                            <div class="row p-t-20">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label class="control-label">Nombre de campaña</label>
+                                        <input type="text" id="firstName" class="form-control" placeholder="Aviso a estudiantes">
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <label class="control-label">Lista de contactos:</label>
+                                        <select class="form-control ">
+                                            <option value="">Seleccione una lista</option>
+                                            <option value="">Lista#1</option>
+                                            <option value="">Lista#2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/row-->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">Fecha:</label>
+                                        <input type="date" class="form-control" placeholder="dd/mm/yyyy">
+                                    </div>
+                                </div>
+                                <!--/span-->
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="appt-time">Time:</label>
+                                        <input type="time" class="form-control" id="appt-time" />
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 class="box-title m-t-40">Mensaje</h3>
+                            <hr>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group ">
+                                        <label class="control-label">Tipo de mensaje:</label>
+                                        <select class="form-control ">
+                                            <option value="">Seleccione un tipo de mensaje</option>
+                                            <option value="">Tipo#1</option>
+                                            <option value="">Tipo#2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <label class="control-label">Mensaje a enviar:</label>
+                                        <select class="form-control ">
+                                            <option value="">Seleccione un mensaje</option>
+                                            <option value="">Mensaje#1</option>
+                                            <option value="">Mensaje#2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <br>
+                        <div class="form-actions text-center">
+                            <button type="submit" class="btn btn-success"> <i class="fa fa-send m-l-10"></i> Send</button>
+                            <button type="button" class="btn btn-inverse">Cancel</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

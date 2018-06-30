@@ -57,6 +57,8 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("error", "No se ha podido insertar");
                 return RedirectToAction("Index");
             }
+
+            return View();
         }
 
         public ActionResult Edit(int numero)
