@@ -12,10 +12,26 @@ namespace WiserSoft.UI.App_Start
         {
             Mapper.Initialize(cfg =>
             {
-                cfg.CreateMap<Models.Users, DATA.Users>();
-                cfg.CreateMap<DATA.Users, Models.Users>();
+                cfg.CreateMap<Models.Comunicaciones, DATA.Comunicaciones>();
+                cfg.CreateMap<DATA.Comunicaciones, Models.Comunicaciones>();
                 cfg.CreateMap<Models.Contactos, DATA.Contactos>();
                 cfg.CreateMap<DATA.Contactos, Models.Contactos>();
+                cfg.CreateMap<Models.Contactos_Por_Listas, DATA.Contactos_Por_Listas>();
+                cfg.CreateMap<DATA.Contactos_Por_Listas, Models.Contactos_Por_Listas>();
+                cfg.CreateMap<DATA.Difusiones, Models.Difusiones>();
+                cfg.CreateMap<Models.Difusiones, DATA.Difusiones>();
+                cfg.CreateMap<DATA.Estados, Models.Estados>();
+                cfg.CreateMap<Models.Estados, DATA.Estados>();
+                cfg.CreateMap<DATA.Historiales, Models.Historiales>();
+                cfg.CreateMap<Models.Historiales, DATA.Historiales>();
+                cfg.CreateMap<DATA.Listas, Models.Listas>();
+                cfg.CreateMap<Models.Listas, DATA.Listas>();
+                cfg.CreateMap<DATA.Roles, Models.Roles>();
+                cfg.CreateMap<Models.Roles, DATA.Roles>();
+                cfg.CreateMap<DATA.Telefonos, Models.Telefonos>();
+                cfg.CreateMap < Models.Telefonos, DATA.Telefonos >();
+                cfg.CreateMap<DATA.Tipo_Difusiones, Models.Tipo_Difusiones>();
+                cfg.CreateMap<Models.Tipo_Difusiones, DATA.Tipo_Difusiones>();
                 cfg.CreateMap<Models.Usuarios, DATA.Usuarios>();
                 cfg.CreateMap<DATA.Usuarios, Models.Usuarios>();
 

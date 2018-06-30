@@ -10,9 +10,9 @@ namespace WiserSoft.DAL.Interfaces
    public interface ITelefonos
     {
         List<Telefonos> ListarTelefonos();
-        Telefonos BuscarTelefonos(int numero);
+        Telefonos BuscarTelefonos(string numero);
         void InsertarTelefonos(Telefonos telefonos);
         void ActualizaTelefonos(Telefonos telefonos);
-        void EliminarTelefonos(int numero);
+        void EliminarTelefonos(string numero);
     }
 }

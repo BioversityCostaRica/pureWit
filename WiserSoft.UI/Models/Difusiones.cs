@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace WiserSoft.DATA
+namespace WiserSoft.UI.Models
 {
     public class Difusiones
     {
@@ -16,6 +15,6 @@ namespace WiserSoft.DATA
         public int Id_Tipo_Mensaje { get; set; }
         public int Id_Estado { get; set; }
         public int Id_Mensaje { get; set; }
-        public int Id_Lista { get;set; }
+        public int Id_Lista { get; set; }
     }
 }
