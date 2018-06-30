@@ -28,7 +28,7 @@ namespace WiserSoft.UI.Controllers
 
            
 
-            var lista = cont.ListarContactos();
+            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
             var contactos = Mapper.Map<List<Models.Contactos>>(lista);
             return View(contactos);
         }
