@@ -182,7 +182,6 @@
     <Compile Include="Controllers\ContactosController.cs" />
     <Compile Include="Controllers\DifusionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\UsersController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Encriptacion\Encriptacion.cs" />
     <Compile Include="Global.asax.cs">
