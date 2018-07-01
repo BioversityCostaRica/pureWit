@@ -78,7 +78,6 @@
     <Compile Include="Roles.cs" />
     <Compile Include="Telefonos.cs" />
     <Compile Include="Tipo_Difusiones.cs" />
-    <Compile Include="Users.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <ItemGroup>
