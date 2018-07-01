@@ -182,6 +182,7 @@
     <Compile Include="Controllers\ContactosController.cs" />
     <Compile Include="Controllers\DifusionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ListasController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Encriptacion\Encriptacion.cs" />
     <Compile Include="Global.asax.cs">
@@ -966,6 +967,10 @@
     <Content Include="Views\Contactos\Delete.cshtml" />
     <Content Include="Views\Usuarios\Index.cshtml" />
     <Content Include="Views\Difusion\Index.cshtml" />
+    <Content Include="Views\Listas\Create.cshtml" />
+    <Content Include="Views\Listas\Index.cshtml" />
+    <Content Include="Views\Listas\Edit.cshtml" />
+    <Content Include="Views\Listas\Delete.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
