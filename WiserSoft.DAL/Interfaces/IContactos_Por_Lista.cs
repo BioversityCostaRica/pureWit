@@ -7,7 +7,7 @@ using WiserSoft.DATA;
 
 namespace WiserSoft.DAL.Interfaces
 {
-    interface IContactos_Por_Lista
+    public interface IContactos_Por_Lista
     {
         List<Contactos_Por_Listas> Listar();
         Contactos_Por_Listas BuscarContactos_Por_Listas(int id);
