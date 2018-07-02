@@ -32,8 +32,9 @@ namespace WiserSoft.UI.App_Start
                 cfg.CreateMap < Models.Telefonos, DATA.Telefonos >();
                 cfg.CreateMap<DATA.Tipo_Difusiones, Models.Tipo_Difusiones>();
                 cfg.CreateMap<Models.Tipo_Difusiones, DATA.Tipo_Difusiones>();
-                cfg.CreateMap<Models.Usuarios, DATA.Usuarios>();
-                cfg.CreateMap<DATA.Usuarios, Models.Usuarios>();
+                cfg.CreateMap<Models.Mensajes, DATA.Mensajes>();
+                cfg.CreateMap<DATA.Mensajes, Models.Mensajes>();
+
 
             });
         }
