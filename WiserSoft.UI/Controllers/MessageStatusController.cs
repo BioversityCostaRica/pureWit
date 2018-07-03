@@ -12,11 +12,11 @@ namespace WiserSoft.UI.Controllers
     
     public class MessageStatusController : Controller
     {
-        IHistoriales his;
+        IConfirmaciones con;
         IEstados est;
         public MessageStatusController()
         {
-            his = new MHistoriales();
+            con = new MConfirmaciones();
             est = new MEstados();
         }
 
@@ -38,6 +38,12 @@ namespace WiserSoft.UI.Controllers
                     estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
                 }
             }
+
+            DATA.Confirmaciones confirmaciones = new DATA.Confirmaciones();
+            confirmaciones.Estado = estado.Id;
+            confirmaciones.Message_id = smsSid;
+
+            con.InsertarConfirmaciones(confirmaciones);
 
             var logMessage = $"\"{estado.Id}\", \"{smsSid}\", \"{messageStatus}\"";
 

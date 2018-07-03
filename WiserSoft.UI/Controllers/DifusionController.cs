@@ -147,49 +147,35 @@ namespace WiserSoft.UI.Controllers
             return Index();
         }
 
-            /*
-            var dateNow = DateTime.Now;
-            var dateSend = new DateTime(2018, 06, 29, 11, 37, 00);
-            TimeSpan ts;
-            ts = dateSend - dateNow;
-            Console.WriteLine(ts);
-            //waits certan time and run the code
-            string[] numeros = new string[2];
-            numeros[0] = "13863138548";
-            numeros[1] = "13863138548";
+            
+        public void enviarMensajes(string UserPhone, string accountSid, string authToken, string mensaje, int idLista, DATA.Difusiones difusion)
+        {
+            difusion.Id_Estado = 2;
+            dif.ActualizarDifusiones(difusion);
 
-            string accountSid = "AC8e9e74867a3d20837dead2c3feb04c27";
-            string authToken = "2f872962f965e4ae1068292d127176b0";
-            Task.Delay(ts).ContinueWith((x) => enviarMensajes(numeros, "14159431126", accountSid, authToken, "Hola desde la tarea en c# con Twilio."));
-            */
-            public void enviarMensajes(string UserPhone, string accountSid, string authToken, string mensaje, int idLista, DATA.Difusiones difusion)
+            TwilioClient.Init(accountSid, authToken);
+            var contactos = conList.Listar().Where(x => x.Id_Lista == idLista);
+            foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
             {
-                difusion.Id_Estado = 2;
-                dif.ActualizarDifusiones(difusion);
+                DATA.Contactos contacto = con.BuscarContactos(infoContacto.Id_contacto);
+                Debug.WriteLine(contacto.Numero);
+                var message = MessageResource.Create(
+                    body: mensaje,
+                    from: new Twilio.Types.PhoneNumber("+" + UserPhone),
+                    statusCallback: new Uri("http://c0fb910f.ngrok.io/MessageStatus"),
+                    to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
+                );
 
-                TwilioClient.Init(accountSid, authToken);
-                var contactos = conList.Listar().Where(x => x.Id_Lista == idLista);
-                foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
-                {
-                    DATA.Contactos contacto = con.BuscarContactos(infoContacto.Id_contacto);
-                    Debug.WriteLine(contacto.Numero);
-                    var message = MessageResource.Create(
-                        body: mensaje,
-                        from: new Twilio.Types.PhoneNumber("+" + UserPhone),
-                        statusCallback: new Uri("http://5aa96d6d.ngrok.io/MessageStatus"),
-                        to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
-                    );
+                DATA.Historiales historial = new DATA.Historiales();
+                historial.Id_Difusion = difusion.Id_Difusion;
+                historial.Id_Contacto = contacto.Id_Contacto;
+                historial.Id_Message  = message.Sid;
+                historial.Estado      = 6;
+                his.InsertarHistoriales(historial);
+            }
 
-                    DATA.Historiales historial = new DATA.Historiales();
-                    historial.Id_Difusion = difusion.Id_Difusion;
-                    historial.Id_Contacto = contacto.Id_Contacto;
-                    historial.Id_Message  = message.Sid;
-                    historial.Estado      = 6;
-                    his.InsertarHistoriales(historial);
-                }
-
-                difusion.Id_Estado = 3;
-                dif.ActualizarDifusiones(difusion);
+            difusion.Id_Estado = 3;
+            dif.ActualizarDifusiones(difusion);
         }
     }
 }
