@@ -1,0 +1,46 @@
+﻿@model IEnumerable<WiserSoft.UI.Models.Mensajes>
+@{
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+<h2>Lista de Mensajes</h2>
+<p>
+    @Html.ActionLink("Nuevo", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Id_Mensaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Username)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cuerpo_Mensaje)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Id_Tipo)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_Mensaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_Tipo)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { Id_Mensaje = item.Id_Mensaje }) |
+                @Html.ActionLink("Eliminar", "Delete", new { Id_Mensaje = item.Id_Mensaje })
+            </td>
+        </tr>
+    }
+</table>
