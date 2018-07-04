@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comunicaciones.cs" />
+    <Compile Include="Confirmaciones.cs" />
     <Compile Include="Contactos.cs" />
     <Compile Include="Contactos_Por_Listas.cs" />
     <Compile Include="Difusiones.cs" />
