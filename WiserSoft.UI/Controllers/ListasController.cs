@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using AutoMapper;
 using WiserSoft.DAL.Interfaces;
 using WiserSoft.DAL.Metodos;
+using WiserSoft.DATA;
 
 namespace WiserSoft.UI.Controllers
 {
@@ -13,11 +14,15 @@ namespace WiserSoft.UI.Controllers
     {
         IListas list;
         IUsuarios usa;
+        IContactos cont;
+        IContactos_Por_Lista contL;
 
         public ListasController()
         {
             list = new MListas();
             usa = new MUsuarios();
+            cont = new MContactos();
+            contL = new MContactos_Por_Lista();
         }
         // GET: Listas
         public ActionResult Index()
@@ -101,5 +106,65 @@ namespace WiserSoft.UI.Controllers
             }
             
         }
+
+        public ActionResult Contactos(int id_lista)
+        {
+            ViewBag.Lista = id_lista;
+
+            ViewBag.userId = Session["Username"];
+            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
+            var listas = Mapper.Map<List<Models.Contactos>>(lista);
+
+            return View(listas);
+        }
+
+        [HttpPost]
+        public ActionResult Insertar(int contacto, int lista)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+
+                    var datos = new Contactos_Por_Listas
+                    {
+                        Id_contacto_lista = 0,
+                        Id_contacto = contacto,
+                        Id_Lista = lista,
+                    };
+
+                    var contactolistaInsertar = Mapper.Map<DATA.Contactos_Por_Listas>(datos);
+                    contL.InsertarContactos_Por_Listas(contactolistaInsertar);
+                 
+                    return RedirectToAction("Contactos");
+                    
+                }
+            }
+            catch (Exception)
+            {
+                ModelState.AddModelError("error", "No se ha podido insertar");
+                return RedirectToAction("Contactos");
+            }
+
+            return View();
+        }
+
+
+        public ActionResult Eliminar(int id_listaC)
+        {
+            try
+            {
+                contL.EliminarContactos_Por_Listas(id_listaC);
+                return RedirectToAction("Contactos");
+            }
+            catch (Exception)
+            {
+                ModelState.AddModelError("error", "No se ha podido eliminar");
+                return RedirectToAction("Contactos");
+            }
+
+        }
+
+
     }
 }
