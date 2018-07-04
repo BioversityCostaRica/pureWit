@@ -65,7 +65,7 @@
                                     </div-->
                                     <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Sign in</button>
                                     
-                                    <div class="alert alert-danger">
+                                    <div class="alert alert-danger" id="diverror" style="display:none">
                                         @Html.ValidationMessage("errorLogin")
                                     </div>
 
@@ -95,6 +95,8 @@
     <script src="~/Content/js/lib/sticky-kit-master/dist/sticky-kit.min.js"></script>
 
     <script src="~/Content/js/custom.min.js"></script>
+
+    <script src="~/Scripts/Login/index.js"></script>
 
 </body>
 

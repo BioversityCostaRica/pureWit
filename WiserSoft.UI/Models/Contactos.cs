@@ -10,7 +10,7 @@ namespace WiserSoft.UI.Models
     {
         public int Id_Contacto { get; set; }
         [Required]
-        public int Numero { get; set; }
+        public string Numero { get; set; }
         [Required]
         public String Nombre { get; set; }
         [Required]

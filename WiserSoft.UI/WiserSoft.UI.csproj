@@ -183,18 +183,24 @@
     <Compile Include="Controllers\DifusionController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListasController.cs" />
+    <Compile Include="Controllers\MensajesController.cs" />
+    <Compile Include="Controllers\MessageStatusController.cs" />
+    <Compile Include="Controllers\SmsController.cs" />
+    <Compile Include="Controllers\TelefonosController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
     <Compile Include="Encriptacion\Encriptacion.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Comunicaciones.cs" />
+    <Compile Include="Models\Confirmaciones.cs" />
     <Compile Include="Models\Contactos.cs" />
     <Compile Include="Models\Contactos_Por_Listas.cs" />
     <Compile Include="Models\Difusiones.cs" />
     <Compile Include="Models\Estados.cs" />
     <Compile Include="Models\Historiales.cs" />
     <Compile Include="Models\Listas.cs" />
+    <Compile Include="Models\Mensajes.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Telefonos.cs" />
     <Compile Include="Models\Tipo_Difusiones.cs" />
@@ -939,6 +945,7 @@
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\Chart.js" />
     <Content Include="Scripts\Chart.min.js" />
+    <Content Include="Scripts\Difusion\Index.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -971,8 +978,16 @@
     <Content Include="Views\Listas\Index.cshtml" />
     <Content Include="Views\Listas\Edit.cshtml" />
     <Content Include="Views\Listas\Delete.cshtml" />
+    <Content Include="Views\Mensajes\Create.cshtml" />
+    <Content Include="Views\Mensajes\Delete.cshtml" />
+    <Content Include="Views\Mensajes\Edit.cshtml" />
+    <Content Include="Views\Mensajes\Index.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Telefonos\Create.cshtml" />
+    <Content Include="Views\Telefonos\Delete.cshtml" />
+    <Content Include="Views\Telefonos\Edit.cshtml" />
+    <Content Include="Views\Telefonos\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
