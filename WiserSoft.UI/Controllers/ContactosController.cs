@@ -61,9 +61,10 @@ namespace WiserSoft.UI.Controllers
             return View();
         }
 
-        public ActionResult Edit(int numero)
+        
+        public ActionResult Edit(int Id_Contacto)
         {
-            var contacto = cont.BuscarContactos(numero);
+            var contacto = cont.BuscarContactos(Id_Contacto);
             var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
             return View(contactoBuscar);
         }
@@ -75,6 +76,7 @@ namespace WiserSoft.UI.Controllers
             cont.ActualizaContactos(contactoEditar);
             return RedirectToAction("Index");
         }
+
 
         public ActionResult Delete(int numero)
         {

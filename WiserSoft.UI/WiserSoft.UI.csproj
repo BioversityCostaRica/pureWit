@@ -195,6 +195,7 @@
     <Compile Include="Models\Comunicaciones.cs" />
     <Compile Include="Models\Confirmaciones.cs" />
     <Compile Include="Models\Contactos.cs" />
+    <Compile Include="Models\ContactosListas.cs" />
     <Compile Include="Models\Contactos_Por_Listas.cs" />
     <Compile Include="Models\Difusiones.cs" />
     <Compile Include="Models\Estados.cs" />

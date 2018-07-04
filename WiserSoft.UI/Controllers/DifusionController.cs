@@ -162,7 +162,7 @@ namespace WiserSoft.UI.Controllers
                 var message = MessageResource.Create(
                     body: mensaje,
                     from: new Twilio.Types.PhoneNumber("+" + UserPhone),
-                    statusCallback: new Uri("http://c0fb910f.ngrok.io/MessageStatus"),
+                    statusCallback: new Uri("http://03eda526.ngrok.io/MessageStatus"),
                     to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
                 );
 
