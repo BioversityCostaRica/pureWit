@@ -9,6 +9,7 @@ namespace WiserSoft.DATA
     public class Difusiones
     {
         public int Id_Difusion { get; set; }
+        public String Descripcion { get; set; }
         public DateTime Fecha { get; set; }
         public String Username { get; set; }
         public DateTime Fecha_Activacion { get; set; }

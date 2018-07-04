@@ -72,6 +72,7 @@
       <DependentUpon>BD.settings</DependentUpon>
     </Compile>
     <Compile Include="Interfaces\IComunicaciones.cs" />
+    <Compile Include="Interfaces\IConfirmaciones.cs" />
     <Compile Include="Interfaces\IContactos.cs" />
     <Compile Include="Interfaces\IContactos_Por_Lista.cs" />
     <Compile Include="Interfaces\IDifusiones.cs" />
@@ -82,9 +83,9 @@
     <Compile Include="Interfaces\IRoles.cs" />
     <Compile Include="Interfaces\ITelefonos.cs" />
     <Compile Include="Interfaces\ITipo_Difusiones.cs" />
-    <Compile Include="Interfaces\IUsers.cs" />
     <Compile Include="Interfaces\IUsuarios.cs" />
     <Compile Include="Metodos\MComunicaciones.cs" />
+    <Compile Include="Metodos\MConfirmaciones.cs" />
     <Compile Include="Metodos\MContactos.cs" />
     <Compile Include="Metodos\MContactos_Por_Lista.cs" />
     <Compile Include="Metodos\MDifusiones.cs" />
@@ -95,7 +96,6 @@
     <Compile Include="Metodos\MRoles.cs" />
     <Compile Include="Metodos\MTelefonos.cs" />
     <Compile Include="Metodos\MTipo_Difusiones.cs" />
-    <Compile Include="Metodos\MUsers.cs" />
     <Compile Include="Metodos\MUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

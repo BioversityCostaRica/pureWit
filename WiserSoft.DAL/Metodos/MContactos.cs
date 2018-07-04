@@ -28,16 +28,16 @@ namespace WiserSoft.DAL.Metodos
             _db.Update(contactos);
         }
 
-        public Contactos BuscarContactos(int numero)
+        public Contactos BuscarContactos(int id_contacto)
         {
             _db = _conexion.Open();
-            return _db.Select<Contactos>(x => x.Numero == numero).FirstOrDefault();
+            return _db.Select<Contactos>(x => x.Id_Contacto == id_contacto).FirstOrDefault();
         }
 
-        public void EliminarContactos(int numero)
+        public void EliminarContactos(int id_contacto)
         {
             _db = _conexion.Open();
-            _db.Delete<Contactos>(x => x.Numero == numero);
+            _db.Delete<Contactos>(x => x.Id_Contacto == id_contacto);
         }
 
         public void InsertarContactos(Contactos contactos)

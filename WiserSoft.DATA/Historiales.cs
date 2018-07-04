@@ -10,8 +10,8 @@ namespace WiserSoft.DATA
     {
         public int Id { get; set; }
         public int Id_Difusion { get; set; }
-        public int Numero { get; set; }
-        public int Id_Message { get; set; }
+        public int Id_Contacto { get; set; }
+        public string Id_Message { get; set; }
         public int Estado { get; set; }
     }
 }

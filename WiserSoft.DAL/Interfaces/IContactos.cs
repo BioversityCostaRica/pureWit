@@ -11,9 +11,9 @@ namespace WiserSoft.DAL.Interfaces
     public interface IContactos
     {
         List<Contactos> ListarContactos();
-        Contactos BuscarContactos(int numero);
+        Contactos BuscarContactos(int id_contacto);
         void InsertarContactos(Contactos contactos);
         void ActualizaContactos(Contactos contactos);
-        void EliminarContactos(int numero);
+        void EliminarContactos(int id_contacto);
     }
 }

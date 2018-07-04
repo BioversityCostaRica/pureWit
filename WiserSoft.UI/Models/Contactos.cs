@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -7,8 +8,9 @@ namespace WiserSoft.UI.Models
 {
     public class Contactos
     {
+        public int Id_Contacto { get; set; }
         [Required]
-        public int Numero { get; set; }
+        public string Numero { get; set; }
         [Required]
         public String Nombre { get; set; }
         [Required]

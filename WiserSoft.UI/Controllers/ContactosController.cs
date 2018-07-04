@@ -28,7 +28,7 @@ namespace WiserSoft.UI.Controllers
 
            
 
-            var lista = cont.ListarContactos();
+            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
             var contactos = Mapper.Map<List<Models.Contactos>>(lista);
             return View(contactos);
         }
@@ -57,11 +57,14 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("error", "No se ha podido insertar");
                 return RedirectToAction("Index");
             }
+
+            return View();
         }
 
-        public ActionResult Edit(int numero)
+        
+        public ActionResult Edit(int Id_Contacto)
         {
-            var contacto = cont.BuscarContactos(numero);
+            var contacto = cont.BuscarContactos(Id_Contacto);
             var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
             return View(contactoBuscar);
         }
@@ -73,6 +76,7 @@ namespace WiserSoft.UI.Controllers
             cont.ActualizaContactos(contactoEditar);
             return RedirectToAction("Index");
         }
+
 
         public ActionResult Delete(int numero)
         {

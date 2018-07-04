@@ -9,8 +9,8 @@ namespace WiserSoft.DATA
     public class Comunicaciones
     {
         public int Id_Comunicacion { get; set; }
-        public int Numero_Cliente { get; set; }
-        public int Numero_Twilio { get; set; }
+        public int Id_Contacto { get; set; }
+        public String Numero_Twilio { get; set; }
         public String Mensaje { get; set; }
         public int Estado { get; set; }
         public DateTime Fecha { get; set; }

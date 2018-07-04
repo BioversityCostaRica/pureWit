@@ -27,13 +27,13 @@ namespace WiserSoft.DAL.Metodos
             _db.Update(telefonos);
         }
 
-        public Telefonos BuscarTelefonos(int numero)
+        public Telefonos BuscarTelefonos(string numero)
         {
             _db = _conexion.Open();
             return _db.Select<Telefonos>(x => x.Numero == numero).FirstOrDefault();
         }
 
-        public void EliminarTelefonos(int numero)
+        public void EliminarTelefonos(string numero)
         {
             _db = _conexion.Open();
             _db.Delete<Telefonos>(x => x.Numero == numero);

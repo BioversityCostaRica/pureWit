@@ -9,7 +9,9 @@ namespace WiserSoft.DATA
     public class Contactos_Por_Listas
     {
         public int Id_contacto_lista { get; set; }
-        public int Numero { get; set; }
+
+        public int Id_contacto { get; set; }
+
         public int Id_Lista { get; set; }
     }
 }

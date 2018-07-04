@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WiserSoft.UI.Models.Listas>
+@{
+    ViewBag.Title = "Listas de Contactos";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+
+<p>
+    <button type="submit" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Listas")'"> <i class="fa fa-plus m-l-10"></i>Nueva Lista</button>
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Código lista
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Descripcion)
+        </th>
+        <th></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_Lista)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descripcion)
+            </td>
+            <td>
+                @Html.ActionLink("Editar", "Edit", new { Id_Lista = item.Id_Lista }) |
+                @Html.ActionLink("Contactos", "Contactos", new { Id_Lista = item.Id_Lista }) |
+                @Html.ActionLink("Eliminar", "Delete", new { Id_Lista = item.Id_Lista })
+            </td>
+        </tr>
+    }
+</table>
+
+

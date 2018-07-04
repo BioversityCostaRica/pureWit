@@ -8,7 +8,7 @@ namespace WiserSoft.DATA
 {
     public class Telefonos
     {
-        public int Numero { get; set; }
+        public String Numero { get; set; }
         public String Username { get; set; }
         public String Account_Id { get; set; }
         public String Authtoken { get; set; }

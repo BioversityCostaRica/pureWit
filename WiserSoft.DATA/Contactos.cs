@@ -8,7 +8,8 @@ namespace WiserSoft.DATA
 {
    public class Contactos
     {
-        public int Numero { get; set; }
+        public int Id_Contacto { get; set; }
+        public String Numero { get; set; }
         public String Nombre { get; set; }
         public String Detalle { get; set; }
         public String Correo { get; set; }
