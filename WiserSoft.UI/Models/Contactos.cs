@@ -9,7 +9,7 @@ namespace WiserSoft.UI.Models
     public class Contactos
     {
         [Required]
-        public int Numero { get; set; }
+        public string Numero { get; set; }
         [Required]
         public String Nombre { get; set; }
         [Required]
