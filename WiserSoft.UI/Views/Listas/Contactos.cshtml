@@ -1,0 +1,199 @@
+﻿@model IEnumerable<WiserSoft.UI.Models.Contactos>
+
+@{
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<label>Contactos por Listas</label>
+<div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'contactos')" id="defaultOpen">Contactos en Lista</button>
+    <button class="tablinks" onclick="openCity(event, 'agregar')">Agregar Contactos a Lista</button>
+</div>
+
+<div id="contactos" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <table id="tbContactos" class="table" style="width:100%">
+        <thead>
+            <tr>
+                <th>Número</th>
+                <th>Nombre Contacto</th>
+                <th>Eliminar</th>
+            </tr>
+
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<div id="agregar" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <table class="table" id="tbContactosA">
+
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id_Contacto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Detalle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Correo)
+            </th>
+            <th></th>
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id_Contacto)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Numero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Detalle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Correo)
+            </td>
+            <td><a class="boton" href="">Agregar</a></td>
+        </tr>
+        }
+
+    </table>
+</div>
+
+
+<style>
+    body {
+        font-family: Arial;
+    }
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+    }
+
+        /* Style the buttons inside the tab */
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            font-size: 17px;
+        }
+
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+                background-color: #ddd;
+            }
+
+            /* Create an active/current tablink class */
+            .tab button.active {
+                background-color: #ccc;
+            }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+    }
+
+    /* Style the close button */
+    .topright {
+        float: right;
+        cursor: pointer;
+        font-size: 28px;
+    }
+
+        .topright:hover {
+            color: red;
+        }
+
+    table tr:hover {
+        background-color: #949191;
+        cursor: pointer;
+    }
+
+</style>
+
+
+<script>
+
+    function openCity(evt, cityName) {
+        // Declare all variables
+        var i, tabcontent, tablinks;
+
+        // Get all elements with class="tabcontent" and hide them
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+
+        // Get all elements with class="tablinks" and remove the class "active"
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+
+        // Show the current tab, and add an "active" class to the button that opened the tab
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    document.getElementById("defaultOpen").click();
+
+
+
+</script>
+
+<script>
+    $(document).ready(function () {
+
+        $(".boton").click(function () {
+            //valores obtendra el dato del td por posciones [0]
+            var valores = $(this).parents("tr").find("td")[0].innerHTML;
+            console.log(valores);
+            var prueba = @ViewBag.Lista
+                alert(prueba);
+
+            $.ajax({
+                url: '/Listas/Insertar',
+                type: 'POST',
+                data: { 'contacto': valores, 'lista': prueba },
+                success: function (response) {
+                    console.log(response);
+                    if (response == -1) {
+                        Alert('Se inserto correctamente');
+                  
+                    }
+                    else {
+                        Alert('Error');
+                    }
+                }
+            });
+        });
+
+    });
+</script>
+
