@@ -184,6 +184,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListasController.cs" />
     <Compile Include="Controllers\MensajesController.cs" />
+    <Compile Include="Controllers\LlamadasStatusController.cs" />
     <Compile Include="Controllers\MessageStatusController.cs" />
     <Compile Include="Controllers\SmsController.cs" />
     <Compile Include="Controllers\TelefonosController.cs" />
@@ -992,6 +993,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\xml\" />
     <Folder Include="images\" />
     <Folder Include="WiserSoft\DATA\" />
   </ItemGroup>
