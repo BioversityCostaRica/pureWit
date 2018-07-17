@@ -22,7 +22,9 @@ $ ngrok.exe http [port] -host-header="localhost:[port]"
 ```
 
 - Revise que la información que se muestra sea de la siguiente manera, y que la conexión corresponde a la ruta donde se está ejecutando su aplicación:
-
+<div align="center">
+  <img src="https://docs.kentico.com/download/attachments/72976069/image2017-3-30_15-52-14.png?version=1&modificationDate=1490881934994&api=v2"><br><br>
+</div>
 
 
 - Utilice la ruta de Forwarding que corresponde a HTTP no HTTPS.
