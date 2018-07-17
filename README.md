@@ -11,9 +11,9 @@ Empezando
 ---------------
 
 - Descargue la aplicación ngrok para windows, utilizando el siguiente link:
-
+```
 https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip
-
+```
 - Visite la ruta donde descargo la aplicación y descomprimala.
 
 - Inicie la aplicación (.exe) y escriba el siguiente comando:
