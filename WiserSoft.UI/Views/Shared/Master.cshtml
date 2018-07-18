@@ -111,11 +111,12 @@
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-label">Menú</li>
-                        <li> <a href="#"><i class="fa fa-group"></i><span class="">Contactos</span></a></li>
-                        <li> <a href="#"><i class="fa fa-address-book"></i><span class="">Lista de contactos</span></a></li>
-                        <li> <a href="#"><i class="fa fa-bold"></i><span class="">Creación de mensajes</span></a></li>
-                        <li> <a href="#"><i class="fa fa-envelope"></i><span class="">Envio de mensajes</span></a></li>
-                        <li> <a href="#"><i class="fa fa-comments"></i><span class="">Respuestas</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Contactos")"><i class="fa fa-group"></i><span class="">Contactos</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Listas")"><i class="fa fa-tags"></i><span class="">Listas</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Contactos_por_lista")"><i class="fa fa-address-book"></i><span class="">Agregar usuarios a listas</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Mensajes")"><i class="fa fa-bold"></i><span class="">Creación de mensajes</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Difusion")"><i class="fa fa-envelope"></i><span class="">Envio de mensajes</span></a></li>
+                        <li> <a href="@Url.Action("Index", "Respuestas")"><i class="fa fa-comments"></i><span class="">Respuestas</span></a></li>
                         <li class="nav-label">Extra</li>
                         <li> <a href="#"><i class="fa fa-ban"></i><span class="">Lista Negra</span></a></li>
                     </ul>

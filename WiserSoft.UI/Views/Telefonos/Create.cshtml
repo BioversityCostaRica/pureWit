@@ -13,28 +13,28 @@
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         <div class="form-group">
-            @Html.LabelFor(model => model.Numero, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.Label("Número de Teléfono:", htmlAttributes: new { @class = "control-label" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Numero, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Numero, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
-            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.Label("Usuario:", htmlAttributes: new { @class = "control-label" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
-            @Html.LabelFor(model => model.Account_Id, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.Label("ID de la cuenta:", htmlAttributes: new { @class = "control-label" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Account_Id, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Account_Id, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
-            @Html.LabelFor(model => model.Authtoken, htmlAttributes: new { @class = "control-label col-md-2" })
+            @Html.Label("Token de autenticación:", htmlAttributes: new { @class = "control-label" })
             <div class="col-md-10">
                 @Html.EditorFor(model => model.Authtoken, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.Authtoken, "", new { @class = "text-danger" })

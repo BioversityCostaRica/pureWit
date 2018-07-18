@@ -14,6 +14,7 @@
         <div class="card card-outline-primary">
             <div class="card-header">
                 <h4 class="m-b-0 text-white">Creación de difusión</h4>
+                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
             </div>
             <div class="card-body">
                 @using (Html.BeginForm())
@@ -27,6 +28,7 @@
                                 <div class="form-group">
                                     <label class="control-label">Nombre de campaña</label>
                                     @Html.TextBoxFor(model => model.Descripcion, new { @placeholder = "Ejm: Aviso a estudiantes", @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
@@ -39,6 +41,7 @@
                                    new SelectList(ViewBag.Listas, "Value", "Text"),
                                    "Seleccione una lista:", 
                                    new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Id_Lista, "", new { @class = "text-danger" })
                                     
                                 </div>
                             </div>
@@ -65,6 +68,7 @@
                                 </div>
                             </div>
                         </div>
+                        @Html.ValidationMessage("fechaerror", new { @class = "text-danger" })
                         <h3 class="box-title m-t-40">Mensaje</h3>
                         <hr>
                         <div class="row">
@@ -72,6 +76,7 @@
                                 <div class="form-group ">
                                     @Html.Label("Tipo de mensaje:", htmlAttributes: new { @class = "control-label" })
                                     @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoDifusion, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Id_Tipo_Mensaje, "", new { @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
@@ -81,6 +86,7 @@
                                 <div class="form-group ">
                                     @Html.Label("Mensaje a enviar:", htmlAttributes: new { @class = "control-label" })
                                     @Html.DropDownListFor(model => model.Id_Mensaje, new SelectList(ViewBag.ListaMensajes, "Value", "Text"), "Seleccione un mensaje:", new { @class = "form-control" })
+                                    @Html.ValidationMessageFor(model => model.Id_Mensaje, "", new { @class = "text-danger" })
                                 </div>
                             </div>
                         </div>
