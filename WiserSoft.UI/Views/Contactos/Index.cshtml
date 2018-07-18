@@ -12,10 +12,7 @@
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Id_Contacto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Numero)
+            Número
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Nombre)
@@ -26,17 +23,11 @@
         <th>
             @Html.DisplayNameFor(model => model.Correo)
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Username)
-        </th>
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
     <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Id_Contacto)
-        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Numero)
         </td>
@@ -50,11 +41,23 @@
             @Html.DisplayFor(modelItem => item.Correo)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Username)
-        </td>
-        <td>
             @Html.ActionLink("Editar", "Edit", new { Id_Contacto = item.Id_Contacto }) |
-            @Html.ActionLink("Eliminar", "Delete", new { Id_Contacto = item.Id_Contacto })
+               
+            @{ 
+                if(item.lista_negra == "No")
+                {
+                    @Html.ActionLink("Añadir a lista Negra", "EditListaNegra", new { Id_Contacto = item.Id_Contacto })
+                }
+                else
+                {
+                    @Html.ActionLink("Eliminar de lista Negra", "EditListaNegra", new { Id_Contacto = item.Id_Contacto })
+                }
+            }|
+            
+
+            @Html.ActionLink("Eliminar Contacto", "Delete", new { Id_Contacto = item.Id_Contacto })
+            
+            
         </td>
     </tr>
 }

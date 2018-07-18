@@ -19,5 +19,6 @@ namespace WiserSoft.UI.Models
         [EmailAddress]
         public String Correo { get; set; }
         public String Username { get; set; }
+        public String lista_negra { get; set; }
     }
 }

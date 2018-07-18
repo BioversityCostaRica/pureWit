@@ -79,6 +79,7 @@
     <Compile Include="Interfaces\IEstados.cs" />
     <Compile Include="Interfaces\IHistoriales.cs" />
     <Compile Include="Interfaces\IListas.cs" />
+    <Compile Include="Interfaces\ILista_Negra.cs" />
     <Compile Include="Interfaces\IMensajes.cs" />
     <Compile Include="Interfaces\IRoles.cs" />
     <Compile Include="Interfaces\ITelefonos.cs" />
@@ -92,6 +93,7 @@
     <Compile Include="Metodos\MEstados.cs" />
     <Compile Include="Metodos\MHistoriales.cs" />
     <Compile Include="Metodos\MListas.cs" />
+    <Compile Include="Metodos\MLista_Negra.cs" />
     <Compile Include="Metodos\MMensajes.cs" />
     <Compile Include="Metodos\MRoles.cs" />
     <Compile Include="Metodos\MTelefonos.cs" />

@@ -202,6 +202,7 @@
     <Compile Include="Models\Estados.cs" />
     <Compile Include="Models\Historiales.cs" />
     <Compile Include="Models\Listas.cs" />
+    <Compile Include="Models\Lista_Negra.cs" />
     <Compile Include="Models\Mensajes.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Telefonos.cs" />
@@ -984,6 +985,7 @@
     <Content Include="Views\Mensajes\Delete.cshtml" />
     <Content Include="Views\Mensajes\Edit.cshtml" />
     <Content Include="Views\Mensajes\Index.cshtml" />
+    <Content Include="Views\Contactos\EditListaNegra.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Telefonos\Create.cshtml" />
@@ -995,6 +997,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Content\xml\" />
     <Folder Include="images\" />
+    <Folder Include="Views\ListaNegra\" />
     <Folder Include="WiserSoft\DATA\" />
   </ItemGroup>
   <ItemGroup>
