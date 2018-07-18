@@ -36,7 +36,7 @@ namespace WiserSoft.DAL.Metodos
         public void EliminaComunicaciones(int id)
         {
             _db = _conexion.Open();
-            _db.Delete<Comunicaciones>(x => x.Id_Comunicacion == id); ;
+            _db.Delete<Comunicaciones>(x => x.Id_Comunicacion == id); 
         }
 
         public void InsertarComunicaciones(Comunicaciones comunicaciones)
