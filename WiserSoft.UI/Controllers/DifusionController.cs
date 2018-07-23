@@ -27,7 +27,7 @@ namespace WiserSoft.UI.Controllers
         IContactos_Por_Lista conList;
         IContactos con;
         IHistoriales his;
-        public string link = "http://a782636e.ngrok.io";
+        public string link = "http://30f2b331.ngrok.io";
         public DifusionController()
         {
             list    = new MListas();
@@ -110,6 +110,9 @@ namespace WiserSoft.UI.Controllers
 
                     string tipoEnvio = Request.Form["tipoEnvio"];
                     difusion.Username = Session["Username"].ToString();
+
+                    Debug.WriteLine(tipoEnvio);
+
 
                     if (tipoEnvio == "inmediato")
                     {
@@ -236,7 +239,7 @@ namespace WiserSoft.UI.Controllers
                             smtp.Port = 587;
                             smtp.EnableSsl = true;
                             smtp.UseDefaultCredentials = false;
-                            smtp.Credentials = new NetworkCredential("xxx@gmail.com", "XXX");
+                            smtp.Credentials = new NetworkCredential("bran3994@gmail.com", "Brandonmapache");
 
                             //string output = null;
                             historial.Id_Message = "--";
