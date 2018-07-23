@@ -82,8 +82,16 @@ namespace WiserSoft.UI.Controllers
                 ViewBag.ListaMensajes = selectMensajes;
 
                 /*********************************MOSTRAR*ENVIOS***********************************************/
+
                 var listaDeDifusiones = dif.ListarDifusines().Where(x => x.Username == Session["Username"].ToString());
-                var difusiones = Mapper.Map<List<Models.Difusiones>>(listaDeDifusiones);
+                List<Models.Difusiones> difusiones = Mapper.Map<List<Models.Difusiones>>(listaDeDifusiones);
+                foreach(Models.Difusiones dfs in difusiones)
+                {
+                    var varas = tipDif.ListarTipoDifusiones().Where(x => x.Id == dfs.Id_Tipo_Mensaje).FirstOrDefault();
+                    dfs.Des_tipo_Mensaje = varas.Descripcion;
+                }
+
+
                 ViewBag.ListaDeDifusiones = difusiones;
             }
             else
