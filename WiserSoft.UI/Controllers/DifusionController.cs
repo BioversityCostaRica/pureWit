@@ -247,7 +247,7 @@ namespace WiserSoft.UI.Controllers
                             smtp.Port = 587;
                             smtp.EnableSsl = true;
                             smtp.UseDefaultCredentials = false;
-                            smtp.Credentials = new NetworkCredential("bran3994@gmail.com", "Brandonmapache");
+                            smtp.Credentials = new NetworkCredential("xxx@gmail.com", "xxx");
 
                             //string output = null;
                             historial.Id_Message = "--";
