@@ -45,16 +45,13 @@ namespace WiserSoft.UI.Controllers
         {
             try
             {
-                if (ModelState.IsValid)
-                {
                     ViewBag.userId = Session["Username"];
                     listas.Username = ViewBag.userId;
-
 
                     var listaInsertar = Mapper.Map<DATA.Listas>(listas);
                     list.InsertarListas(listaInsertar);
                     return RedirectToAction("Index");
-                }
+                
             }
             catch (Exception)
             {
