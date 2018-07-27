@@ -992,6 +992,7 @@
     <Content Include="Views\Telefonos\Delete.cshtml" />
     <Content Include="Views\Telefonos\Edit.cshtml" />
     <Content Include="Views\Telefonos\Index.cshtml" />
+    <Content Include="Views\Usuarios\Profile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -77,8 +77,13 @@
                                                 @Html.TextBoxFor(model => model.Correo, new { @placeholder = "Correo", @class = "form-control"})
                                                 @Html.ValidationMessageFor(model => model.Correo, "", new { @class = "text-danger" })
                                        </div>
-                                    <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Registrar</button>
-                                    
+                                       
+                                    <div class="form-actions text-center">
+                                        <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Registrar</button>
+                                        <hr />
+                                        <a href="@Url.Action("Index", "Home")" class="btn btn-inverse">Cancelar</a>
+                                    </div>
+
                                 }
                             </div>
                         </div>

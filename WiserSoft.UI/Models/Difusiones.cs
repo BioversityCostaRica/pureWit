@@ -24,5 +24,8 @@ namespace WiserSoft.UI.Models
         public int Id_Mensaje { get; set; }
         [Required(AllowEmptyStrings = false, ErrorMessage = "Seleccione la lista a la que desea enviar el mensaje.")]
         public int Id_Lista { get; set; }
+
+        [Required(AllowEmptyStrings = false, ErrorMessage = "Debe escribir la contraseña de su correo para enviar el mensaje.")]
+        public String passwordCorreo { get; set; }
     }
 }
