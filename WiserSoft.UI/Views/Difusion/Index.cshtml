@@ -75,8 +75,17 @@
                             <div class="col-md-6">
                                 <div class="form-group ">
                                     @Html.Label("Tipo de mensaje:", htmlAttributes: new { @class = "control-label" })
-                                    @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoDifusion, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control" })
+                                    @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoDifusion, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control", @id = "Tipo_Mensaje" })
                                     @Html.ValidationMessageFor(model => model.Id_Tipo_Mensaje, "", new { @class = "text-danger" })
+                                </div>
+                                
+                                <div class="row" id="divEmail" style="display:none">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label">Password:</label>
+                                            @Html.TextBoxFor(model => model.passwordCorreo, new { @placeholder = "xxxx", @class = "form-control", type = "password"})
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>

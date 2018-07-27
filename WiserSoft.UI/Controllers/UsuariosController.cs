@@ -54,8 +54,51 @@ namespace WiserSoft.UI.Controllers
                 }
             return View();
         }
+
+         public ActionResult Profile()
+         {
+            string username = ViewBag.userId = Session["Username"];
+
+             var lista = usuar.BuscarUsuarios(username);
+             var usuarioBuscar = Mapper.Map<Models.Usuarios>(lista);
+
+            //Decripta el password
+            var passwordDecriptado = Encriptacion.Encriptacion.Decriptar(usuarioBuscar.Password);
+            //Asigna la variable decriptada al objeto Password
+            usuarioBuscar.Password = passwordDecriptado;
+            usuarioBuscar.ConfirmaPassowrd = passwordDecriptado;
            
-            
-        
+            return View(usuarioBuscar);
+         }
+
+        [HttpPost]
+        public ActionResult Profile(Models.Usuarios usuarios)
+        {
+            try
+            {
+                if (ModelState.IsValid)
+                {
+                    ViewBag.userId = Session["Username"];
+                    usuarios.Username = ViewBag.userId;
+
+                    //Encripta el password
+                    var passwordEncriptado = Encriptacion.Encriptacion.Encriptar(usuarios.Password);
+                    //Asigna la variable encriptada al objeto Password
+                    usuarios.Password = passwordEncriptado;
+
+                    var usuariosEditar = Mapper.Map<DATA.Usuarios>(usuarios);
+                    usuar.ActualizaUsuarios(usuariosEditar);
+                    
+                }
+                return RedirectToAction("Profile");
+            }
+            catch (Exception)
+            {
+                ModelState.AddModelError("error", "No se ha podido actualizar");
+                return RedirectToAction("Index");
+            }
+
+        }
+
     }
 }
