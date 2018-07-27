@@ -200,7 +200,7 @@ namespace WiserSoft.UI.Controllers
             foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
             {
             
-                var noEnviar = lista_Negra.Where(x => x.Id_Contacto == infoContacto.Id_contacto).FirstOrDefault();
+                var noEnviar = lista_Negra.Where(x => x.Id_Contacto != infoContacto.Id_contacto).FirstOrDefault();
                 if (noEnviar != null)
                 {
                     Console.WriteLine("no esta en lista naegra: " + infoContacto.Id_contacto);
@@ -249,9 +249,6 @@ namespace WiserSoft.UI.Controllers
                         {
                             if (difusion.Id_Tipo_Mensaje == 3)
                             {
-
-
-
                                 Debug.WriteLine("Correo");
                                 MailMessage email = new MailMessage();
                                 email.To.Add(new MailAddress(contacto.Correo));
