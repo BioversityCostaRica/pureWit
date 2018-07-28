@@ -31,11 +31,9 @@
                     </div>
                 </div>
                 <div class="form-group">
-                    Tipo
-                    <div class="col-md-10">
-                        @Html.EditorFor(model => model.Id_Tipo, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.Id_Tipo, "", new { @class = "text-danger" })
-                    </div>
+                        @Html.Label("Tipo de mensaje:", htmlAttributes: new { @class = "control-label" })
+                        @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoMensaje, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Id_Tipo_Mensaje, "", new { @class = "text-danger" })
                 </div>
                <center>
                 <div class="form-group">

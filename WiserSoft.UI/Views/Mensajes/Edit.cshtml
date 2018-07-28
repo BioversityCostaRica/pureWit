@@ -18,7 +18,7 @@
                 <div class="form-group">
                     @Html.Label("Usuario:", htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
-                        @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @readonly = "readonly" } })
                         @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
                     </div>
                 </div>
@@ -32,8 +32,8 @@
                 <div class="form-group">
                     @Html.Label("Tipo", htmlAttributes: new { @class = "control-label col-md-2" })
                     <div class="col-md-10">
-                        @Html.EditorFor(model => model.Id_Tipo, new { htmlAttributes = new { @class = "form-control" } })
-                        @Html.ValidationMessageFor(model => model.Id_Tipo, "", new { @class = "text-danger" })
+                        @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoMensaje, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control" })
+                        @Html.ValidationMessageFor(model => model.Id_Tipo_Mensaje, "", new { @class = "text-danger" })
                     </div>
                 </div>
 

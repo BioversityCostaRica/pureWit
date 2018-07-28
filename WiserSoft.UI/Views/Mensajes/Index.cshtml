@@ -18,7 +18,6 @@
                 <div class="dataTables_length" id="myTable_length"><label>Show <select name="myTable_length" aria-controls="myTable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="myTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="myTable"></label></div><table id="myTable" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="myTable_info">
                     <thead>
                         <tr role="row">
-                            <th class="sorting_asc" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Name: activate to sort column descending">Usuario</th>
                             <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending">Mensaje</th>
                             <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending">Tipo Mensaje</th>
                             <th tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending"></th>
@@ -29,13 +28,10 @@
             {
                             <tr>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Username)
-                                </td>
-                                <td>
                                     @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
                                 </td>
                                 <td>
-                                    @Html.DisplayFor(modelItem => item.Id_Tipo)
+                                    @Html.DisplayFor(modelItem => item.Id_Tipo_Mensaje)
                                 </td>
                                 <td>
                                     <span>
