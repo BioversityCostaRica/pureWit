@@ -186,6 +186,7 @@
     <Compile Include="Controllers\MensajesController.cs" />
     <Compile Include="Controllers\LlamadasStatusController.cs" />
     <Compile Include="Controllers\MessageStatusController.cs" />
+    <Compile Include="Controllers\RespuestasController.cs" />
     <Compile Include="Controllers\SmsController.cs" />
     <Compile Include="Controllers\TelefonosController.cs" />
     <Compile Include="Controllers\UsuariosController.cs" />
@@ -204,6 +205,7 @@
     <Compile Include="Models\Listas.cs" />
     <Compile Include="Models\Lista_Negra.cs" />
     <Compile Include="Models\Mensajes.cs" />
+    <Compile Include="Models\Respuestas.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Telefonos.cs" />
     <Compile Include="Models\Tipo_Difusiones.cs" />
@@ -822,6 +824,7 @@
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\avatar.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -986,6 +989,8 @@
     <Content Include="Views\Mensajes\Edit.cshtml" />
     <Content Include="Views\Mensajes\Index.cshtml" />
     <Content Include="Views\Contactos\EditListaNegra.cshtml" />
+    <Content Include="Views\Respuestas\Index.cshtml" />
+    <Content Include="Views\Respuestas\Mensajes.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Telefonos\Create.cshtml" />
@@ -997,7 +1002,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\xml\" />
-    <Folder Include="images\" />
     <Folder Include="Views\ListaNegra\" />
     <Folder Include="WiserSoft\DATA\" />
   </ItemGroup>
