@@ -124,10 +124,13 @@ namespace WiserSoft.UI.Controllers
                     string tipoEnvio = Request.Form["tipoEnvio"];
                     difusion.Username = Session["Username"].ToString();
 
-                    Debug.WriteLine(tipoEnvio);
+                    //Debug.WriteLine(tipoEnvio);
+                    if (difusion.Id_Tipo_Mensaje == 3 && difusion.passwordCorreo == null)
+                    {
+                        ModelState.AddModelError("errorPassword", "Debe escribir la contraseña de su correo para enviar el mensaje.");
+                    }
 
-
-                    if (tipoEnvio == "inmediato")
+                        if (tipoEnvio == "inmediato")
                     {
                         ts = dateNow - dateNow;
                         difusion.Fecha_Activacion = dateNow;
@@ -200,8 +203,8 @@ namespace WiserSoft.UI.Controllers
             foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
             {
             
-                var noEnviar = lista_Negra.Where(x => x.Id_Contacto != infoContacto.Id_contacto).FirstOrDefault();
-                if (noEnviar != null)
+                var noEnviar = lista_Negra.Where(x => x.Id_Contacto == infoContacto.Id_contacto).FirstOrDefault();
+                if (noEnviar == null)
                 {
                     Console.WriteLine("no esta en lista naegra: " + infoContacto.Id_contacto);
                     DATA.Contactos contacto = con.BuscarContactos(infoContacto.Id_contacto);
