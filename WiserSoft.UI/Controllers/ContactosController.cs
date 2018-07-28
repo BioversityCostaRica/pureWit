@@ -86,6 +86,7 @@ namespace WiserSoft.UI.Controllers
         
         public ActionResult Edit(int Id_Contacto)
         {
+           
             var contacto = cont.BuscarContactos(Id_Contacto);
             var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
             return View(contactoBuscar);
@@ -94,7 +95,8 @@ namespace WiserSoft.UI.Controllers
         [HttpPost]
         public ActionResult Edit(Models.Contactos cliente)
         {
-
+            ViewBag.userId = Session["Username"];
+            cliente.Username = ViewBag.userId;
             var contactoEditar = Mapper.Map<DATA.Contactos>(cliente);
             cont.ActualizaContactos(contactoEditar);
             return RedirectToAction("Index");
