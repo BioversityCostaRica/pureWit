@@ -45,16 +45,13 @@ namespace WiserSoft.UI.Controllers
         {
             try
             {
-                if (ModelState.IsValid)
-                {
                     ViewBag.userId = Session["Username"];
                     listas.Username = ViewBag.userId;
-
 
                     var listaInsertar = Mapper.Map<DATA.Listas>(listas);
                     list.InsertarListas(listaInsertar);
                     return RedirectToAction("Index");
-                }
+                
             }
             catch (Exception)
             {
@@ -110,12 +107,20 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Contactos(int id_lista)
         {
             ViewBag.Lista = id_lista;
+            return View("Contactos");
+        }
+
+        [HttpGet]
+        public JsonResult ContactosV(int idLista)
+        {
+
 
             ViewBag.userId = Session["Username"];
             var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
             var listas = Mapper.Map<List<Models.Contactos>>(lista);
 
-            return View(listas);
+            return Json(listas, JsonRequestBehavior.AllowGet);
+
         }
 
         [HttpPost]
@@ -136,7 +141,7 @@ namespace WiserSoft.UI.Controllers
                     var contactolistaInsertar = Mapper.Map<DATA.Contactos_Por_Listas>(datos);
                     contL.InsertarContactos_Por_Listas(contactolistaInsertar);
                  
-                    return RedirectToAction("Contactos");
+                    return RedirectToAction("Index");
                     
                 }
             }
@@ -165,6 +170,16 @@ namespace WiserSoft.UI.Controllers
 
         }
 
+        [HttpGet]
+        public JsonResult ListarContactos(int idLista)
+        {
+
+
+            var lista = contL.ListarC().Where(x => x.Id_Lista == idLista);
+            var listas = Mapper.Map<List<Models.ContactosListas>>(lista);
+            return Json(listas, JsonRequestBehavior.AllowGet);
+         
+        }
 
     }
 }

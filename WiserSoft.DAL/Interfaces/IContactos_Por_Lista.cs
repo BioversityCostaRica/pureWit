@@ -14,5 +14,6 @@ namespace WiserSoft.DAL.Interfaces
         void InsertarContactos_Por_Listas(Contactos_Por_Listas contactos_x_lista);
         void ActualizarContactos_Por_Listas(Contactos_Por_Listas contactos_x_lista);
         void EliminarContactos_Por_Listas(int id);
+        List<ContactosListas> ListarC();
     }
 }

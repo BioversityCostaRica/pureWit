@@ -75,9 +75,19 @@
                             <div class="col-md-6">
                                 <div class="form-group ">
                                     @Html.Label("Tipo de mensaje:", htmlAttributes: new { @class = "control-label" })
-                                    @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoDifusion, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control" })
+                                    @Html.DropDownListFor(model => model.Id_Tipo_Mensaje, new SelectList(ViewBag.ListasTipoDifusion, "Value", "Text"), "Seleccione un tipo de mensaje:", new { @class = "form-control", @id = "Tipo_Mensaje" })
                                     @Html.ValidationMessageFor(model => model.Id_Tipo_Mensaje, "", new { @class = "text-danger" })
                                 </div>
+                                
+                                <div class="row" id="divEmail" style="display:none">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label class="control-label">Password:</label>
+                                            @Html.TextBoxFor(model => model.passwordCorreo, new { @placeholder = "xxxx", @class = "form-control", type = "password"})
+                                        </div>
+                                    </div>
+                                </div>
+                                @Html.ValidationMessage("errorPassword", new { @class = "text-danger" })
                             </div>
                         </div>
 
@@ -100,11 +110,14 @@
                             </div>
                         </div>
                     </div>
-                        <br>
-                        <div class="form-actions text-center">
-                            <button type="submit" class="btn btn-success"> <i class="fa fa-send m-l-10"></i> Send</button>
-                            <button type="button" class="btn btn-inverse">Cancel</button>
-                        </div>
+                    <br>
+                    <div class="form-actions text-center">
+                        <button type="submit" class="btn btn-success"> <i class="fa fa-send m-l-10"></i> Enviar</button>
+                        <button type="button" class="btn btn-inverse">Cancelar</button>
+                    </div>
+                    <div style="text-align:center">
+                        @Html.ValidationMessage("error", new { @class = "text-danger" })
+                    </div>
                 }
             </div>
         </div>
@@ -119,11 +132,12 @@
             </div>
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table">
+                    <table class="table table-striped">
                         <thead>
                             <tr>
                                 <th>Descripción</th>
                                 <th>Fecha de Activación</th>
+                                <th>Tipo</th>
                                 <th>Estado</th>
                             </tr>
                         </thead>
@@ -133,6 +147,7 @@
                                 <tr>
                                     <td>@item.Descripcion</td>
                                     <td>@item.Fecha_Activacion</td>
+                                    <td>@item.Des_tipo_Mensaje </td>
                                     <td>
                                         @if (item.Id_Estado == 1)
                                         {
