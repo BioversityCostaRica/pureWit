@@ -81,6 +81,7 @@
     <Compile Include="Interfaces\IListas.cs" />
     <Compile Include="Interfaces\ILista_Negra.cs" />
     <Compile Include="Interfaces\IMensajes.cs" />
+    <Compile Include="Interfaces\IRespuestas.cs" />
     <Compile Include="Interfaces\IRoles.cs" />
     <Compile Include="Interfaces\ITelefonos.cs" />
     <Compile Include="Interfaces\ITipo_Difusiones.cs" />
@@ -95,6 +96,7 @@
     <Compile Include="Metodos\MListas.cs" />
     <Compile Include="Metodos\MLista_Negra.cs" />
     <Compile Include="Metodos\MMensajes.cs" />
+    <Compile Include="Metodos\MRespuestas.cs" />
     <Compile Include="Metodos\MRoles.cs" />
     <Compile Include="Metodos\MTelefonos.cs" />
     <Compile Include="Metodos\MTipo_Difusiones.cs" />
