@@ -31,13 +31,13 @@ namespace WiserSoft.UI.Controllers
                 queued, ringing, in-progress, completed, busy, failed, no-answer
             */
 
-            /*DATA.Estados estado = new DATA.Estados();
-            if (messageStatus == "sent")
+            DATA.Estados estado = new DATA.Estados();
+            if (llamadaStatus == "sent")
             {
                 estado = est.ListarEstados().Where(x => x.Descripcion == "Enviado").First();
             } else
             {
-                if (messageStatus == "delivered")
+                if (llamadaStatus == "delivered")
                 {
                     estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
                 }
@@ -45,11 +45,11 @@ namespace WiserSoft.UI.Controllers
 
             DATA.Confirmaciones confirmaciones = new DATA.Confirmaciones();
             confirmaciones.Estado = estado.Id;
-            confirmaciones.Message_id = smsSid;
+            confirmaciones.Message_id = voiceSid;
 
-            con.InsertarConfirmaciones(confirmaciones);*/
+            con.InsertarConfirmaciones(confirmaciones);
 
-            var logMessage = $"\"{voiceSid}\", \"{llamadaStatus}\"";
+            var logMessage = $"\"{estado.Id}\", \"{voiceSid}\", \"{llamadaStatus}\"";
 
             /*
                 Undelivered

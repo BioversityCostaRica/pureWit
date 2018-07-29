@@ -114,7 +114,7 @@ namespace WiserSoft.UI.Controllers
             // TODO: Add insert logic here
             try
             {
-               
+                mensajes.Username = Session["Username"].ToString();
                 var mensajeInsertar = Mapper.Map<DATA.Mensajes>(mensajes);
                 mensaj.InsertarMensajes(mensajeInsertar);
                 return RedirectToAction("Index");
@@ -166,6 +166,7 @@ namespace WiserSoft.UI.Controllers
                     return View();
                 }
                 // TODO: Add update logic here
+                mensajes.Username = Session["Username"].ToString();
                 var mensajeEditar = Mapper.Map<DATA.Mensajes>(mensajes);
                 mensaj.ActualizaMensajes(mensajeEditar);
                 return RedirectToAction("Index");

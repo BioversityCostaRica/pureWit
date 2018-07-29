@@ -68,6 +68,7 @@ namespace WiserSoft.UI.Controllers
                 {
                     return View();
                 }
+                telefonos.Username = Session["Username"].ToString();
                 var telefonosInsertar = Mapper.Map<DATA.Telefonos>(telefonos);
                 telef.InsertarTelefonos(telefonosInsertar);
                 return RedirectToAction("Index");
@@ -82,6 +83,7 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Edit(string numero)
         {
             var telefono = telef.BuscarTelefonos(numero);
+
             var telefonoBuscar = Mapper.Map<Models.Telefonos>(telefono);
             return View(telefonoBuscar);
         }
@@ -98,6 +100,7 @@ namespace WiserSoft.UI.Controllers
                     return View();
                 }
                 var telefonoEditar = Mapper.Map<DATA.Telefonos>(telefonos);
+                //telefonos.Username = Session["Username"].ToString();
                 telef.ActualizaTelefonos(telefonoEditar);
                 return RedirectToAction("Index");
             }

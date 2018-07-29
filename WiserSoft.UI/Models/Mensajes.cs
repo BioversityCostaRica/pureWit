@@ -15,6 +15,5 @@ namespace WiserSoft.UI.Models
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Seleccione el tipo de mensaje que desea enviar.")]
         public int Id_Tipo_Mensaje { get; set; }
-        public String Des_tipo_Mensaje { get; set; }
     }
 }
