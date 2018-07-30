@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Dashboard";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card p-30">
+                <div class="media">
+                    <div class="media-left meida media-middle">
+                        <span><i class="fa fa-group f-s-40 color-primary"></i></span>
+                    </div>
+                    <div class="media-body media-text-right">
+                        <h2>@ViewBag.totalContactos</h2>
+                        <p class="m-b-0">Total Contactos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-30">
+                <div class="media">
+                    <div class="media-left meida media-middle">
+                        <span><i class="fa fa-envelope f-s-40 color-success"></i></span>
+                    </div>
+                    <div class="media-body media-text-right">
+                        <h2>@ViewBag.totalSMS</h2>
+                        <p class="m-b-0">Total SMS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-30">
+                <div class="media">
+                    <div class="media-left meida media-middle">
+                        <span><i class="fa fa-phone f-s-40 color-warning"></i></span>
+                    </div>
+                    <div class="media-body media-text-right">
+                        <h2>@ViewBag.totalLlamadas</h2>
+                        <p class="m-b-0">Total Llamadas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card p-30">
+                <div class="media">
+                    <div class="media-left meida media-middle">
+                        <span><i class="fa fa-at f-s-40 color-danger"></i></span>
+                    </div>
+                    <div class="media-body media-text-right">
+                        <h2>@ViewBag.totalLCorreos</h2>
+                        <p class="m-b-0">Total Correos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div class="col-lg-12">
+    <div class="card card-outline-primary">
+        <div class="card-body">
+            <div class="col-lg-4">
+                <h2>@Html.Raw(Json.Encode(ViewBag.Descripciones))</h2>
+            </div>
+            <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-title">
+                            <h4>Echart</h4>
+                        </div>
+                        <div class="card-content">
+                            <div id="basic-Pie" style="height: 370px"></div>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="col-lg-8">
+                <div class="table-responsive">
+                    <table id="example24" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Número
+                                </th>
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Detalle
+                                </th>
+                                <th>
+                                    Correo
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    88998877
+                                </td>
+                                <td>
+                                    Priscilla
+                                </td>
+                                <td>
+                                    Gente
+                                </td>
+                                <td>
+                                    priizb@gmail.com
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
