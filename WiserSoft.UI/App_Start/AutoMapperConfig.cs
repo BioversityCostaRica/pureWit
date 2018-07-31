@@ -40,6 +40,8 @@ namespace WiserSoft.UI.App_Start
                 cfg.CreateMap<DATA.Mensajes, Models.Mensajes>();
                 cfg.CreateMap<Models.Lista_Negra, DATA.Lista_Negra>();
                 cfg.CreateMap<DATA.Lista_Negra, Models.Lista_Negra>();
+                cfg.CreateMap<Models.Reporteclientesactivos, DATA.Reporteclientesactivos>();
+                cfg.CreateMap<DATA.Reporteclientesactivos, Models.Reporteclientesactivos>();
 
             });
         }
