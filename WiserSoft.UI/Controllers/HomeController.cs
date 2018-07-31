@@ -9,17 +9,30 @@ using AutoMapper;
 
 namespace WiserSoft.UI.Controllers
 {
+    public class dataChart
+    {
+        public int value;
+        public string name;
+
+        public dataChart(int _value, string _name)
+        {
+            value = _value;
+            name = _name;
+        }
+    }
     public class HomeController : Controller
     {
         IUsuarios usu;
         IContactos cont;
         IDifusiones difu;
+        IEstados est;
 
         public HomeController()
         {
             usu = new MUsuarios();
             cont = new MContactos();
             difu = new MDifusiones();
+            est = new MEstados();
         }
         public ActionResult Index()
         {
@@ -85,15 +98,19 @@ namespace WiserSoft.UI.Controllers
            
 
             //Grafico Pie Difusiones por estado *prueba Fer / Pri
-            /* List<DATA.Difusiones> listadifusiones = difu.ListarDifusines();
+            List<DATA.Difusiones> listadifusiones = difu.ListarDifusines();
              var difusiones = listadifusiones.Select(x => x.Id_Estado).Distinct();
 
-             List<int> listaDifusion = new List<int>();
+             List<dataChart> listaDifusion = new List<dataChart>();
              foreach (var item in difusiones)
              {
-                 listaDifusion.Add(listadifusiones.Count(x => x.Id_Estado == item));
+                 listaDifusion.Add(new dataChart(Int32.Parse(listadifusiones.Count(x => x.Id_Estado == item).ToString()),est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
              }
 
+            ViewBag.group = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+            ViewBag.data = listaDifusion.ToList();
+            Console.Write("madremia");
+             /*
           foreach (var a in listaDifusion)
           {
               Console.WriteLine(a);
