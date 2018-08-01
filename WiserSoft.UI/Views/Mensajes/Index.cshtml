@@ -31,19 +31,7 @@
                                     @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
                                 </td>
                                 <td>
-                                    @*@Html.DisplayFor(modelItem => item.Id_Tipo_Mensaje)*@
-                                    @if(item.Id_Tipo_Mensaje == 1)
-                                    {
-                                        <p>Texto</p>
-                                    }
-                                    else if (item.Id_Tipo_Mensaje == 2)
-                                    {
-                                        <p>Voz</p>
-                                    }
-                                    else if (item.Id_Tipo_Mensaje == 3)
-                                    {
-                                        <p>Correo</p>
-                                    }
+                                    @Html.DisplayFor(modelItem => item.Tipo_Difusiones.Descripcion)
                                 </td>
                                 <td>
                                     <span>

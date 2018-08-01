@@ -10,6 +10,7 @@ namespace WiserSoft.DATA
     {
         public int Id_Contacto { get; set; }
         public String Nombre { get; set; }
+        public String Username { get; set; }
         public int Cantidad { get; set; }
     }
 }

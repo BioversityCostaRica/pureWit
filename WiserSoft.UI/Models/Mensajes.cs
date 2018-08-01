@@ -14,6 +14,8 @@ namespace WiserSoft.UI.Models
         public String Cuerpo_Mensaje { get; set; }
 
         [Required(AllowEmptyStrings = false, ErrorMessage = "Seleccione el tipo de mensaje que desea enviar.")]
-        public int Id_Tipo_Mensaje { get; set; }
+        public int Id_Tipo { get; set; }
+         
+        public Tipo_Difusiones Tipo_Difusiones { get; set; }
     }
 }

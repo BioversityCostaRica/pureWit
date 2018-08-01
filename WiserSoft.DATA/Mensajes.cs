@@ -13,6 +13,6 @@ namespace WiserSoft.DATA
         public int Id_Mensaje { get; set; }
         public String Username { get; set; }
         public String Cuerpo_Mensaje { get; set; }
-        public int Id_Tipo_Mensaje { get; set; }
+        public int Id_Tipo { get; set; }
     }
 }

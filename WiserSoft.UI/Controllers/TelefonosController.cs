@@ -12,10 +12,12 @@ namespace WiserSoft.UI.Controllers
     public class TelefonosController : Controller
     {
         ITelefonos telef;
+        IUsuarios usua;
 
         public TelefonosController()
         {
             telef = new MTelefonos();
+            usua = new MUsuarios();
         }
         // GET: Telefonos
         public ActionResult Index()
@@ -54,6 +56,22 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos/Create
         public ActionResult Create()
         {
+            var listaUsua = usua.ListarUsuarios();
+
+            var listaTelf = telef.ListarTelefonos();
+            var TelefonosListar = Mapper.Map<List<Models.Usuarios>>(listaUsua.Where(x => x.Username != listaTelf.Select(t => t.Username).ToString()));
+           
+
+            IEnumerable<SelectListItem> selectUsuario =
+            from t in TelefonosListar
+            select new SelectListItem
+            {
+                Text = t.Username,
+                Value = t.Username.ToString()
+            };
+
+            ViewBag.ListasUsername = selectUsuario;
+
             return View();
         }
 

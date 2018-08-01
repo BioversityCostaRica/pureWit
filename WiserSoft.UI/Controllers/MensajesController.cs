@@ -49,6 +49,11 @@ namespace WiserSoft.UI.Controllers
                     Value = t.Id.ToString()
                 };
 
+                foreach (Models.Mensajes mensaje in mensajeListar)
+                {
+                    mensaje.Tipo_Difusiones = listaDeTipos.Where(x => x.Id == mensaje.Id_Tipo).FirstOrDefault();
+                }
+
                 ViewBag.ListasTipoMensaje = selectTipoDifusion;
                 
             }
