@@ -34,7 +34,7 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Index()
         {
             
-                var lista = rep.ListarReporteclientesactivos();
+                var lista = rep.ListarReporteclientesactivos(Session["Username"].ToString());
                 var reporte = Mapper.Map<List<Models.Reporteclientesactivos>>(lista.Where(x => x.Username == Session["Username"].ToString()));
             
 
@@ -44,13 +44,13 @@ namespace WiserSoft.UI.Controllers
 
                 }
                 
-                List<DATA.Reporteclientesactivos> listareportes = rep.ListarReporteclientesactivos();
+                List<DATA.Reporteclientesactivos> listareportes = rep.ListarReporteclientesactivos(Session["Username"].ToString());
                 var reporteslistados = listareportes.Select(x => x.Id_Contacto).Distinct();
 
                 List<dataChart> listaReporte = new List<dataChart>();
                 foreach (var item in reporteslistados)
                 {
-                    listaReporte.Add(new dataChart(rep.ListarReporteclientesactivos().Where(x => x.Id_Contacto == item).Select(x => x.Cantidad).First(),
+                    listaReporte.Add(new dataChart(rep.ListarReporteclientesactivos(Session["Username"].ToString()).Where(x => x.Id_Contacto == item).Select(x => x.Cantidad).First(),
                         cont.ListarContactos().Where(x => x.Id_Contacto == item).Select(x => x.Nombre).First().ToString()));
                 }
 

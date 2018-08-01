@@ -9,7 +9,7 @@ namespace WiserSoft.DAL.Interfaces
 {
     public interface IReporteclientesactivos
     {
-        List<Reporteclientesactivos> ListarReporteclientesactivos();
+        List<Reporteclientesactivos> ListarReporteclientesactivos(string username);
         Reporteclientesactivos BuscarReporteclientesactivos(int id_contacto);
     }
 }
