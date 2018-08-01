@@ -33,40 +33,33 @@ namespace WiserSoft.UI.Controllers
         // GET: Reporteclientesactivos
         public ActionResult Index()
         {
-            var lista = rep.ListarReporteclientesactivos();
-            var reporte = Mapper.Map<List<Models.Reporteclientesactivos>>(lista);
-
-
-
-           // var listaDifusiones = difu.CantidadDifusiones();
-            //var dif = Mapper.Map<List<Models.Difusiones>>(listaDifusiones);
-
-
-            foreach (Models.Reporteclientesactivos a in reporte)
-            {
-                Console.WriteLine("Cliente:" + a.Nombre + " Cantidad:" + a.Cantidad);
-
-            }
-
-
-
-            //Grafico Pie Difusiones por estado *prueba Fer / Pri
-            List<DATA.Reporteclientesactivos> listareportes = rep.ListarReporteclientesactivos();
-            var reporteslistados = listareportes.Select(x => x.Id_Contacto).Distinct();
-
-            List<dataChart> listaReporte = new List<dataChart>();
-            foreach (var item in reporteslistados)
-            {
-                listaReporte.Add(new dataChart(rep.ListarReporteclientesactivos().Where(x => x.Id_Contacto == item).Select(x => x.Cantidad).First(), 
-                    cont.ListarContactos().Where(x => x.Id_Contacto == item).Select(x => x.Nombre).First().ToString()));
-            }
-
-            ViewBag.group = cont.ListarContactos().Select(x => x.Nombre).Distinct();
-            ViewBag.data = listaReporte.ToList();
+            
+                var lista = rep.ListarReporteclientesactivos();
+                var reporte = Mapper.Map<List<Models.Reporteclientesactivos>>(lista.Where(x => x.Username == Session["Username"].ToString()));
             
 
-            return View(reporte);
+                foreach (Models.Reporteclientesactivos a in reporte)
+                {
+                    Console.WriteLine("Cliente:" + a.Nombre + " Cantidad:" + a.Cantidad);
+
+                }
+                
+                List<DATA.Reporteclientesactivos> listareportes = rep.ListarReporteclientesactivos();
+                var reporteslistados = listareportes.Select(x => x.Id_Contacto).Distinct();
+
+                List<dataChart> listaReporte = new List<dataChart>();
+                foreach (var item in reporteslistados)
+                {
+                    listaReporte.Add(new dataChart(rep.ListarReporteclientesactivos().Where(x => x.Id_Contacto == item).Select(x => x.Cantidad).First(),
+                        cont.ListarContactos().Where(x => x.Id_Contacto == item).Select(x => x.Nombre).First().ToString()));
+                }
+
+                ViewBag.group = cont.ListarContactos().Select(x => x.Nombre).Distinct();
+                ViewBag.data = listaReporte.ToList();
+
+            
+                return View(reporte);
+            
         }
-        
     }
 }
