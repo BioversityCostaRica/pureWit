@@ -42,7 +42,8 @@ namespace WiserSoft.UI.App_Start
                 cfg.CreateMap<DATA.Lista_Negra, Models.Lista_Negra>();
                 cfg.CreateMap<Models.Reporteclientesactivos, DATA.Reporteclientesactivos>();
                 cfg.CreateMap<DATA.Reporteclientesactivos, Models.Reporteclientesactivos>();
-
+                cfg.CreateMap<Models.Respuestas, DATA.Respuestas>();
+                cfg.CreateMap<DATA.Respuestas, Models.Respuestas>();
             });
         }
     }

@@ -14,5 +14,6 @@ namespace WiserSoft.DAL.Interfaces
         void InsertarDifusiones(Difusiones difusiones);
         void ActualizarDifusiones(Difusiones difusiones);
         void EliminarDifusiones(int id);
+        List<Difusiones> CantidadDifusiones();
     }
 }

@@ -38,7 +38,7 @@
             <nav class="navbar top-navbar navbar-expand-md navbar-light">
                 <!-- Logo -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="@Url.Action("UserDashboard", "Home")">
                         <!-- Logo icon -->
                         <b><img src="~/Content/images/logo.png" alt="homepage" class="dark-logo" /></b>
                         <!--End Logo icon -->
@@ -92,7 +92,7 @@
                             <a class="nav-link dropdown-toggle text-muted  " href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="~/Content/images/users/5.jpg" alt="user" class="profile-pic" /></a>
                             <div class="dropdown-menu dropdown-menu-right animated zoomIn">
                                 <ul class="dropdown-user">
-                                    <li><a href="#"><i class="ti-user"></i> Profile</a></li>
+                                    <li><a href="@Url.Action("Profile", "Usuarios")"><i class="ti-user"></i> Profile</a></li>
                                     <li><a href="#"><i class="fa fa-power-off"></i> Logout</a></li>
                                 </ul>
                             </div>
@@ -111,6 +111,7 @@
                     <ul id="sidebarnav">
                         <li class="nav-devider"></li>
                         <li class="nav-label">Menú</li>
+                        <li> <a href="@Url.Action("UserDashboard", "Home")"><i class="fa fa-tachometer"></i><span class="">Dashboard</span></a></li>
                         <li> <a href="@Url.Action("Index", "Contactos")"><i class="fa fa-group"></i><span class="">Contactos</span></a></li>
                         <li> <a href="@Url.Action("Index", "Listas")"><i class="fa fa-tags"></i><span class="">Listas</span></a></li>
                         <li> <a href="@Url.Action("Index", "Mensajes")"><i class="fa fa-bold"></i><span class="">Creación de mensajes</span></a></li>
@@ -163,6 +164,18 @@
     <!--Custom JavaScript -->
     <script src="~/Content/js/custom.min.js"></script>
 
+    <!--Datatable js-->
+    <script src="~/Content/js/lib/datatables/datatables.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/dataTables.buttons.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.flash.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/pdfmake.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.rawgit.com/bpampuch/pdfmake/0.1.18/build/vfs_fonts.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.html5.min.js"></script>
+    <script src="~/Content/js/lib/datatables/cdn.datatables.net/buttons/1.2.2/js/buttons.print.min.js"></script>
+    <script src="~/Content/js/lib/datatables/datatables-init.js"></script>
+
+    
 </body>
 
 </html>
