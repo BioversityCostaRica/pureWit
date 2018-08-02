@@ -49,5 +49,12 @@ namespace WiserSoft.DAL.Metodos
             _db = _conexion.Open();
             return _db.Select < Difusiones>();
         }
+        
+        public List<Difusiones> CantidadDifusiones()
+        {
+            _db = _conexion.Open();
+            return _db.Select<Difusiones>(@"Select count(Id_Estado),e.Descripcion From difusiones d,estados e Where d.Id_Estado = e.Id group by e.Descripcion");
+        }
+
     }
 }

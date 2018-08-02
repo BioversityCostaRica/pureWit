@@ -991,6 +991,7 @@
     <Content Include="Views\Contactos\EditListaNegra.cshtml" />
     <Content Include="Views\Respuestas\Index.cshtml" />
     <Content Include="Views\Respuestas\Mensajes.cshtml" />
+    <Content Include="Views\Home\UserDashboard.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Telefonos\Create.cshtml" />
