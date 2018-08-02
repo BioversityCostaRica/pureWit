@@ -9,7 +9,7 @@ using WiserSoft.DAL.Metodos;
 
 namespace WiserSoft.UI.Controllers
 {
-    
+
     public class MessageStatusController : Controller
     {
         IConfirmaciones con;
@@ -31,11 +31,37 @@ namespace WiserSoft.UI.Controllers
             if (messageStatus == "sent")
             {
                 estado = est.ListarEstados().Where(x => x.Descripcion == "Enviado").First();
-            } else
+            }
+            else
             {
                 if (messageStatus == "delivered")
                 {
                     estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
+                }
+                else
+                if (messageStatus == "undelivered")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "No entregado").First();
+                }
+                else
+                if (messageStatus == "failed")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Ha fallado").First();
+                }
+                else
+                if (messageStatus == "queued")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "En cola").First();
+                }
+                else
+                if (messageStatus == "accepted")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Aceptado").First();
+                }
+                else
+                if (messageStatus == "sending")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Enviando").First();
                 }
             }
 

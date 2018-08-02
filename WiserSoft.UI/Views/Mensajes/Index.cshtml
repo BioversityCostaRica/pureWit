@@ -2,40 +2,62 @@
 @{
     Layout = "~/Views/Shared/Master.cshtml";
 }
-<h2>Lista de Mensajes</h2>
-<p>
-    @Html.ActionLink("Nuevo", "Create")
-</p>
-<table class="table">
-    <tr>
- 
-        <th>
-            @Html.DisplayNameFor(model => model.Username)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Cuerpo_Mensaje)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Id_Tipo)
-        </th>
-        <th></th>
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Username)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id_Tipo)
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "Edit", new { Id_Mensaje = item.Id_Mensaje }) |
-                @Html.ActionLink("Eliminar", "Delete", new { Id_Mensaje = item.Id_Mensaje })
-            </td>
-        </tr>
-    }
-</table>
+<!--<button type="button" class="btn btn-success btn-flat btn-addon btn-md m-b-10 m-l-5"><i class="ti-search"></i>Success</button>-->
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Lista de Mensajes</h4>
+        <div class="dataTables_filter">
+            <span>
+                <a href="@Url.Action("Create")" class="btn btn-success">
+                    <span class="fa fa-plus"></span>
+                </a>
+            </span>
+        </div>
+        <div class="table-responsive m-t-40">
+            <div id="myTable_wrapper" class="dataTables_wrapper no-footer">
+                <div class="dataTables_length" id="myTable_length"><label>Show <select name="myTable_length" aria-controls="myTable" class=""><option value="10">10</option><option value="25">25</option><option value="50">50</option><option value="100">100</option></select> entries</label></div><div id="myTable_filter" class="dataTables_filter"><label>Search:<input type="search" class="" placeholder="" aria-controls="myTable"></label></div><table id="myTable" class="table table-bordered table-striped dataTable no-footer" role="grid" aria-describedby="myTable_info">
+                    <thead>
+                        <tr role="row">
+                            <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending">Mensaje</th>
+                            <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending">Tipo Mensaje</th>
+                            <th tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+            {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Tipo_Difusiones.Descripcion)
+                                </td>
+                                <td>
+                                    <span>
+                                        <a href="@Url.Action("Edit", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-success">
+                                            <span class="fa fa-edit"></span>
+                                        </a>
+                                    </span>
+                                    |
+                                    <span>
+                                        <a href="@Url.Action("Delete", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-danger btn-flat">
+                                            <span class="fa fa-trash"></span>
+                                        </a>
+                                    </span>
+                                   
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="dataTables_info" id="myTable_info" role="status" aria-live="polite">Showing 1 to 10 of 3 entries</div>
+                <div class="dataTables_paginate paging_simple_numbers" id="myTable_paginate">
+                    <a class="paginate_button previous disabled" aria-controls="myTable" data-dt-idx="0" tabindex="0" id="myTable_previous">Previous</a>
+                    <span><a class="paginate_button current" aria-controls="myTable" data-dt-idx="1" tabindex="0">1</a></span>
+                    <a class="paginate_button next" aria-controls="myTable" data-dt-idx="7" tabindex="0" id="myTable_next">Next</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

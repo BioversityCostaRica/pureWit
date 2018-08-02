@@ -9,7 +9,7 @@ using WiserSoft.DAL.Metodos;
 
 namespace WiserSoft.UI.Controllers
 {
-    
+
     public class LlamadasStatusController : Controller
     {
         IConfirmaciones con;
@@ -31,25 +31,54 @@ namespace WiserSoft.UI.Controllers
                 queued, ringing, in-progress, completed, busy, failed, no-answer
             */
 
-            /*DATA.Estados estado = new DATA.Estados();
-            if (messageStatus == "sent")
+            DATA.Estados estado = new DATA.Estados();
+            if (llamadaStatus == "queued")
             {
-                estado = est.ListarEstados().Where(x => x.Descripcion == "Enviado").First();
-            } else
+                estado = est.ListarEstados().Where(x => x.Descripcion == "En cola").First();
+            }
+            else
             {
-                if (messageStatus == "delivered")
+                if (llamadaStatus == "ringing")
                 {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Sonando").First();
+                }
+                else
+                if (llamadaStatus == "in-progress")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "En curso").First();
+                }
+                else
+                if (llamadaStatus == "completed")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Completo").First();
+                }
+                else
+                if (llamadaStatus == "busy")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Ocupado").First();
+                }
+                else
+                if (llamadaStatus == "failed")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Fallido").First();
+                }
+                else
+                if (llamadaStatus == "no-answer")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Sin respuesta").First();
                 }
             }
 
+
+
+
             DATA.Confirmaciones confirmaciones = new DATA.Confirmaciones();
             confirmaciones.Estado = estado.Id;
-            confirmaciones.Message_id = smsSid;
+            confirmaciones.Message_id = voiceSid;
 
-            con.InsertarConfirmaciones(confirmaciones);*/
+            con.InsertarConfirmaciones(confirmaciones);
 
-            var logMessage = $"\"{voiceSid}\", \"{llamadaStatus}\"";
+            var logMessage = $"\"{estado.Id}\", \"{voiceSid}\", \"{llamadaStatus}\"";
 
             /*
                 Undelivered

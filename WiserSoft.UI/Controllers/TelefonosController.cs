@@ -12,10 +12,12 @@ namespace WiserSoft.UI.Controllers
     public class TelefonosController : Controller
     {
         ITelefonos telef;
+        IUsuarios usua;
 
         public TelefonosController()
         {
             telef = new MTelefonos();
+            usua = new MUsuarios();
         }
         // GET: Telefonos
         public ActionResult Index()
@@ -54,6 +56,22 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos/Create
         public ActionResult Create()
         {
+            var listaUsua = usua.ListarUsuarios();
+
+            var listaTelf = telef.ListarTelefonos();
+            var TelefonosListar = Mapper.Map<List<Models.Usuarios>>(listaUsua.Where(x => x.Username != listaTelf.Select(t => t.Username).ToString()));
+           
+
+            IEnumerable<SelectListItem> selectUsuario =
+            from t in TelefonosListar
+            select new SelectListItem
+            {
+                Text = t.Username,
+                Value = t.Username.ToString()
+            };
+
+            ViewBag.ListasUsername = selectUsuario;
+
             return View();
         }
 
@@ -68,6 +86,7 @@ namespace WiserSoft.UI.Controllers
                 {
                     return View();
                 }
+                telefonos.Username = Session["Username"].ToString();
                 var telefonosInsertar = Mapper.Map<DATA.Telefonos>(telefonos);
                 telef.InsertarTelefonos(telefonosInsertar);
                 return RedirectToAction("Index");
@@ -82,6 +101,7 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Edit(string numero)
         {
             var telefono = telef.BuscarTelefonos(numero);
+
             var telefonoBuscar = Mapper.Map<Models.Telefonos>(telefono);
             return View(telefonoBuscar);
         }
@@ -98,6 +118,7 @@ namespace WiserSoft.UI.Controllers
                     return View();
                 }
                 var telefonoEditar = Mapper.Map<DATA.Telefonos>(telefonos);
+                //telefonos.Username = Session["Username"].ToString();
                 telef.ActualizaTelefonos(telefonoEditar);
                 return RedirectToAction("Index");
             }
