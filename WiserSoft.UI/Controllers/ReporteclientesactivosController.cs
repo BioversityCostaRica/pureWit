@@ -9,16 +9,11 @@ using WiserSoft.DAL.Metodos;
 
 namespace WiserSoft.UI.Controllers
 {
-    public class dataChart
+    public class dataChart2
     {
         public int value;
         public string name;
 
-        public dataChart(int _value, string _name)
-        {
-            value = _value;
-            name = _name;
-        }
     }
     public class ReporteclientesactivosController : Controller
     {
