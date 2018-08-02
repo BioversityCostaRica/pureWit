@@ -2,40 +2,59 @@
 @{
     Layout = "~/Views/Shared/Master.cshtml";
 }
-<h2>Lista de Mensajes</h2>
-<p>
-    @Html.ActionLink("Nuevo", "Create")
-</p>
-<table class="table">
-    <tr>
- 
-        <th>
-            @Html.DisplayNameFor(model => model.Username)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Cuerpo_Mensaje)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Id_Tipo)
-        </th>
-        <th></th>
-    </tr>
-    @foreach (var item in Model)
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Username)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Id_Tipo)
-            </td>
-            <td>
-                @Html.ActionLink("Editar", "Edit", new { Id_Mensaje = item.Id_Mensaje }) |
-                @Html.ActionLink("Eliminar", "Delete", new { Id_Mensaje = item.Id_Mensaje })
-            </td>
-        </tr>
-    }
-</table>
+<!--<button type="button" class="btn btn-success btn-flat btn-addon btn-md m-b-10 m-l-5"><i class="ti-search"></i>Success</button>-->
+<div class="card card-outline-primary">
+    <div class="card-header">
+        <h4 class="m-b-0 text-white">Lista de Mensajes</h4>
+    </div>
+    <div class="card-body">
+        <div class="dataTables_filter">
+            <span>
+                <a href="@Url.Action("Create")" class="btn btn-success">
+                    <span class="fa fa-plus"></span>
+                </a>
+            </span>
+        </div>
+        <div class="table-responsive m-t-40">
+
+            <table id="myTable" class="table table-bordered table-striped">
+                <thead>
+                    <tr role="row">
+                        <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Position: activate to sort column ascending">Mensaje</th>
+                        <th class="sorting" tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Office: activate to sort column ascending">Tipo Mensaje</th>
+                        <th tabindex="0" aria-controls="myTable" rowspan="1" colspan="1" aria-label="Age: activate to sort column ascending"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+            {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Cuerpo_Mensaje)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Tipo_Difusiones.Descripcion)
+                            </td>
+                            <td>
+                                <span>
+                                    <a href="@Url.Action("Edit", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-success">
+                                        <span class="fa fa-edit"></span>
+                                    </a>
+                                </span>
+                                |
+                                <span>
+                                    <a href="@Url.Action("Delete", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-danger btn-flat">
+                                        <span class="fa fa-trash"></span>
+                                    </a>
+                                </span>
+
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+               
+            </div>
+        </div>
+    </div>

@@ -9,13 +9,30 @@ using AutoMapper;
 
 namespace WiserSoft.UI.Controllers
 {
+    public class dataChart
+    {
+        public int value;
+        public string name;
+
+        public dataChart(int _value, string _name)
+        {
+            value = _value;
+            name = _name;
+        }
+    }
     public class HomeController : Controller
     {
         IUsuarios usu;
+        IContactos cont;
+        IDifusiones difu;
+        IEstados est;
 
         public HomeController()
         {
             usu = new MUsuarios();
+            cont = new MContactos();
+            difu = new MDifusiones();
+            est = new MEstados();
         }
         public ActionResult Index()
         {
@@ -35,13 +52,13 @@ namespace WiserSoft.UI.Controllers
 
                 if (datos.Id_rol == 1)
                 {
-                    return RedirectToAction("Index", "Contactos");
+                    return RedirectToAction("UserDashboard", "Home");
                 }
                 else
                 {
                     return RedirectToAction("Index", "Administrador");
                 }
-                
+
             }
             else
             {
@@ -54,6 +71,57 @@ namespace WiserSoft.UI.Controllers
 
         public ActionResult UserDashboard()
         {
+            int contactos = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Count();
+            ViewBag.totalContactos = contactos;
+
+            int sms = difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString() && x.Id_Tipo_Mensaje == 1).Count();
+            ViewBag.totalSMS = sms;
+
+            int llamadas = difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString() && x.Id_Tipo_Mensaje == 2).Count();
+            ViewBag.totalLlamadas = llamadas;
+
+            int correos = difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString() && x.Id_Tipo_Mensaje == 3).Count();
+            ViewBag.totalLCorreos = correos;
+
+
+            var listaDifusiones = difu.CantidadDifusiones();
+            Console.WriteLine(listaDifusiones);
+            var dif = Mapper.Map<List<Models.Difusiones>>(listaDifusiones);
+
+        
+            foreach (Models.Difusiones a in dif)
+             {
+                  Console.WriteLine("Estado:"+a.Descripcion +" Cantidad:"+a.Id_Estado);
+                
+            }
+
+           
+
+            //Grafico Pie Difusiones por estado *prueba Fer / Pri
+            List<DATA.Difusiones> listadifusiones = difu.ListarDifusines();
+             var difusiones = listadifusiones.Select(x => x.Id_Estado).Distinct();
+
+             List<dataChart> listaDifusion = new List<dataChart>();
+             foreach (var item in difusiones)
+             {
+                 listaDifusion.Add(new dataChart(Int32.Parse(listadifusiones.Count(x => x.Id_Estado == item).ToString()),est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
+             }
+
+            ViewBag.group = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+            ViewBag.data = listaDifusion.ToList();
+            Console.Write("madremia");
+             /*
+          foreach (var a in listaDifusion)
+          {
+              Console.WriteLine(a);
+          }
+
+          var rep = listaDifusion;
+             ViewBag.Tipos = difusiones;
+             ViewBag.Contenido_Tipos = listaDifusion.ToList();
+             */
+
+
             /*if (Session["UserID"] != null && Session["Type"].Equals("admin"))
             {
                 ViewBag.UserId = Session["UserID"];
@@ -149,5 +217,7 @@ namespace WiserSoft.UI.Controllers
             //Session.Clear();
             return RedirectToAction("Index", "Home");
         }
+
+        
     }
 }

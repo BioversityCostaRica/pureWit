@@ -186,6 +186,7 @@
     <Compile Include="Controllers\MensajesController.cs" />
     <Compile Include="Controllers\LlamadasStatusController.cs" />
     <Compile Include="Controllers\MessageStatusController.cs" />
+    <Compile Include="Controllers\ReporteclientesactivosController.cs" />
     <Compile Include="Controllers\RespuestasController.cs" />
     <Compile Include="Controllers\SmsController.cs" />
     <Compile Include="Controllers\TelefonosController.cs" />
@@ -205,6 +206,7 @@
     <Compile Include="Models\Listas.cs" />
     <Compile Include="Models\Lista_Negra.cs" />
     <Compile Include="Models\Mensajes.cs" />
+    <Compile Include="Models\Reporteclientesactivos.cs" />
     <Compile Include="Models\Respuestas.cs" />
     <Compile Include="Models\Roles.cs" />
     <Compile Include="Models\Telefonos.cs" />
@@ -991,6 +993,8 @@
     <Content Include="Views\Contactos\EditListaNegra.cshtml" />
     <Content Include="Views\Respuestas\Index.cshtml" />
     <Content Include="Views\Respuestas\Mensajes.cshtml" />
+    <Content Include="Views\Home\UserDashboard.cshtml" />
+    <Content Include="Views\Reporteclientesactivos\Index.cshtml" />
     <None Include="Views\Shared\Master.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Telefonos\Create.cshtml" />
