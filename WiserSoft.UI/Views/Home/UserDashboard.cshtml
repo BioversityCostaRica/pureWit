@@ -63,10 +63,9 @@
 <div class="col-lg-12">
     <div class="card card-outline-primary">
         <div class="card-body">
-            <div class="col-lg-4">
-                <h2>@Html.Raw(Json.Encode(ViewBag.Descripciones))</h2>
-            </div>
-            <div class="col-lg-6">
+
+            <div class="row">
+                <div class="col-lg-6">
                     <div class="card">
                         <div class="card-title">
                             <h4>Echart</h4>
@@ -75,7 +74,24 @@
                             <div id="basic-Pie" style="height: 370px"></div>
                         </div>
                     </div>
+                </div>
+                @if (ViewBag.nombre3 != null)
+                {
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-title">
+                            <h4><b>Estado de mensajes de última campaña de correo llamada:</b><br>@ViewBag.nombre3</h4>
+                        </div>
+                        <div class="card-content">
+                            <div id="basic-Pie3" style="height: 370px"></div>
+                        </div>
+                    </div>
+                </div>
+                }
             </div>
+            
+
+            
 
             <div class="col-lg-8">
                 <div class="table-responsive">
@@ -133,7 +149,7 @@
 
         var datos = @Html.Raw(Json.Encode(ViewBag.data));
         var groups = @Html.Raw(Json.Encode(ViewBag.group));
-        
+
         varas = []
         @foreach (var item in ViewBag.data) {
             <text> varas.push({ name: "@item.name", value:"@item.value"}) </text>
@@ -175,7 +191,65 @@
             bpChart.resize();
 
         };
-
-
+        
     });
 </script>
+
+@if (ViewBag.nombre3 != null)
+{
+    <script>
+        $(document).ready(function()
+        {
+            /* EChart Pie 3*/
+            var dom = document.getElementById("basic-Pie3");
+            var bpChart = echarts.init(dom);
+
+            var datos3  = @Html.Raw(Json.Encode(ViewBag.data3));
+            var groups3 = @Html.Raw(Json.Encode(ViewBag.group3));
+
+            varas3 = []
+            @foreach (var item in ViewBag.data3)
+            {
+                <text> varas3.push({ name: "@item.name", value:"@item.value"}) </text>
+            }
+
+            var app = {};
+            option = null;
+            option = {
+                color: ['#62549a','#4aa9e9', '#ff6c60','#eac459', '#25c3b2' ],
+                tooltip : {
+                    trigger: 'item',
+                    formatter: '{a} <br/>{b} : {c} ({d}%)'
+                },
+                legend: {
+                    orient : 'vertical',
+                    x : 'left',
+                    data:groups3
+                },
+                calculable : true,
+                series : [
+                    {
+                        name:'Source',
+                        type:'pie',
+                        radius : '55%',
+                        center: ['50%', '60%'],
+                        data:varas3
+                    }
+                ]
+            };
+
+            if (option && typeof option === "object") {
+                bpChart.setOption(option, false);
+            }
+
+
+
+            window.onresize = function () {
+
+                bpChart.resize();
+
+            };
+        });
+
+    </script>
+}

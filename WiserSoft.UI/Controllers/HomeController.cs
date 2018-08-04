@@ -26,6 +26,7 @@ namespace WiserSoft.UI.Controllers
         IContactos cont;
         IDifusiones difu;
         IEstados est;
+        IHistoriales his;
 
         public HomeController()
         {
@@ -33,6 +34,7 @@ namespace WiserSoft.UI.Controllers
             cont = new MContactos();
             difu = new MDifusiones();
             est = new MEstados();
+            his = new MHistoriales();
         }
         public ActionResult Index()
         {
@@ -98,7 +100,7 @@ namespace WiserSoft.UI.Controllers
            
 
             //Grafico Pie Difusiones por estado *prueba Fer / Pri
-            List<DATA.Difusiones> listadifusiones = difu.ListarDifusines();
+            List<DATA.Difusiones> listadifusiones = Mapper.Map<List<DATA.Difusiones>>(difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString()));
              var difusiones = listadifusiones.Select(x => x.Id_Estado).Distinct();
 
              List<dataChart> listaDifusion = new List<dataChart>();
@@ -109,73 +111,32 @@ namespace WiserSoft.UI.Controllers
 
             ViewBag.group = est.ListarEstados().Select(x => x.Descripcion).Distinct();
             ViewBag.data = listaDifusion.ToList();
-            Console.Write("madremia");
-             /*
-          foreach (var a in listaDifusion)
-          {
-              Console.WriteLine(a);
-          }
 
-          var rep = listaDifusion;
-             ViewBag.Tipos = difusiones;
-             ViewBag.Contenido_Tipos = listaDifusion.ToList();
-             */
-
-
-            /*if (Session["UserID"] != null && Session["Type"].Equals("admin"))
+            /*Sacando el estado de los mensajes de la última difusión de tipo correo (3)*/
+            try
             {
-                ViewBag.UserId = Session["UserID"];
+                int maximaDifusion = difu.ListarDifusines().Where(x => x.Id_Tipo_Mensaje == 3).Where(x => x.Username == Session["Username"].ToString()).Select(x => x.Id_Difusion).Max();
+                string nombreDifusion = difu.BuscarDifusiones(maximaDifusion).Descripcion;
+                List<DATA.Historiales> listahistoriales = Mapper.Map<List<DATA.Historiales>>(his.ListarHistoriales().Where(x => x.Id_Difusion == maximaDifusion));
+                var historiales = listahistoriales.Select(x => x.Estado).Distinct();
 
-
-                //Grafico Pie Tipos de Productos 
-                List<DATA.Productos> listaProductos = prod.ListarProductos();
-                var producto = listaProductos.Select(x => x.Pdt_tipo).Distinct();
-
-                List<int> listaProducto = new List<int>();
-                foreach (var item in producto)
+                List<dataChart> listaHistoriales = new List<dataChart>();
+                foreach (var item in historiales)
                 {
-                    listaProducto.Add(listaProductos.Count(x => x.Pdt_tipo == item));
+                    listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
                 }
 
-                var rep = listaProducto;
-                ViewBag.Tipos = producto;
-                ViewBag.Contenido_Tipos = listaProducto.ToList();
-
-                // Gráfico de Pie Productos Por agricultor
-                List<DATA.Productos_Por_Agricultor> listaProductosPorAgricultor = prod_x_agr.ListarProductos_Por_Agricultor();
-                var producto_x_agricultor = listaProductosPorAgricultor.Select(x => x.Ppa_Id_Agricultor).Distinct();
-
-                List<int> listaProductoPorAgricultor = new List<int>();
-                foreach (var item in producto_x_agricultor)
-                {
-                    listaProductoPorAgricultor.Add(listaProductosPorAgricultor.Count(x => x.Ppa_Id_Agricultor == item));
-                }
-
-                var rep2 = listaProductoPorAgricultor;
-                ViewBag.Agricultores = producto_x_agricultor;
-                ViewBag.Contenido_Agricultores = listaProductoPorAgricultor.ToList();
-
-                // Gráfico de Pie Canastas por Usuario
-                List<DATA.Canastas> listaCanastas = can.ListarCanastas();
-                var canasta = listaCanastas.Select(x => x.Can_usuario).Distinct();
-
-                List<int> listaCanasta = new List<int>();
-                foreach (var item in canasta)
-                {
-                    listaCanasta.Add(listaCanastas.Count(x => x.Can_usuario == item));
-                }
-
-                var rep3 = listaCanasta;
-                ViewBag.Usuarios = canasta;
-                ViewBag.Contenido_Canasta = listaCanasta.ToList();
-
-                return View();
+                ViewBag.group3 = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data3 = listaHistoriales.ToList();
+                ViewBag.nombre3 = nombreDifusion;
+            }catch(Exception e)
+            {
+                ViewBag.group3  = null;
+                ViewBag.data3   = null;
+                ViewBag.nombre3 = null;
             }
-            else
-            {
-                return RedirectToAction("Index");
-            }*/
-
+            /*Termina el de tipo correo (3)*/
+            
             return View();
         }
 
