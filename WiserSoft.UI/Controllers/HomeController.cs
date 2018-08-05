@@ -52,14 +52,7 @@ namespace WiserSoft.UI.Controllers
                 Session["Username"] = datos.Username;
                 Session["Rol"] = datos.Id_rol;
 
-                if (datos.Id_rol == 1)
-                {
-                    return RedirectToAction("UserDashboard", "Home");
-                }
-                else
-                {
-                    return RedirectToAction("Index", "Administrador");
-                }
+                return RedirectToAction("UserDashboard", "Home");
 
             }
             else
@@ -136,7 +129,8 @@ namespace WiserSoft.UI.Controllers
                 ViewBag.nombre3 = null;
             }
             /*Termina el de tipo correo (3)*/
-            
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
