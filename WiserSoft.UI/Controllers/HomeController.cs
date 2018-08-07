@@ -27,6 +27,7 @@ namespace WiserSoft.UI.Controllers
         IDifusiones difu;
         IEstados est;
         IHistoriales his;
+        IReporteclientesactivos rep;
 
         public HomeController()
         {
@@ -35,6 +36,7 @@ namespace WiserSoft.UI.Controllers
             difu = new MDifusiones();
             est = new MEstados();
             his = new MHistoriales();
+            rep = new MReporteclientesactivos();
         }
         public ActionResult Index()
         {
@@ -83,11 +85,11 @@ namespace WiserSoft.UI.Controllers
             Console.WriteLine(listaDifusiones);
             var dif = Mapper.Map<List<Models.Difusiones>>(listaDifusiones);
 
-        
+
             foreach (Models.Difusiones a in dif)
-             {
-                  Console.WriteLine("Estado:"+a.Descripcion +" Cantidad:"+a.Id_Estado);
-                
+            {
+                Console.WriteLine("Estado:" + a.Descripcion + " Cantidad:" + a.Id_Estado);
+
             }
 
 
@@ -112,7 +114,7 @@ namespace WiserSoft.UI.Controllers
             {
                 ViewBag.cantidadDifu = 0;
                 ViewBag.group = null;
-                ViewBag.data  = null;
+                ViewBag.data = null;
             }
             /*Fin Grafico Pie Difusiones */
 
@@ -130,14 +132,14 @@ namespace WiserSoft.UI.Controllers
                     listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
                 }
 
-                ViewBag.group1  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
-                ViewBag.data1   = listaHistoriales.ToList();
+                ViewBag.group1 = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data1 = listaHistoriales.ToList();
                 ViewBag.nombre1 = nombreDifusion;
             }
             catch (Exception e)
             {
-                ViewBag.group1  = null;
-                ViewBag.data1   = null;
+                ViewBag.group1 = null;
+                ViewBag.data1 = null;
                 ViewBag.nombre1 = null;
             }
             /*Termina el de tipo texto (1)*/
@@ -155,14 +157,14 @@ namespace WiserSoft.UI.Controllers
                     listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
                 }
 
-                ViewBag.group2  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
-                ViewBag.data2   = listaHistoriales.ToList();
+                ViewBag.group2 = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data2 = listaHistoriales.ToList();
                 ViewBag.nombre2 = nombreDifusion;
             }
             catch (Exception e)
             {
-                ViewBag.group2  = null;
-                ViewBag.data2   = null;
+                ViewBag.group2 = null;
+                ViewBag.data2 = null;
                 ViewBag.nombre2 = null;
             }
             /*Termina el de tipo voz (2)*/
@@ -180,16 +182,53 @@ namespace WiserSoft.UI.Controllers
                     listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
                 }
 
-                ViewBag.group3  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
-                ViewBag.data3   = listaHistoriales.ToList();
+                ViewBag.group3 = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data3 = listaHistoriales.ToList();
                 ViewBag.nombre3 = nombreDifusion;
-            }catch(Exception e)
+            }
+            catch (Exception e)
             {
-                ViewBag.group3  = null;
-                ViewBag.data3   = null;
+                ViewBag.group3 = null;
+                ViewBag.data3 = null;
                 ViewBag.nombre3 = null;
             }
             /*Termina el de tipo correo (3)*/
+            /*Grafico 4 - Reporte Clientes Activos*/
+            try
+            {
+
+                int cantidadActivos = rep.ListarReporteclientesactivos(Session["Username"].ToString()).Count();
+
+                var lista = rep.ListarReporteclientesactivos(Session["Username"].ToString());
+                var reporte = Mapper.Map<List<Models.Reporteclientesactivos>>(lista.Where(x => x.Username == Session["Username"].ToString()));
+
+
+                foreach (Models.Reporteclientesactivos a in reporte)
+                {
+                    Console.WriteLine("Cliente:" + a.Nombre + " Cantidad:" + a.Cantidad);
+
+                }
+
+                List<DATA.Reporteclientesactivos> listareportes = rep.ListarReporteclientesactivos(Session["Username"].ToString());
+                var reporteslistados = listareportes.Select(x => x.Id_Contacto).Distinct();
+
+                List<dataChart> listaReporte = new List<dataChart>();
+                foreach (var item in reporteslistados)
+                {
+                    listaReporte.Add(new dataChart(rep.ListarReporteclientesactivos(Session["Username"].ToString()).Where(x => x.Id_Contacto == item).Select(x => x.Cantidad).First(),
+                        cont.ListarContactos().Where(x => x.Id_Contacto == item).Select(x => x.Nombre).First().ToString()));
+                }
+                ViewBag.group4 = cont.ListarContactos().Select(x => x.Nombre).Distinct();
+                ViewBag.data4 = listaReporte.ToList();
+                ViewBag.nombre4 = cantidadActivos;
+            }
+            catch (Exception e)
+            {
+                ViewBag.group4 = null;
+                ViewBag.data4 = null;
+                ViewBag.nombre4 = 0;
+            }
+            /*Fin de Grafico 4*/
 
             ViewBag.Rol = Session["Rol"].ToString();
             return View();
@@ -234,6 +273,6 @@ namespace WiserSoft.UI.Controllers
             return RedirectToAction("Index", "Home");
         }
 
-        
+
     }
 }

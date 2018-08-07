@@ -117,9 +117,20 @@
                     </div>
                 </div>
                 }
+                @if (ViewBag.nombre4 != null)
+                {
+                    <div class="col-lg-6">
+                        <div class="card">
+                            <div class="card-title">
+                                <h4><b>Reporte de Clientes Activos</b></h4>
+                            </div>
+                            <div class="card-content">
+                                <div id="basic-Pie4" style="height: 370px"></div>
+                            </div>
+                        </div>
+                    </div>
+                }
             </div>
-            
-
             
 
             <div class="col-lg-8">
@@ -403,5 +414,60 @@
             };
         });
 
+    </script>
+}
+
+@if (ViewBag.nombre4 != null)
+{
+    <script>
+    $(document).ready(function() {
+        
+        var dom = document.getElementById("basic-Pie4");
+        var bpChart = echarts.init(dom);
+
+        var datos4 = @Html.Raw(Json.Encode(ViewBag.data4));
+        var groups4 = @Html.Raw(Json.Encode(ViewBag.group4));
+
+        varas4 = []
+        @foreach (var item in ViewBag.data4) {
+            <text> varas4.push({ name: "@item.name", value:"@item.value"}) </text>
+        }
+
+        var app = {};
+        option = null;
+        option = {
+            color: ['#62549a','#4aa9e9', '#ff6c60','#eac459', '#25c3b2' ],
+            tooltip : {
+                trigger: 'item',
+                formatter: '{a} <br/>{b} : {c} ({d}%)'
+            },
+            legend: {
+                orient : 'vertical',
+                x : 'left',
+                data:groups4
+            },
+            calculable : true,
+            series : [
+                {
+                    name:'Source',
+                    type:'pie',
+                    radius : '55%',
+                    center: ['50%', '60%'],
+                    data:varas4
+                }
+            ]
+        };
+
+        if (option && typeof option === "object") {
+            bpChart.setOption(option, false);
+        }
+        
+        window.onresize = function () {
+
+            bpChart.resize();
+
+        };
+        
+    });
     </script>
 }
