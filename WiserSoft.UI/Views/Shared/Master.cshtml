@@ -112,6 +112,10 @@
                         <li class="nav-devider"></li>
                         <li class="nav-label">Menú</li>
                         <li> <a href="@Url.Action("UserDashboard", "Home")"><i class="fa fa-tachometer"></i><span class="">Dashboard</span></a></li>
+                        @if (ViewBag.Rol == "2")
+                        {
+                            <li> <a href="@Url.Action("Index", "Telefonos")"><i class="fa fa-phone-square"></i><span class="">Asignar números</span></a></li>
+                        }
                         <li> <a href="@Url.Action("Index", "Contactos")"><i class="fa fa-group"></i><span class="">Contactos</span></a></li>
                         <li> <a href="@Url.Action("Index", "Listas")"><i class="fa fa-tags"></i><span class="">Listas</span></a></li>
                         <li> <a href="@Url.Action("Index", "Mensajes")"><i class="fa fa-bold"></i><span class="">Creación de mensajes</span></a></li>

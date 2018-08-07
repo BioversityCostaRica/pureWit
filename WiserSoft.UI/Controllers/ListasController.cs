@@ -116,7 +116,7 @@ namespace WiserSoft.UI.Controllers
 
 
             ViewBag.userId = Session["Username"];
-            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
+            var lista = cont.ListarContactos2().Where(x => x.Username == Session["Username"].ToString());
             var listas = Mapper.Map<List<Models.Contactos>>(lista);
 
             return Json(listas, JsonRequestBehavior.AllowGet);

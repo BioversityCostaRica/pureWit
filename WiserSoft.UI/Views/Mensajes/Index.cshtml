@@ -10,7 +10,7 @@
     <div class="card-body">
         <div class="dataTables_filter">
             <span>
-                <a href="@Url.Action("Create")" class="btn btn-success">
+                <a title="Añadir nuevo mensaje" href="@Url.Action("Create")" class="btn btn-success">
                     <span class="fa fa-plus"></span>
                 </a>
             </span>
@@ -37,13 +37,13 @@
                             </td>
                             <td>
                                 <span>
-                                    <a href="@Url.Action("Edit", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-success">
+                                    <a title="Editar mensaje" href="@Url.Action("Edit", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-success">
                                         <span class="fa fa-edit"></span>
                                     </a>
                                 </span>
                                 |
                                 <span>
-                                    <a href="@Url.Action("Delete", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-danger btn-flat">
+                                    <a title="Borrar mensaje" href="@Url.Action("Delete", new { Id_Mensaje = item.Id_Mensaje})" class="btn btn-danger btn-flat">
                                         <span class="fa fa-trash"></span>
                                     </a>
                                 </span>
