@@ -6,7 +6,7 @@
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
-<div class="col-lg-12">
+<div class="col-lg-8">
     <div class="card card-outline-primary">
         <div class="card-header">
             <h4 class="m-b-0 text-white">Contactos</h4>
@@ -15,8 +15,8 @@
             <br />
             <!-- Nav tabs -->
             <ul class="nav nav-tabs customtab2" role="tablist">
-                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home7" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span> <span class="hidden-xs-down">Home</span></a> </li>
-                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile7" role="tab"><span class="hidden-sm-up"><i class="ti-user"></i></span> <span class="hidden-xs-down">Profile</span></a> </li>
+                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#home7" role="tab"><span class="hidden-sm-up"><i class="ti-home"></i></span><span class="hidden-xs-down">Contactos en Lista</span></a> </li>
+                <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#profile7" role="tab"><span class="hidden-sm-up"><i class="ti-user"></i></span> <span class="hidden-xs-down">Agregar Contactos</span></a> </li>
             </ul>
             <!-- Tab panes -->
             <div class="tab-content">
@@ -63,11 +63,12 @@
 
 <script>
     var ContactoA;
-
+    
     $(document).ready(function () {
 
         getPerfilesUsuarios();
         getPerfilesUsuarios1();
+        
 
         $('#tbContactosA tbody').on('click', 'tr', function () {
             ////debugger;
@@ -79,21 +80,17 @@
             var fila = table.row(this).data();
             ContactoA = fila.Id_Contacto;
             console.log("entrando...");
-            console.log(fila);
+            console.log(ContactoA);
       
              $.ajax({
                 url: '/Listas/Insertar',
                 type: 'POST',
                  data: { 'contacto': ContactoA, 'lista': prueba },
-                success: function (response) {
-                    console.log(response);
-                    if (response == -1) {
-                        Alert('Se inserto correctamente');
-
-                    }
-                    else {
-                        Alert('Error');
-                    }
+                 success: function (response) {
+                  
+                     alert("Se inserto correctamente");
+                     getPerfilesUsuarios1();
+                     getPerfilesUsuarios()
                 }
             });
 
@@ -116,14 +113,16 @@
                     columns: [
                         { "data": "Nombre" },
                         { "data": "Numero" }
-             
-                    ]
+
+                    ],
+                    
+                    "bDestroy": true
                 });
             }
         });
     }
 
-    function getPerfilesUsuarios1(t) {
+    function getPerfilesUsuarios1() {
 
         var prueba = @ViewBag.Lista
     
@@ -137,16 +136,18 @@
                     $('#tbContactosA').DataTable({
                         data: response,
                         columns: [
-                            { "data": "Id_Contacto" },
+                            { "data": "Id_Contacto", 'visible': false },
                             { "data": "Numero" },
                             { "data": "Nombre" },
                             { "data": "Detalle" },
                             { "data": "Correo" },
                            // { "defaultContent": "<button class='btn btn - primary' onclick='pruebita()'><i class='fa fa - trash'></i>Eliminar</button>" }
-                            { "defaultContent": "<button onclick='pruebita()' class= 'btn btn-success' > <i class='fa fa-save m-l - 10'></i> Agregar</button >" }
+                            { "defaultContent": "<button class= 'btn btn-success' > <i class='fa fa-save m-l - 10'></i> Agregar</button >" }
                            
 
-                        ]
+                        ],
+                       
+                        "bDestroy": true
                     //});
                 });
             }
