@@ -35,7 +35,13 @@
                                     @Html.DisplayFor(modelItem => item.Nombre)
                                 </td>
                                 <td>
-                                    <a title="Editar Contacto" href="@Url.Action("Mensajes", "Respuestas",new { Id_Contacto = item.Id_Contacto })" class="btn btn-success"><i class="fa fa-envelope-o"></i></a>
+                                    <a title="Editar Contacto" class="text-muted " href="@Url.Action("Mensajes", "Respuestas",new { Id_Contacto = item.Id_Contacto })">
+                                        <i class="fa fa-envelope btn btn-success"></i>
+                                        @if (item.lista_negra != "No")
+                                        {
+                                            <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div>
+                                        }
+                                    </a>
                                 </td>
                             </tr>
                         }

@@ -90,21 +90,82 @@ namespace WiserSoft.UI.Controllers
                 
             }
 
-           
 
-            //Grafico Pie Difusiones por estado *prueba Fer / Pri
-            List<DATA.Difusiones> listadifusiones = Mapper.Map<List<DATA.Difusiones>>(difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString()));
-             var difusiones = listadifusiones.Select(x => x.Id_Estado).Distinct();
 
-             List<dataChart> listaDifusion = new List<dataChart>();
-             foreach (var item in difusiones)
-             {
-                 listaDifusion.Add(new dataChart(Int32.Parse(listadifusiones.Count(x => x.Id_Estado == item).ToString()),est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
-             }
+            /*Grafico Pie Difusiones */
+            int cantidadDifu = difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString()).Count();
+            if (cantidadDifu > 0)
+            {
+                List<DATA.Difusiones> listadifusiones = Mapper.Map<List<DATA.Difusiones>>(difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString()));
+                var difusiones = listadifusiones.Select(x => x.Id_Estado).Distinct();
 
-            ViewBag.group = est.ListarEstados().Select(x => x.Descripcion).Distinct();
-            ViewBag.data = listaDifusion.ToList();
+                List<dataChart> listaDifusion = new List<dataChart>();
+                foreach (var item in difusiones)
+                {
+                    listaDifusion.Add(new dataChart(Int32.Parse(listadifusiones.Count(x => x.Id_Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
+                }
 
+                ViewBag.group = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data = listaDifusion.ToList();
+            }
+            else
+            {
+                ViewBag.cantidadDifu = 0;
+                ViewBag.group = null;
+                ViewBag.data  = null;
+            }
+            /*Fin Grafico Pie Difusiones */
+
+            /*Sacando el estado de los mensajes de la última difusión de tipo texto (1)*/
+            try
+            {
+                int maximaDifusion = difu.ListarDifusines().Where(x => x.Id_Tipo_Mensaje == 1).Where(x => x.Username == Session["Username"].ToString()).Select(x => x.Id_Difusion).Max();
+                string nombreDifusion = difu.BuscarDifusiones(maximaDifusion).Descripcion;
+                List<DATA.Historiales> listahistoriales = Mapper.Map<List<DATA.Historiales>>(his.ListarHistoriales().Where(x => x.Id_Difusion == maximaDifusion));
+                var historiales = listahistoriales.Select(x => x.Estado).Distinct();
+
+                List<dataChart> listaHistoriales = new List<dataChart>();
+                foreach (var item in historiales)
+                {
+                    listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
+                }
+
+                ViewBag.group1  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data1   = listaHistoriales.ToList();
+                ViewBag.nombre1 = nombreDifusion;
+            }
+            catch (Exception e)
+            {
+                ViewBag.group1  = null;
+                ViewBag.data1   = null;
+                ViewBag.nombre1 = null;
+            }
+            /*Termina el de tipo texto (1)*/
+            /*Sacando el estado de los mensajes de la última difusión de tipo voz (2)*/
+            try
+            {
+                int maximaDifusion = difu.ListarDifusines().Where(x => x.Id_Tipo_Mensaje == 2).Where(x => x.Username == Session["Username"].ToString()).Select(x => x.Id_Difusion).Max();
+                string nombreDifusion = difu.BuscarDifusiones(maximaDifusion).Descripcion;
+                List<DATA.Historiales> listahistoriales = Mapper.Map<List<DATA.Historiales>>(his.ListarHistoriales().Where(x => x.Id_Difusion == maximaDifusion));
+                var historiales = listahistoriales.Select(x => x.Estado).Distinct();
+
+                List<dataChart> listaHistoriales = new List<dataChart>();
+                foreach (var item in historiales)
+                {
+                    listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
+                }
+
+                ViewBag.group2  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data2   = listaHistoriales.ToList();
+                ViewBag.nombre2 = nombreDifusion;
+            }
+            catch (Exception e)
+            {
+                ViewBag.group2  = null;
+                ViewBag.data2   = null;
+                ViewBag.nombre2 = null;
+            }
+            /*Termina el de tipo voz (2)*/
             /*Sacando el estado de los mensajes de la última difusión de tipo correo (3)*/
             try
             {
@@ -119,8 +180,8 @@ namespace WiserSoft.UI.Controllers
                     listaHistoriales.Add(new dataChart(Int32.Parse(listahistoriales.Count(x => x.Estado == item).ToString()), est.ListarEstados().Where(x => x.Id == item).Select(x => x.Descripcion).First().ToString()));
                 }
 
-                ViewBag.group3 = est.ListarEstados().Select(x => x.Descripcion).Distinct();
-                ViewBag.data3 = listaHistoriales.ToList();
+                ViewBag.group3  = est.ListarEstados().Select(x => x.Descripcion).Distinct();
+                ViewBag.data3   = listaHistoriales.ToList();
                 ViewBag.nombre3 = nombreDifusion;
             }catch(Exception e)
             {

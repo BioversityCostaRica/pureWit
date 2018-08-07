@@ -29,11 +29,25 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Index()
         {
             ViewBag.userId = Session["Username"];
-
-            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
+            DATA.Telefonos telefono = new DATA.Telefonos();
+            telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
+            var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Select(x => x.Id_Contacto).Distinct();
+            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
             var contactos = Mapper.Map<List<Models.Contactos>>(lista);
 
-           
+            foreach (Models.Contactos a in contactos)
+            {
+                var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto== a.Id_Contacto).Where(x => x.Estado == 6).FirstOrDefault();
+                if (per != null)
+                {
+                    a.lista_negra = "Si";
+                }
+                else
+                {
+                    a.lista_negra = "No";
+                }
+
+            }
 
             return View(contactos);
         }
@@ -74,6 +88,15 @@ namespace WiserSoft.UI.Controllers
         {
             var lista = Rest.ListarComunicaciones().Where(x => x.Id_Contacto == Id_Contacto);
             var listas = Mapper.Map<List<Models.Respuestas>>(lista);
+
+            var comuni = com.ListarComunicaciones().Where(x => x.Id_Contacto == Id_Contacto).Where(x => x.Estado ==6);
+            
+            foreach (DATA.Comunicaciones con in comuni)
+            {
+                con.Estado = 5;
+                com.ActualizarComunicaciones(con);
+            }
+
             return Json(listas, JsonRequestBehavior.AllowGet);
 
         }

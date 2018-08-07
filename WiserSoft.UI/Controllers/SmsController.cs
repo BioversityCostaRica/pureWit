@@ -33,7 +33,7 @@ namespace WiserSoft.UI.Controllers
             comunicaciones.Id_Contacto = contacto.Id_Contacto;
             comunicaciones.Numero_Twilio = emisor.Replace("+","");
             comunicaciones.Mensaje = cuerpoDeRespuesta;
-            comunicaciones.Estado  = 5;
+            comunicaciones.Estado  = 6;
             comunicaciones.Fecha   = dateNow;
             com.InsertarComunicaciones(comunicaciones);
 

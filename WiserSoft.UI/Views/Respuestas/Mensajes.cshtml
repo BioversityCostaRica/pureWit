@@ -8,7 +8,7 @@
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
 
-<div class="col-lg-4">
+<div class="col-lg-6">
     <div class="card card-outline-primary">
         <div class="card-header">
             <h4 class="m-b-0 text-white">Mensajes</h4>
@@ -64,7 +64,7 @@
                         var year = nowDate.getFullYear();
                         var date1 = day + "/" + month + "/" + year;
                                   
-                        if (item.Estado == 5) {
+                        if (item.Estado == 5 || item.Estado == 6) {
 
                             $("#principal").append(
                                 "<div class='col - md - 3'>" +                

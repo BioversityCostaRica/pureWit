@@ -11,7 +11,7 @@
             <div class="card-body">
                 <br />
                 <div class="pull-right">
-                    <button type="submit" class="btn btn-success" onclick="location.href='@Url.Action("Create", "Listas")'"><i class="fa fa-plus m-l-10"></i></button>
+                    <button type="submit" class="btn btn-success" title="Añadir nueva Lista" onclick="location.href='@Url.Action("Create", "Listas")'"><i class="fa fa-plus m-l-10"></i></button>
                 </div>
                     <div class="table-responsive">
                         <table id="myTable" class="table table-bordered table-striped">
@@ -33,9 +33,9 @@
                                             @Html.DisplayFor(modelItem => item.Descripcion)
                                         </td>
                                         <td>
-                                            <a href="@Url.Action("Edit", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-success"><i class="fa fa-edit"></i></a> |
-                                            <a href="@Url.Action("Contactos", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-success"><i class="fa fa-group"></i></a> |
-                                            <a href="@Url.Action("Delete", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-danger"><i class="fa fa-trash"></i></a> |
+                                            <a title="Editar lista" href="@Url.Action("Edit", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-success"><i class="fa fa-edit"></i></a> |
+                                            <a title="Agregar contactos a la lista" href="@Url.Action("Contactos", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-success"><i class="fa fa-group"></i></a> |
+                                            <a title="Eliminar lista" href="@Url.Action("Delete", "Listas",new { Id_Lista = item.Id_Lista })" class="btn btn-danger"><i class="fa fa-trash"></i></a> 
                                         </td>
                                     </tr>
                                 }
