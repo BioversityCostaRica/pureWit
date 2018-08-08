@@ -67,7 +67,8 @@ namespace WiserSoft.UI.Controllers
             //Asigna la variable decriptada al objeto Password
             usuarioBuscar.Password = passwordDecriptado;
             usuarioBuscar.ConfirmaPassowrd = passwordDecriptado;
-           
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(usuarioBuscar);
          }
 
@@ -90,6 +91,7 @@ namespace WiserSoft.UI.Controllers
                     usuar.ActualizaUsuarios(usuariosEditar);
                     
                 }
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Profile");
             }
             catch (Exception)

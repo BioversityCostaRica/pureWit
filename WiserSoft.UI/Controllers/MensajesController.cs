@@ -61,7 +61,7 @@ namespace WiserSoft.UI.Controllers
             {
                 return RedirectToAction("Index", "Home");
             }
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(mensajeListar);
         }
         [HttpPost]
@@ -78,15 +78,11 @@ namespace WiserSoft.UI.Controllers
             {
                 ModelState.AddModelError("error", "No se ha podido insertar");
             }
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return Index();
         }
 
-        // GET: Mensajes/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+      
 
         // GET: Mensajes/Create
         public ActionResult Create()
@@ -108,6 +104,7 @@ namespace WiserSoft.UI.Controllers
 
             ViewBag.ListasTipoMensaje = selectTipoDifusion;
 
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -122,6 +119,7 @@ namespace WiserSoft.UI.Controllers
                 mensajes.Username = Session["Username"].ToString();
                 var mensajeInsertar = Mapper.Map<DATA.Mensajes>(mensajes);
                 mensaj.InsertarMensajes(mensajeInsertar);
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Index");
             }
             catch (Exception)
@@ -156,7 +154,7 @@ namespace WiserSoft.UI.Controllers
 
             ViewBag.ListasTipoMensaje = selectTipoDifusion;
 
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(mensajeBuscar);
         }
 
@@ -174,6 +172,8 @@ namespace WiserSoft.UI.Controllers
                 mensajes.Username = Session["Username"].ToString();
                 var mensajeEditar = Mapper.Map<DATA.Mensajes>(mensajes);
                 mensaj.ActualizaMensajes(mensajeEditar);
+
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Index");
             }
             catch
@@ -185,6 +185,7 @@ namespace WiserSoft.UI.Controllers
         // GET: Mensajes/Delete/5
         public ActionResult Delete(int id_Mensaje)
         {
+            ViewBag.Rol = Session["Rol"].ToString();
             mensaj.EliminarMnensajes(id_Mensaje);
             return RedirectToAction("Index");
         }

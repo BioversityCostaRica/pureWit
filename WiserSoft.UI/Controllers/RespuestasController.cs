@@ -48,7 +48,7 @@ namespace WiserSoft.UI.Controllers
                 }
 
             }
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(contactos);
         }
 
@@ -56,6 +56,7 @@ namespace WiserSoft.UI.Controllers
         {
             ViewBag.Contacto = Id_Contacto;
             ViewBag.prueba = Session["Username"];
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -80,6 +81,7 @@ namespace WiserSoft.UI.Controllers
 
             com.InsertarComunicaciones(Mapper.Map<DATA.Comunicaciones>(comunicaciones));
 
+            ViewBag.Rol = Session["Rol"].ToString();
             return RedirectToAction("Mensajes",new { Id_Contacto = comunicaciones.Id_Contacto });
         }
 
