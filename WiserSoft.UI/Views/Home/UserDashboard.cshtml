@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<WiserSoft.UI.Models.Contactos>
 @{
     ViewBag.Title = "Dashboard";
     Layout = "~/Views/Shared/Master.cshtml";
@@ -119,11 +119,11 @@
                 }
                 @if (ViewBag.nombre4 != null)
                 {
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="card">
                             <div class="card-title">
-                                <h4><b>Reporte de Clientes Activos</b></h4>
-                            </div>
+                                <h4><b>Reporte de Contactos más activos</b></h4>
+                              </div>
                             <div class="card-content">
                                 <div id="basic-Pie4" style="height: 370px"></div>
                             </div>
@@ -132,46 +132,52 @@
                 }
             </div>
             
-
-            <div class="col-lg-8">
-                <div class="table-responsive">
-                    <table id="example24" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Número
-                                </th>
-                                <th>
-                                    Nombre
-                                </th>
-                                <th>
-                                    Detalle
-                                </th>
-                                <th>
-                                    Correo
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    88998877
-                                </td>
-                                <td>
-                                    Priscilla
-                                </td>
-                                <td>
-                                    Gente
-                                </td>
-                                <td>
-                                    priizb@gmail.com
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-            
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-title">
+                        <h4><b>Listado Contactos</b></h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="table-responsive">
+                            <table id="example24" class="display nowrap table table-hover table-striped table-bordered" cellspacing="0" width="100%">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Nombre
+                                        </th>
+                                        <th>
+                                            Número
+                                        </th>
+                                        <th>
+                                            Detalle
+                                        </th>
+                                        <th>
+                                            Correo
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach( var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                               @Html.DisplayFor(modelItem => item.Nombre)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Numero)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Detalle)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Correo)
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
         </div>
     </div>
 </div>

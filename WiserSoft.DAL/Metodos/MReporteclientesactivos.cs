@@ -29,10 +29,10 @@ namespace WiserSoft.DAL.Metodos
         }
 
        
-        public List<Reporteclientesactivos> ListarReporteclientesactivos(string username)
+        public List<Reporteclientesactivos> ListarReporteclientesactivos()
         {
             _db = _conexion.Open();
-            return _db.Select<Reporteclientesactivos>(x => x.Username == username);
+            return _db.Select<Reporteclientesactivos>();
         }
     }
 }
