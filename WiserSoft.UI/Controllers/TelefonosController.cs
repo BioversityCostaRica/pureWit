@@ -24,6 +24,7 @@ namespace WiserSoft.UI.Controllers
         {
             var listaTelefonos = telef.ListarTelefonos();
             var telefonosListar = Mapper.Map<List<Models.Telefonos>>(listaTelefonos);
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(telefonosListar);
         }
 
@@ -37,6 +38,7 @@ namespace WiserSoft.UI.Controllers
                 {
                     var telefonosInsertar = Mapper.Map<DATA.Telefonos>(telefonos);
                     telef.InsertarTelefonos(telefonosInsertar);
+                    ViewBag.Rol = Session["Rol"].ToString();
                     return RedirectToAction("Index", "Home");
                 }
             }
@@ -47,11 +49,7 @@ namespace WiserSoft.UI.Controllers
             return View();
         }
 
-        // GET: Telefonos/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+      
 
         // GET: Telefonos/Create
         public ActionResult Create()
@@ -72,6 +70,7 @@ namespace WiserSoft.UI.Controllers
 
             ViewBag.ListasUsername = selectUsuario;
 
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -89,6 +88,8 @@ namespace WiserSoft.UI.Controllers
                 telefonos.Username = Session["Username"].ToString();
                 var telefonosInsertar = Mapper.Map<DATA.Telefonos>(telefonos);
                 telef.InsertarTelefonos(telefonosInsertar);
+
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Index");
             }
             catch (Exception)
@@ -103,6 +104,8 @@ namespace WiserSoft.UI.Controllers
             var telefono = telef.BuscarTelefonos(numero);
 
             var telefonoBuscar = Mapper.Map<Models.Telefonos>(telefono);
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(telefonoBuscar);
         }
 
@@ -120,6 +123,7 @@ namespace WiserSoft.UI.Controllers
                 var telefonoEditar = Mapper.Map<DATA.Telefonos>(telefonos);
                 //telefonos.Username = Session["Username"].ToString();
                 telef.ActualizaTelefonos(telefonoEditar);
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Index");
             }
             catch
@@ -131,24 +135,10 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos/Delete/5
         public ActionResult Delete(string numero)
         {
+            ViewBag.Rol = Session["Rol"].ToString();
             telef.EliminarTelefonos(numero);
             return RedirectToAction("Index");
         }
-
-        // POST: Telefonos/Delete/5
-        /* [HttpPost]
-         public ActionResult Delete(int id, FormCollection collection)
-         {
-             try
-             {
-                 // TODO: Add delete logic here
-
-                 return RedirectToAction("Index");
-             }
-             catch
-             {
-                 return View();
-             }
-         }*/
+        
     }
 }

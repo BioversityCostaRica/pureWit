@@ -47,15 +47,15 @@ namespace WiserSoft.UI.Controllers
                 }
                 
             }
-            
-           
 
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(contactos);
         }
         
         public ActionResult Create()
         {
             ViewBag.userId = Session["Username"];
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -79,7 +79,7 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("error", "No se ha podido insertar");
                 return RedirectToAction("Index");
             }
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -89,6 +89,8 @@ namespace WiserSoft.UI.Controllers
            
             var contacto = cont.BuscarContactos(Id_Contacto);
             var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(contactoBuscar);
         }
 
@@ -106,6 +108,7 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Delete(int id_contacto)
         {
             cont.EliminarContactos(id_contacto);
+            ViewBag.Rol = Session["Rol"].ToString();
             return RedirectToAction("Index");
         }
 
@@ -144,8 +147,8 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("error", "Ha ocurrido un error");
                 return RedirectToAction("Index");
             }
-            
-           
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return RedirectToAction("Index");
 
 

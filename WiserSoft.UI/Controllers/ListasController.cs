@@ -31,12 +31,15 @@ namespace WiserSoft.UI.Controllers
 
             var lista = list.ListarListas().Where(x => x.Username == Session["Username"].ToString());
             var listas = Mapper.Map<List<Models.Listas>>(lista);
+
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(listas);
         }
 
         public ActionResult Create()
         {
             ViewBag.userId = Session["Username"];
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -58,7 +61,7 @@ namespace WiserSoft.UI.Controllers
                 ModelState.AddModelError("error", "No se ha podido insertar");
                 return RedirectToAction("Index");
             }
-
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
@@ -66,6 +69,7 @@ namespace WiserSoft.UI.Controllers
         {
             var lista = list.BuscarListas(id_lista);
             var listaBuscar = Mapper.Map<Models.Listas>(lista);
+            ViewBag.Rol = Session["Rol"].ToString();
             return View(listaBuscar);
         }
 
@@ -94,6 +98,7 @@ namespace WiserSoft.UI.Controllers
             try
             {
                 list.EliminarLista(id_lista);
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Index");
             }
             catch (Exception)
@@ -107,6 +112,7 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Contactos(int id_lista)
         {
             ViewBag.Lista = id_lista;
+            ViewBag.Rol = Session["Rol"].ToString();
             return View("Contactos");
         }
 
@@ -140,7 +146,8 @@ namespace WiserSoft.UI.Controllers
 
                     var contactolistaInsertar = Mapper.Map<DATA.Contactos_Por_Listas>(datos);
                     contL.InsertarContactos_Por_Listas(contactolistaInsertar);
-                 
+
+                    ViewBag.Rol = Session["Rol"].ToString();
                     return RedirectToAction("Index");
                     
                 }
@@ -148,6 +155,7 @@ namespace WiserSoft.UI.Controllers
             catch (Exception)
             {
                 ModelState.AddModelError("error", "No se ha podido insertar");
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Contactos");
             }
 
@@ -165,6 +173,7 @@ namespace WiserSoft.UI.Controllers
             catch (Exception)
             {
                 ModelState.AddModelError("error", "No se ha podido eliminar");
+                ViewBag.Rol = Session["Rol"].ToString();
                 return RedirectToAction("Contactos");
             }
 

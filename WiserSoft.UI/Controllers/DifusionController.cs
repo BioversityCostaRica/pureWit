@@ -104,6 +104,7 @@ namespace WiserSoft.UI.Controllers
                 return RedirectToAction("Index", "Home");
             }
 
+            ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
 
