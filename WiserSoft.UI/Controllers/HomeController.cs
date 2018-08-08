@@ -199,7 +199,7 @@ namespace WiserSoft.UI.Controllers
                     ViewBag.nombre3 = null;
                 }
                 /*Termina el de tipo correo (3)*/
-            
+
                 /*Grafico 4 - Reporte Clientes Activos*/
                 try
                 {
@@ -251,7 +251,7 @@ namespace WiserSoft.UI.Controllers
                 }
 
             }
-            else 
+            else
             if (Session["Rol"].ToString() == "1")
             {
                 contactos = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Count();
@@ -299,7 +299,7 @@ namespace WiserSoft.UI.Controllers
                     ViewBag.data = null;
                 }
                 /*Fin Grafico Pie Difusiones */
-                
+
                 /*Sacando el estado de los mensajes de la última difusión de tipo texto (1)*/
                 try
                 {
@@ -427,50 +427,51 @@ namespace WiserSoft.UI.Controllers
                 {
                     ModelState.AddModelError("error", "No se ha podido mostrar la tabla");
                 }
-           
-
+                
+                
+            }
             ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
-
-        public ActionResult ClientDashboard()
-        {
-            return View();
-            /*if (Session["UserID"] != null && Session["Type"].Equals("cliente"))
+            public ActionResult ClientDashboard()
             {
-                ViewBag.UserId = Session["UserID"];
+                return View();
+                /*if (Session["UserID"] != null && Session["Type"].Equals("cliente"))
+                {
+                    ViewBag.UserId = Session["UserID"];
+
+                    return View();
+                }
+                else
+                {
+                    return RedirectToAction("Index");
+                }*/
+            }
+
+
+
+            public ActionResult About()
+            {
+                ViewBag.Message = "Your application description page.";
 
                 return View();
             }
-            else
+
+            public ActionResult Contact()
             {
-                return RedirectToAction("Index");
-            }*/
+                //ViewBag.Message = "Your contact page.";
+
+                return View();
+            }
+
+            public ActionResult Logout()
+            {
+                Session.Abandon();
+                Session.Clear();
+                return RedirectToAction("Index", "Home");
+            }
+
+
         }
-
-
-
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            //ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
-
-        public ActionResult Logout()
-        {
-            Session.Abandon();
-            Session.Clear();
-            return RedirectToAction("Index", "Home");
-        }
-
-
     }
 }
