@@ -100,5 +100,28 @@ namespace WiserSoft.UI.Controllers
             return Json(listas, JsonRequestBehavior.AllowGet);
 
         }
+
+        [HttpGet]
+        public JsonResult ListarRecibidos()
+        {
+
+            ViewBag.userId = Session["Username"];
+            DATA.Telefonos telefono = new DATA.Telefonos();
+            telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
+            var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Estado == 6).Select(x => x.Id_Contacto).Distinct();
+            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
+            var contactos = Mapper.Map<List<Models.Contactos>>(lista);
+
+            foreach (Models.Contactos a in contactos)
+            {
+                var max = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Select(x => x.Fecha).Max();
+                var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Where(x=> x.Fecha == max).FirstOrDefault();
+                
+                    a.Detalle     = per.Mensaje;
+                    a.lista_negra = per.Fecha.ToString();
+            }
+
+            return Json(contactos, JsonRequestBehavior.AllowGet);
+        }
     }
 }
