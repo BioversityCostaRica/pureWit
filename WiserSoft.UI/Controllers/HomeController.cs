@@ -199,7 +199,7 @@ namespace WiserSoft.UI.Controllers
                     ViewBag.nombre3 = null;
                 }
                 /*Termina el de tipo correo (3)*/
-
+            
                 /*Grafico 4 - Reporte Clientes Activos*/
                 try
                 {
@@ -249,6 +249,7 @@ namespace WiserSoft.UI.Controllers
                 {
                     ModelState.AddModelError("error", "No se ha podido mostrar la tabla");
                 }
+
             }
             else 
             if (Session["Rol"].ToString() == "1")
@@ -275,8 +276,6 @@ namespace WiserSoft.UI.Controllers
                     Console.WriteLine("Estado:" + a.Descripcion + " Cantidad:" + a.Id_Estado);
 
                 }
-
-
                 /*Grafico Pie Difusiones */
                 int cantidadDifu = difu.ListarDifusines().Where(x => x.Username == Session["Username"].ToString()).Count();
                 if (cantidadDifu > 0)
@@ -300,7 +299,7 @@ namespace WiserSoft.UI.Controllers
                     ViewBag.data = null;
                 }
                 /*Fin Grafico Pie Difusiones */
-
+                
                 /*Sacando el estado de los mensajes de la última difusión de tipo texto (1)*/
                 try
                 {
@@ -351,6 +350,8 @@ namespace WiserSoft.UI.Controllers
                     ViewBag.nombre2 = null;
                 }
                 /*Termina el de tipo voz (2)*/
+
+
                 /*Sacando el estado de los mensajes de la última difusión de tipo correo (3)*/
                 try
                 {
@@ -426,9 +427,7 @@ namespace WiserSoft.UI.Controllers
                 {
                     ModelState.AddModelError("error", "No se ha podido mostrar la tabla");
                 }
-            }
-
-
+           
 
             ViewBag.Rol = Session["Rol"].ToString();
             return View();
