@@ -54,7 +54,7 @@ namespace WiserSoft.DAL.Metodos
         public List<ContactosListas> ListarC()
         {
             _db = _conexion.Open();
-            var results = _db.Select<ContactosListas>(@"SELECT l.Id_Lista ,Nombre, Numero FROM Contactos C, Contactos_Por_Listas l where C.Id_Contacto = l.Id_Contacto");
+            var results = _db.Select<ContactosListas>(@"SELECT l.Id_Lista ,Nombre, C.Numero FROM Contactos C, Contactos_Por_Listas l where C.Id_Contacto = l.Id_Contacto");
 
             return results;
         }

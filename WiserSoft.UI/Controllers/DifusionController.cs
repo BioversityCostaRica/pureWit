@@ -27,7 +27,7 @@ namespace WiserSoft.UI.Controllers
         IContactos_Por_Lista conList;
         IContactos con;
         IHistoriales his;
-        public string link = "http://702761d1.ngrok.io";
+        public string link = "http://2b1563d1.ngrok.io";
         IUsuarios use;
         ILista_Negra listNegra;
 
