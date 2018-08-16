@@ -52,10 +52,10 @@ namespace WiserSoft.DAL.Metodos
             return _db.Select<Contactos>();
         }
 
-        public List<Contactos> ListarContactos2()
+        public List<Contactos> ListarContactos2(int lista)
         {
             _db = _conexion.Open();
-            return _db.Select<Contactos>(@"select * from Contactos where Id_Contacto not in (select Id_Contacto from Contactos_Por_Listas)");
+            return _db.Select<Contactos>(@"select * from Contactos where  Id_Contacto not in (select Id_Contacto from Contactos_Por_Listas where Id_Lista = "+ lista + ")");
         }
     }
 }

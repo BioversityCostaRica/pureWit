@@ -28,28 +28,38 @@ namespace WiserSoft.UI.Controllers
 
         public ActionResult Index()
         {
-            ViewBag.userId = Session["Username"];
-            DATA.Telefonos telefono = new DATA.Telefonos();
-            telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
-            var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Select(x => x.Id_Contacto).Distinct();
-            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
-            var contactos = Mapper.Map<List<Models.Contactos>>(lista);
-
-            foreach (Models.Contactos a in contactos)
-            {
-                var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto== a.Id_Contacto).Where(x => x.Estado == 6).FirstOrDefault();
-                if (per != null)
-                {
-                    a.lista_negra = "Si";
-                }
-                else
-                {
-                    a.lista_negra = "No";
-                }
-
-            }
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(contactos);
+            try
+            {
+                ViewBag.userId = Session["Username"];
+                DATA.Telefonos telefono = new DATA.Telefonos();
+                telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
+                var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Select(x => x.Id_Contacto).Distinct();
+                var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
+                var contactos = Mapper.Map<List<Models.Contactos>>(lista);
+
+                foreach (Models.Contactos a in contactos)
+                {
+                    var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Where(x => x.Estado == 6).FirstOrDefault();
+                    if (per != null)
+                    {
+                        a.lista_negra = "Si";
+                    }
+                    else
+                    {
+                        a.lista_negra = "No";
+                    }
+
+                }
+                
+                return View(contactos);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+            
         }
 
         public ActionResult Mensajes(int Id_Contacto)
@@ -63,26 +73,37 @@ namespace WiserSoft.UI.Controllers
         [HttpPost]
         public ActionResult Mensajes(Models.Comunicaciones comunicaciones)
         {
-            DATA.Telefonos telefono = new DATA.Telefonos();
-            telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
-            var dateNow = DateTime.Now;
-            comunicaciones.Fecha = dateNow;
-            comunicaciones.Estado = 4;
-            comunicaciones.Numero_Twilio = telefono.Numero;
-            DATA.Contactos contacto = new DATA.Contactos();
-            contacto = cont.BuscarContactos(comunicaciones.Id_Contacto);
-
-            TwilioClient.Init(telefono.Account_Id, telefono.Authtoken);
-            var message = MessageResource.Create(
-                body: comunicaciones.Mensaje,
-                from: new Twilio.Types.PhoneNumber("+" + telefono.Numero),
-                to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
-            );
-
-            com.InsertarComunicaciones(Mapper.Map<DATA.Comunicaciones>(comunicaciones));
-
             ViewBag.Rol = Session["Rol"].ToString();
-            return RedirectToAction("Mensajes",new { Id_Contacto = comunicaciones.Id_Contacto });
+
+            try
+            {
+                DATA.Telefonos telefono = new DATA.Telefonos();
+                telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
+                var dateNow = DateTime.Now;
+                comunicaciones.Fecha = dateNow;
+                comunicaciones.Estado = 4;
+                comunicaciones.Numero_Twilio = telefono.Numero;
+                DATA.Contactos contacto = new DATA.Contactos();
+                contacto = cont.BuscarContactos(comunicaciones.Id_Contacto);
+
+                TwilioClient.Init(telefono.Account_Id, telefono.Authtoken);
+                var message = MessageResource.Create(
+                    body: comunicaciones.Mensaje,
+                    from: new Twilio.Types.PhoneNumber("+" + telefono.Numero),
+                    to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
+                );
+
+                com.InsertarComunicaciones(Mapper.Map<DATA.Comunicaciones>(comunicaciones));
+
+               
+                return RedirectToAction("Mensajes", new { Id_Contacto = comunicaciones.Id_Contacto });
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return RedirectToAction("Mensajes");
+            }
+            
         }
 
         [HttpGet]
@@ -106,23 +127,23 @@ namespace WiserSoft.UI.Controllers
         [HttpGet]
         public JsonResult ListarRecibidos()
         {
+        
+                ViewBag.userId = Session["Username"];
+                DATA.Telefonos telefono = new DATA.Telefonos();
+                telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
+                var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Estado == 6).Select(x => x.Id_Contacto).Distinct();
+                var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
+                var contactos = Mapper.Map<List<Models.Contactos>>(lista);
 
-            ViewBag.userId = Session["Username"];
-            DATA.Telefonos telefono = new DATA.Telefonos();
-            telefono = tel.ListarTelefonos().Where(x => x.Username == Session["Username"].ToString()).FirstOrDefault();
-            var personasConComunicacion = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Estado == 6).Select(x => x.Id_Contacto).Distinct();
-            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString()).Where(x => personasConComunicacion.Contains(x.Id_Contacto));
-            var contactos = Mapper.Map<List<Models.Contactos>>(lista);
+                foreach (Models.Contactos a in contactos)
+                {
+                    var max = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Select(x => x.Fecha).Max();
+                    var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Where(x => x.Fecha == max).FirstOrDefault();
 
-            foreach (Models.Contactos a in contactos)
-            {
-                var max = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Select(x => x.Fecha).Max();
-                var per = com.ListarComunicaciones().Where(x => x.Numero_Twilio == telefono.Numero).Where(x => x.Id_Contacto == a.Id_Contacto).Where(x=> x.Fecha == max).FirstOrDefault();
-                
-                    a.Detalle     = per.Mensaje;
+                    a.Detalle = per.Mensaje;
                     a.lista_negra = per.Fecha.ToString();
-            }
-
+               
+                }
             return Json(contactos, JsonRequestBehavior.AllowGet);
         }
     }
