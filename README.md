@@ -32,7 +32,7 @@ public string link = "http://[identificador].ngrok.io";
 - [Obtenga](https://www.twilio.com/console/phone-numbers/incoming) un número de Twilio para poder asignarlo a su usuario.
 - Una vez que se obtiene el número de click sobre el mismo.
 <div align="center">
-  <img src="https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiZ-pPEyvDcAhVlzlkKHTCAASQQjRx6BAgBEAU&url=%2Furl%3Fsa%3Di%26rct%3Dj%26q%3D%26esrc%3Ds%26source%3Dimages%26cd%3D%26cad%3Drja%26uact%3D8%26ved%3D2ahUKEwiZ-pPEyvDcAhVlzlkKHTCAASQQjRx6BAgBEAU%26url%3D%252Furl%253Fsa%253Di%2526rct%253Dj%2526q%253D%2526esrc%253Ds%2526source%253Dimages%2526cd%253D%2526cad%253Drja%2526uact%253D8%2526ved%253D%2526url%253Dhttps%25253A%25252F%25252Fwww.twilio.com%25252Fdocs%25252Fsms%25252Ftutorials%25252Fhow-to-send-sms-messages-c%2526psig%253DAOvVaw1ij3BTfckV5vFbG3moGlrd%2526ust%253D1534474862093251%26psig%3DAOvVaw1ij3BTfckV5vFbG3moGlrd%26ust%3D1534474862093251&psig=AOvVaw1ij3BTfckV5vFbG3moGlrd&ust=1534474862093251"><br><br>
+  <img src="https://s3.amazonaws.com/com.twilio.prod.twilio-docs/images/phone_number_list.width-800.jpg"><br><br>
 </div>
 
 - En la sección de "Messaging" y luego "A message comes in" debe de cambiar el link por default que tiene Twilio y usar el generado con ngrok:
