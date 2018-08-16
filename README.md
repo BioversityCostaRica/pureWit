@@ -7,7 +7,7 @@ Desarrollo de plataforma virtual para el lanzamiento de mensajes SMS y llamadas 
 Implementar una plataforma web que permita la comunicación directa con usuarios mediante uso de mensajes de texto y llamadas utilizando
 conexiones móviles.
 
-## Empezando
+## Pre - Requisitos
 
 ### Ngrok
 - Descargue la aplicación [ngrok](https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip).
@@ -45,7 +45,19 @@ http://[identificador].ngrok.io/Sms;
 
 - Por ser una versión de prueba, usted deberá [verificar](https://www.twilio.com/console/phone-numbers/verified) los números a los que desea mandar mensajes. 
 
-
+## Construir con:
+- Visual estudio
+```
+- Visual Studio 2015.
+- Visual Studio 2016.
+```
+- MySql
+```
+- MySQL 5.0
+- MySQL 5.1
+- MySQL 5.2
+- MySQL 5.3
+```
 ## Autores
 
 * **Priscilla Bravo** - *Desarrollador de software* 
