@@ -57,19 +57,29 @@ namespace WiserSoft.UI.Controllers
 
          public ActionResult Profile()
          {
-            string username = ViewBag.userId = Session["Username"];
-
-             var lista = usuar.BuscarUsuarios(username);
-             var usuarioBuscar = Mapper.Map<Models.Usuarios>(lista);
-
-            //Decripta el password
-            var passwordDecriptado = Encriptacion.Encriptacion.Decriptar(usuarioBuscar.Password);
-            //Asigna la variable decriptada al objeto Password
-            usuarioBuscar.Password = passwordDecriptado;
-            usuarioBuscar.ConfirmaPassowrd = passwordDecriptado;
 
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(usuarioBuscar);
+            try
+            {
+                string username = ViewBag.userId = Session["Username"];
+
+                var lista = usuar.BuscarUsuarios(username);
+                var usuarioBuscar = Mapper.Map<Models.Usuarios>(lista);
+
+                //Decripta el password
+                var passwordDecriptado = Encriptacion.Encriptacion.Decriptar(usuarioBuscar.Password);
+                //Asigna la variable decriptada al objeto Password
+                usuarioBuscar.Password = passwordDecriptado;
+                usuarioBuscar.ConfirmaPassowrd = passwordDecriptado;
+
+                return View(usuarioBuscar);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+            
          }
 
         [HttpPost]

@@ -46,66 +46,76 @@ namespace WiserSoft.UI.Controllers
         }
         public ActionResult Index()
         {
-            if (Session["Username"] != null)
+            try
             {
-                /*********************************CREAR*ENVIOS***********************************************/
-                List<DATA.Listas> listas = list.ListarListas();
-                List<DATA.Tipo_Difusiones> tipoDifusiones = tipDif.ListarTipoDifusiones();
-                List<DATA.Mensajes> mensajes = mens.ListarMensajes();
-                var listasDelUsuario = Mapper.Map<List<Models.Listas>>(listas.Where(x => x.Username == Session["Username"].ToString()));
-                var listaDeTipos = Mapper.Map<List<Models.Tipo_Difusiones>>(tipoDifusiones);
-                var listaMensajes = Mapper.Map<List<Models.Mensajes>>(mensajes.Where(x => x.Username == Session["Username"].ToString()));
-                
-                IEnumerable<SelectListItem> selectListas =
-                from l in listasDelUsuario
-                select new SelectListItem
+                if (Session["Username"] != null)
                 {
-                    Text = l.Nombre,
-                    Value = l.Id_Lista.ToString()
-                };
+                    /*********************************CREAR*ENVIOS***********************************************/
+                    List<DATA.Listas> listas = list.ListarListas();
+                    List<DATA.Tipo_Difusiones> tipoDifusiones = tipDif.ListarTipoDifusiones();
+                    List<DATA.Mensajes> mensajes = mens.ListarMensajes();
+                    var listasDelUsuario = Mapper.Map<List<Models.Listas>>(listas.Where(x => x.Username == Session["Username"].ToString()));
+                    var listaDeTipos = Mapper.Map<List<Models.Tipo_Difusiones>>(tipoDifusiones);
+                    var listaMensajes = Mapper.Map<List<Models.Mensajes>>(mensajes.Where(x => x.Username == Session["Username"].ToString()));
 
-                ViewBag.Listas = selectListas;
+                    IEnumerable<SelectListItem> selectListas =
+                    from l in listasDelUsuario
+                    select new SelectListItem
+                    {
+                        Text = l.Nombre,
+                        Value = l.Id_Lista.ToString()
+                    };
 
-                IEnumerable<SelectListItem> selectTipoDifusion =
-                from t in listaDeTipos
-                select new SelectListItem
+                    ViewBag.Listas = selectListas;
+
+                    IEnumerable<SelectListItem> selectTipoDifusion =
+                    from t in listaDeTipos
+                    select new SelectListItem
+                    {
+                        Text = t.Descripcion,
+                        Value = t.Id.ToString()
+                    };
+
+                    ViewBag.ListasTipoDifusion = selectTipoDifusion;
+
+                    IEnumerable<SelectListItem> selectMensajes =
+                    from m in listaMensajes
+                    select new SelectListItem
+                    {
+                        Text = m.Cuerpo_Mensaje,
+                        Value = m.Id_Mensaje.ToString()
+                    };
+
+                    ViewBag.ListaMensajes = selectMensajes;
+
+                    /*********************************MOSTRAR*ENVIOS***********************************************/
+
+                    var listaDeDifusiones = dif.ListarDifusines().Where(x => x.Username == Session["Username"].ToString());
+                    List<Models.Difusiones> difusiones = Mapper.Map<List<Models.Difusiones>>(listaDeDifusiones);
+                    foreach (Models.Difusiones dfs in difusiones)
+                    {
+                        var varas = tipDif.ListarTipoDifusiones().Where(x => x.Id == dfs.Id_Tipo_Mensaje).FirstOrDefault();
+                        dfs.Des_tipo_Mensaje = varas.Descripcion;
+                    }
+
+
+                    ViewBag.ListaDeDifusiones = difusiones;
+                }
+                else
                 {
-                    Text = t.Descripcion,
-                    Value = t.Id.ToString()
-                };
-
-                ViewBag.ListasTipoDifusion = selectTipoDifusion;
-
-                IEnumerable<SelectListItem> selectMensajes =
-                from m in listaMensajes
-                select new SelectListItem
-                {
-                    Text = m.Cuerpo_Mensaje,
-                    Value = m.Id_Mensaje.ToString()
-                };
-
-                ViewBag.ListaMensajes = selectMensajes;
-
-                /*********************************MOSTRAR*ENVIOS***********************************************/
-
-                var listaDeDifusiones = dif.ListarDifusines().Where(x => x.Username == Session["Username"].ToString());
-                List<Models.Difusiones> difusiones = Mapper.Map<List<Models.Difusiones>>(listaDeDifusiones);
-                foreach(Models.Difusiones dfs in difusiones)
-                {
-                    var varas = tipDif.ListarTipoDifusiones().Where(x => x.Id == dfs.Id_Tipo_Mensaje).FirstOrDefault();
-                    dfs.Des_tipo_Mensaje = varas.Descripcion;
+                    return RedirectToAction("Index", "Home");
                 }
 
-
-                ViewBag.ListaDeDifusiones = difusiones;
+                ViewBag.Rol = Session["Rol"].ToString();
+                return View();
             }
-            else
+            catch (Exception ex)
             {
-                return RedirectToAction("Index", "Home");
+                ViewBag.Rol = Session["Rol"].ToString();
+                ViewBag.Mensaje = ex.Message;
+                return View();
             }
-
-            ViewBag.Rol = Session["Rol"].ToString();
-            return View();
+            
         }
 
         [HttpPost]
@@ -191,116 +201,123 @@ namespace WiserSoft.UI.Controllers
             
         public void enviarMensajes(string UserPhone, string accountSid, string authToken, string mensaje, int idLista, DATA.Difusiones difusion, string correoUsuario ,string passwordCorreo)
         {
-            difusion.Id_Estado = 2;
-            dif.ActualizarDifusiones(difusion);
-
-            List<DATA.Lista_Negra> listaNegra = listNegra.ListarListaNegra();
-            var lista_Negra = Mapper.Map<List<Models.Lista_Negra>>(listaNegra);
-
-            TwilioClient.Init(accountSid, authToken);
-
-             var contactos = conList.Listar().Where(x => x.Id_Lista == idLista);
-            
-            foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
+            try
             {
-            
-                var noEnviar = lista_Negra.Where(x => x.Id_Contacto == infoContacto.Id_contacto).FirstOrDefault();
-                if (noEnviar == null)
+                difusion.Id_Estado = 2;
+                dif.ActualizarDifusiones(difusion);
+
+                List<DATA.Lista_Negra> listaNegra = listNegra.ListarListaNegra();
+                var lista_Negra = Mapper.Map<List<Models.Lista_Negra>>(listaNegra);
+
+                TwilioClient.Init(accountSid, authToken);
+
+                var contactos = conList.Listar().Where(x => x.Id_Lista == idLista);
+
+                foreach (DATA.Contactos_Por_Listas infoContacto in contactos)
                 {
-                    Console.WriteLine("no esta en lista naegra: " + infoContacto.Id_contacto);
-                    DATA.Contactos contacto = con.BuscarContactos(infoContacto.Id_contacto);
-                    DATA.Historiales historial = new DATA.Historiales();
-                    historial.Id_Difusion = difusion.Id_Difusion;
-                    historial.Id_Contacto = contacto.Id_Contacto;
 
-                    if (difusion.Id_Tipo_Mensaje == 1)
+                    var noEnviar = lista_Negra.Where(x => x.Id_Contacto == infoContacto.Id_contacto).FirstOrDefault();
+                    if (noEnviar == null)
                     {
-                        var message = MessageResource.Create(
-                            body: mensaje,
-                            from: new Twilio.Types.PhoneNumber("+" + UserPhone),
-                            statusCallback: new Uri(link + "/MessageStatus"),
-                            to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
-                        );
+                        Console.WriteLine("no esta en lista naegra: " + infoContacto.Id_contacto);
+                        DATA.Contactos contacto = con.BuscarContactos(infoContacto.Id_contacto);
+                        DATA.Historiales historial = new DATA.Historiales();
+                        historial.Id_Difusion = difusion.Id_Difusion;
+                        historial.Id_Contacto = contacto.Id_Contacto;
 
-                        historial.Id_Message = message.Sid;
-                        historial.Estado = 6;
-
-                    }
-                    else
-                    {
-                        if (difusion.Id_Tipo_Mensaje == 2)
+                        if (difusion.Id_Tipo_Mensaje == 1)
                         {
-                            Debug.WriteLine("Voz");
-                            Guid id = Guid.NewGuid();
-                            XmlDocument doc = new XmlDocument();
-                            doc.LoadXml("<?xml version=\"1.0\" encoding=\"UTF-8\"?><Response><Say voice=\"alice\" language=\"es-ES\">" + mensaje + "</Say></Response>");
-                            String rootPath = Server.MapPath("~");
-                            rootPath = rootPath + "\\Content\\xml\\" + id + ".xml";
-                            doc.Save(rootPath);
-
-                            var call = CallResource.Create(
-                                method: Twilio.Http.HttpMethod.Get,
-                                url: new Uri(link + "/Content/xml/" + id + ".xml"),
+                            var message = MessageResource.Create(
+                                body: mensaje,
                                 from: new Twilio.Types.PhoneNumber("+" + UserPhone),
-                                to: new Twilio.Types.PhoneNumber("+" + contacto.Numero),
-                                statusCallback: new Uri(link + "/LlamadasStatus")
+                                statusCallback: new Uri(link + "/MessageStatus"),
+                                to: new Twilio.Types.PhoneNumber("+" + contacto.Numero)
                             );
 
-                            historial.Id_Message = call.Sid;
+                            historial.Id_Message = message.Sid;
                             historial.Estado = 6;
+
                         }
                         else
                         {
-                            if (difusion.Id_Tipo_Mensaje == 3)
+                            if (difusion.Id_Tipo_Mensaje == 2)
                             {
-                                Debug.WriteLine("Correo");
-                                MailMessage email = new MailMessage();
-                                email.To.Add(new MailAddress(contacto.Correo));
-                                email.From = new MailAddress("xxx@gmail.com");
-                                email.Subject = "Asunto ( " + DateTime.Now.ToString("dd / MMM / yyy hh:mm:ss") + " ) ";
-                                email.Body = mensaje;
-                                email.IsBodyHtml = true;
-                                email.Priority = MailPriority.Normal;
+                                Debug.WriteLine("Voz");
+                                Guid id = Guid.NewGuid();
+                                XmlDocument doc = new XmlDocument();
+                                doc.LoadXml("<?xml version=\"1.0\" encoding=\"UTF-8\"?><Response><Say voice=\"alice\" language=\"es-ES\">" + mensaje + "</Say></Response>");
+                                String rootPath = Server.MapPath("~");
+                                rootPath = rootPath + "\\Content\\xml\\" + id + ".xml";
+                                doc.Save(rootPath);
 
-                                SmtpClient smtp = new SmtpClient();
-                                smtp.Host = "Smtp.Gmail.com";
-                                smtp.Port = 587;
-                                smtp.EnableSsl = true;
-                                smtp.UseDefaultCredentials = false;
-                                smtp.Credentials = new NetworkCredential(correoUsuario, passwordCorreo);
+                                var call = CallResource.Create(
+                                    method: Twilio.Http.HttpMethod.Get,
+                                    url: new Uri(link + "/Content/xml/" + id + ".xml"),
+                                    from: new Twilio.Types.PhoneNumber("+" + UserPhone),
+                                    to: new Twilio.Types.PhoneNumber("+" + contacto.Numero),
+                                    statusCallback: new Uri(link + "/LlamadasStatus")
+                                );
 
-                                //string output = null;
-                                historial.Id_Message = "--";
-
-                                try
+                                historial.Id_Message = call.Sid;
+                                historial.Estado = 6;
+                            }
+                            else
+                            {
+                                if (difusion.Id_Tipo_Mensaje == 3)
                                 {
-                                    smtp.Send(email);
-                                    email.Dispose();
-                                    //output = "Corre electrónico fue enviado satisfactoriamente.";
-                                    historial.Estado = 4;
-                                }
-                                catch (Exception ex)
-                                {
-                                    //output = "Error enviando correo electrónico: " + ex.Message;
-                                    historial.Estado = 7;
-                                }
+                                    Debug.WriteLine("Correo");
+                                    MailMessage email = new MailMessage();
+                                    email.To.Add(new MailAddress(contacto.Correo));
+                                    email.From = new MailAddress("xxx@gmail.com");
+                                    email.Subject = "Asunto ( " + DateTime.Now.ToString("dd / MMM / yyy hh:mm:ss") + " ) ";
+                                    email.Body = mensaje;
+                                    email.IsBodyHtml = true;
+                                    email.Priority = MailPriority.Normal;
 
+                                    SmtpClient smtp = new SmtpClient();
+                                    smtp.Host = "Smtp.Gmail.com";
+                                    smtp.Port = 587;
+                                    smtp.EnableSsl = true;
+                                    smtp.UseDefaultCredentials = false;
+                                    smtp.Credentials = new NetworkCredential(correoUsuario, passwordCorreo);
+
+                                    //string output = null;
+                                    historial.Id_Message = "--";
+
+                                    try
+                                    {
+                                        smtp.Send(email);
+                                        email.Dispose();
+                                        //output = "Corre electrónico fue enviado satisfactoriamente.";
+                                        historial.Estado = 4;
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        //output = "Error enviando correo electrónico: " + ex.Message;
+                                        historial.Estado = 7;
+                                    }
+
+                                }
                             }
                         }
+
+                        his.InsertarHistoriales(historial);
+                    }
+                    else
+                    {
+                        Console.WriteLine("esta en lista naegra: " + infoContacto.Id_contacto);
                     }
 
-                    his.InsertarHistoriales(historial);
-                }
-                else
-                {
-                    Console.WriteLine("esta en lista naegra: " + infoContacto.Id_contacto);
-                }
-                
-               
-            }
 
-            difusion.Id_Estado = 3;
-            dif.ActualizarDifusiones(difusion);
+                }
+
+                difusion.Id_Estado = 3;
+                dif.ActualizarDifusiones(difusion);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+            }
         }
     }
 }
