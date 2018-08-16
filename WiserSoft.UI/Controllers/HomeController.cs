@@ -45,25 +45,32 @@ namespace WiserSoft.UI.Controllers
         [HttpPost]
         public ActionResult Index(Models.Usuarios usuario)
         {
-            var passwordEncripted = Encriptacion.Encriptacion.Encriptar(usuario.Password);
-            var loginResultUsers = usu.BuscarUsuarios(usuario.Username, passwordEncripted);
-            Console.WriteLine(passwordEncripted);
-            if (loginResultUsers)
-            { //Si es nulo no existe
-                DATA.Usuarios datos = usu.BuscarUsuarios(usuario.Username);
-                Session["Username"] = datos.Username;
-                Session["Rol"] = datos.Id_rol;
-
-                return RedirectToAction("UserDashboard", "Home");
-
-            }
-            else
+            try
             {
-                ModelState.AddModelError("errorLogin", "Usuario y/o contraseña incorrectos.");
+                var passwordEncripted = Encriptacion.Encriptacion.Encriptar(usuario.Password);
+                var loginResultUsers = usu.BuscarUsuarios(usuario.Username, passwordEncripted);
+                Console.WriteLine(passwordEncripted);
+                if (loginResultUsers)
+                { //Si es nulo no existe
+                    DATA.Usuarios datos = usu.BuscarUsuarios(usuario.Username);
+                    Session["Username"] = datos.Username;
+                    Session["Rol"] = datos.Id_rol;
+
+                    return RedirectToAction("UserDashboard", "Home");
+
+                }
+                else
+                {
+                    ModelState.AddModelError("errorLogin", "Usuario y/o contraseña incorrectos.");
+                    return View("Index");
+                }
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
                 return View("Index");
             }
-
-            //return View("Index");
+            
         }
 
         public ActionResult UserDashboard()
@@ -72,7 +79,6 @@ namespace WiserSoft.UI.Controllers
             int sms;
             int llamadas;
             int correos;
-
 
             if (Session["Rol"].ToString() == "2")
             {
@@ -428,47 +434,25 @@ namespace WiserSoft.UI.Controllers
                     ModelState.AddModelError("error", "No se ha podido mostrar la tabla");
                 }
                 
-                
             }
             ViewBag.Rol = Session["Rol"].ToString();
             return View();
         }
-            public ActionResult ClientDashboard()
-            {
-                return View();
-                /*if (Session["UserID"] != null && Session["Type"].Equals("cliente"))
-                {
-                    ViewBag.UserId = Session["UserID"];
-
-                    return View();
-                }
-                else
-                {
-                    return RedirectToAction("Index");
-                }*/
-            }
-
-
-
-            public ActionResult About()
-            {
-                ViewBag.Message = "Your application description page.";
-
-                return View();
-            }
-
-            public ActionResult Contact()
-            {
-                //ViewBag.Message = "Your contact page.";
-
-                return View();
-            }
-
+           
             public ActionResult Logout()
             {
-                Session.Abandon();
-                Session.Clear();
-                return RedirectToAction("Index", "Home");
+                try
+                {
+                    Session.Abandon();
+                    Session.Clear();
+                    return RedirectToAction("Index", "Home");
+                }
+                catch (Exception ex)
+                {
+                    ViewBag.Mensaje = ex.Message;
+                     return View();
+                }
+                
             }
 
 

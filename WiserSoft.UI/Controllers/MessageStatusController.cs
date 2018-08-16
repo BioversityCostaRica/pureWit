@@ -23,67 +23,66 @@ namespace WiserSoft.UI.Controllers
         [HttpPost]
         public ActionResult Index()
         {
-            // Log the message id and status
-            var smsSid = Request.Form["SmsSid"];
-            var messageStatus = Request.Form["MessageStatus"];
-
-            DATA.Estados estado = new DATA.Estados();
-            if (messageStatus == "sent")
+            try
             {
-                estado = est.ListarEstados().Where(x => x.Descripcion == "Enviado").First();
+                // Log the message id and status
+                var smsSid = Request.Form["SmsSid"];
+                var messageStatus = Request.Form["MessageStatus"];
+
+                DATA.Estados estado = new DATA.Estados();
+                if (messageStatus == "sent")
+                {
+                    estado = est.ListarEstados().Where(x => x.Descripcion == "Enviado").First();
+                }
+                else
+                {
+                    if (messageStatus == "delivered")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
+                    }
+                    else
+                    if (messageStatus == "undelivered")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "No entregado").First();
+                    }
+                    else
+                    if (messageStatus == "failed")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "Ha fallado").First();
+                    }
+                    else
+                    if (messageStatus == "queued")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "En cola").First();
+                    }
+                    else
+                    if (messageStatus == "accepted")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "Aceptado").First();
+                    }
+                    else
+                    if (messageStatus == "sending")
+                    {
+                        estado = est.ListarEstados().Where(x => x.Descripcion == "Enviando").First();
+                    }
+                }
+
+                DATA.Confirmaciones confirmaciones = new DATA.Confirmaciones();
+                confirmaciones.Estado = estado.Id;
+                confirmaciones.Message_id = smsSid;
+
+                con.InsertarConfirmaciones(confirmaciones);
+
+                var logMessage = $"\"{estado.Id}\", \"{smsSid}\", \"{messageStatus}\"";
+
+                Trace.WriteLine(logMessage);
+                return Content("Handled");
             }
-            else
+            catch (Exception ex)
             {
-                if (messageStatus == "delivered")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "Recibido").First();
-                }
-                else
-                if (messageStatus == "undelivered")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "No entregado").First();
-                }
-                else
-                if (messageStatus == "failed")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "Ha fallado").First();
-                }
-                else
-                if (messageStatus == "queued")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "En cola").First();
-                }
-                else
-                if (messageStatus == "accepted")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "Aceptado").First();
-                }
-                else
-                if (messageStatus == "sending")
-                {
-                    estado = est.ListarEstados().Where(x => x.Descripcion == "Enviando").First();
-                }
+                Console.WriteLine(ex.Message);
+                return Content("Handled");
             }
-
-            DATA.Confirmaciones confirmaciones = new DATA.Confirmaciones();
-            confirmaciones.Estado = estado.Id;
-            confirmaciones.Message_id = smsSid;
-
-            con.InsertarConfirmaciones(confirmaciones);
-
-            var logMessage = $"\"{estado.Id}\", \"{smsSid}\", \"{messageStatus}\"";
-
-            /*
-                Undelivered
-                Failed
-                Queued
-                Accepted
-                Sending
-            */
-
-
-            Trace.WriteLine(logMessage);
-            return Content("Handled");
         }
     }
 }

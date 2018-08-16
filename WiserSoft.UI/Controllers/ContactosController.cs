@@ -26,37 +26,54 @@ namespace WiserSoft.UI.Controllers
         // GET: Contactos
         public ActionResult Index()
         {
-            ViewBag.userId = Session["Username"];
-            
-            var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
-            var contactos = Mapper.Map<List<Models.Contactos>>(lista);
-
-            List<DATA.Lista_Negra> listaNegra = list_negra.ListarListaNegra();
-            var lista_Negra = Mapper.Map<List<Models.Lista_Negra>>(listaNegra);
-
-            foreach (Models.Contactos a in contactos)
+            try
             {
-                var varas = lista_Negra.Where(x => x.Id_Contacto == a.Id_Contacto).FirstOrDefault();
-                if (varas != null)
-                {
-                    a.lista_negra = "Si";
-                }
-                else
-                {
-                    a.lista_negra = "No";
-                }
-                
-            }
+                ViewBag.userId = Session["Username"];
 
+                var lista = cont.ListarContactos().Where(x => x.Username == Session["Username"].ToString());
+                var contactos = Mapper.Map<List<Models.Contactos>>(lista);
+
+                List<DATA.Lista_Negra> listaNegra = list_negra.ListarListaNegra();
+                var lista_Negra = Mapper.Map<List<Models.Lista_Negra>>(listaNegra);
+
+                foreach (Models.Contactos a in contactos)
+                {
+                    var varas = lista_Negra.Where(x => x.Id_Contacto == a.Id_Contacto).FirstOrDefault();
+                    if (varas != null)
+                    {
+                        a.lista_negra = "Si";
+                    }
+                    else
+                    {
+                        a.lista_negra = "No";
+                    }
+                    
+                }
+                return View(contactos);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+            
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(contactos);
+            
         }
         
         public ActionResult Create()
         {
-            ViewBag.userId = Session["Username"];
+            try
+            {
+                ViewBag.userId = Session["Username"];
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
             ViewBag.Rol = Session["Rol"].ToString();
-            return View();
         }
 
         [HttpPost]
@@ -86,30 +103,57 @@ namespace WiserSoft.UI.Controllers
         
         public ActionResult Edit(int Id_Contacto)
         {
+            try
+            {
+                var contacto = cont.BuscarContactos(Id_Contacto);
+                var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
+                return View(contactoBuscar);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
            
-            var contacto = cont.BuscarContactos(Id_Contacto);
-            var contactoBuscar = Mapper.Map<Models.Contactos>(contacto);
 
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(contactoBuscar);
+            
         }
 
         [HttpPost]
         public ActionResult Edit(Models.Contactos cliente)
         {
             ViewBag.userId = Session["Username"];
-            cliente.Username = ViewBag.userId;
-            var contactoEditar = Mapper.Map<DATA.Contactos>(cliente);
-            cont.ActualizaContactos(contactoEditar);
-            return RedirectToAction("Index");
+
+            try
+            {
+                cliente.Username = ViewBag.userId;
+                var contactoEditar = Mapper.Map<DATA.Contactos>(cliente);
+                cont.ActualizaContactos(contactoEditar);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
         }
 
 
         public ActionResult Delete(int id_contacto)
         {
-            cont.EliminarContactos(id_contacto);
-            ViewBag.Rol = Session["Rol"].ToString();
-            return RedirectToAction("Index");
+            try
+            {
+                cont.EliminarContactos(id_contacto);
+                ViewBag.Rol = Session["Rol"].ToString();
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return RedirectToAction("Index");
+            }
+            
         }
 
 
@@ -153,9 +197,6 @@ namespace WiserSoft.UI.Controllers
 
 
         }
-
-      
-
-
+        
     }
 }

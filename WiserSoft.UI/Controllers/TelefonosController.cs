@@ -22,10 +22,19 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos
         public ActionResult Index()
         {
-            var listaTelefonos = telef.ListarTelefonos();
-            var telefonosListar = Mapper.Map<List<Models.Telefonos>>(listaTelefonos);
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(telefonosListar);
+            try
+            {
+                var listaTelefonos = telef.ListarTelefonos();
+                var telefonosListar = Mapper.Map<List<Models.Telefonos>>(listaTelefonos);
+                return View(telefonosListar);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+            
         }
 
         [HttpPost]
@@ -54,24 +63,34 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos/Create
         public ActionResult Create()
         {
-            var listaUsua = usua.ListarUsuarios();
-
-            var listaTelf = telef.ListarTelefonos();
-            var TelefonosListar = Mapper.Map<List<Models.Usuarios>>(listaUsua.Where(x => x.Username != listaTelf.Select(t => t.Username).ToString()));
-           
-
-            IEnumerable<SelectListItem> selectUsuario =
-            from t in TelefonosListar
-            select new SelectListItem
-            {
-                Text = t.Username,
-                Value = t.Username.ToString()
-            };
-
-            ViewBag.ListasUsername = selectUsuario;
 
             ViewBag.Rol = Session["Rol"].ToString();
-            return View();
+            try
+            {
+                var listaUsua = usua.ListarUsuarios();
+
+                var listaTelf = telef.ListarTelefonos();
+                var TelefonosListar = Mapper.Map<List<Models.Usuarios>>(listaUsua.Where(x => x.Username != listaTelf.Select(t => t.Username).ToString()));
+
+
+                IEnumerable<SelectListItem> selectUsuario =
+                from t in TelefonosListar
+                select new SelectListItem
+                {
+                    Text = t.Username,
+                    Value = t.Username.ToString()
+                };
+
+                ViewBag.ListasUsername = selectUsuario;
+
+                return View();
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+            
         }
 
         // POST: Telefonos/Create
@@ -101,12 +120,20 @@ namespace WiserSoft.UI.Controllers
         // GET: Telefonos/Edit/5
         public ActionResult Edit(string numero)
         {
-            var telefono = telef.BuscarTelefonos(numero);
-
-            var telefonoBuscar = Mapper.Map<Models.Telefonos>(telefono);
-
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(telefonoBuscar);
+            try
+            {
+                var telefono = telef.BuscarTelefonos(numero);
+                var telefonoBuscar = Mapper.Map<Models.Telefonos>(telefono);
+                
+                return View(telefonoBuscar);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+           
         }
 
         // POST: Telefonos/Edit/5
@@ -136,8 +163,18 @@ namespace WiserSoft.UI.Controllers
         public ActionResult Delete(string numero)
         {
             ViewBag.Rol = Session["Rol"].ToString();
-            telef.EliminarTelefonos(numero);
-            return RedirectToAction("Index");
+
+            try
+            {
+                telef.EliminarTelefonos(numero);
+                return RedirectToAction("Index");
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return RedirectToAction("Index");
+            }
+
         }
         
     }

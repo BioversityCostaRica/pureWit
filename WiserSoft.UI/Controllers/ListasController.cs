@@ -27,13 +27,22 @@ namespace WiserSoft.UI.Controllers
         // GET: Listas
         public ActionResult Index()
         {
-            ViewBag.userId = Session["Username"];
+            try
+            {
+                ViewBag.userId = Session["Username"];
 
-            var lista = list.ListarListas().Where(x => x.Username == Session["Username"].ToString());
-            var listas = Mapper.Map<List<Models.Listas>>(lista);
-
+                var lista = list.ListarListas().Where(x => x.Username == Session["Username"].ToString());
+                var listas = Mapper.Map<List<Models.Listas>>(lista);
+                return View(listas);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
+           
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(listas);
+           
         }
 
         public ActionResult Create()
@@ -67,10 +76,18 @@ namespace WiserSoft.UI.Controllers
 
         public ActionResult Edit(int id_lista)
         {
-            var lista = list.BuscarListas(id_lista);
-            var listaBuscar = Mapper.Map<Models.Listas>(lista);
+            try
+            {
+                var lista = list.BuscarListas(id_lista);
+                var listaBuscar = Mapper.Map<Models.Listas>(lista);
+                return View(listaBuscar);
+            }
+            catch (Exception ex)
+            {
+                ViewBag.Mensaje = ex.Message;
+                return View();
+            }
             ViewBag.Rol = Session["Rol"].ToString();
-            return View(listaBuscar);
         }
 
         [HttpPost]
@@ -119,14 +136,12 @@ namespace WiserSoft.UI.Controllers
         [HttpGet]
         public JsonResult ContactosV(int idLista)
         {
-
-
             ViewBag.userId = Session["Username"];
-            var lista = cont.ListarContactos2(idLista).Where(x => x.Username == Session["Username"].ToString());
-            var listas = Mapper.Map<List<Models.Contactos>>(lista);
 
-            return Json(listas, JsonRequestBehavior.AllowGet);
+                var lista = cont.ListarContactos2(idLista).Where(x => x.Username == Session["Username"].ToString());
+                var listas = Mapper.Map<List<Models.Contactos>>(lista);
 
+               return Json(listas, JsonRequestBehavior.AllowGet);
         }
 
         [HttpPost]

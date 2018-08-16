@@ -23,22 +23,29 @@ namespace WiserSoft.UI.Controllers
         [HttpPost]
         public ActionResult Index()
         {
-            string cuerpoDeRespuesta = Request.Form["Body"];
-            string remitente = Request.Form["From"];
-            string emisor = Request.Form["To"];
-            var dateNow = DateTime.Now;
-            DATA.Comunicaciones comunicaciones = new DATA.Comunicaciones();
-            DATA.Contactos contacto = new DATA.Contactos();
-            contacto = con.ListarContactos().Where(x => x.Numero == remitente.Replace("+", "")).FirstOrDefault();
-            comunicaciones.Id_Contacto = contacto.Id_Contacto;
-            comunicaciones.Numero_Twilio = emisor.Replace("+","");
-            comunicaciones.Mensaje = cuerpoDeRespuesta;
-            comunicaciones.Estado  = 6;
-            comunicaciones.Fecha   = dateNow;
-            com.InsertarComunicaciones(comunicaciones);
+            try
+            {
+                string cuerpoDeRespuesta = Request.Form["Body"];
+                string remitente = Request.Form["From"];
+                string emisor = Request.Form["To"];
+                var dateNow = DateTime.Now;
+                DATA.Comunicaciones comunicaciones = new DATA.Comunicaciones();
+                DATA.Contactos contacto = new DATA.Contactos();
+                contacto = con.ListarContactos().Where(x => x.Numero == remitente.Replace("+", "")).FirstOrDefault();
+                comunicaciones.Id_Contacto = contacto.Id_Contacto;
+                comunicaciones.Numero_Twilio = emisor.Replace("+", "");
+                comunicaciones.Mensaje = cuerpoDeRespuesta;
+                comunicaciones.Estado = 6;
+                comunicaciones.Fecha = dateNow;
+                com.InsertarComunicaciones(comunicaciones);
 
-            var logMessage = $"\"{cuerpoDeRespuesta}\", \"{remitente}\", \"{emisor}\"";
-            Trace.WriteLine(logMessage);
+                var logMessage = $"\"{cuerpoDeRespuesta}\", \"{remitente}\", \"{emisor}\"";
+                Trace.WriteLine(logMessage);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
 
             return Content("Handled");
         }
