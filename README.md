@@ -45,7 +45,7 @@ http://[identificador].ngrok.io/Sms;
 
 - Por ser una versión de prueba, usted deberá [verificar](https://www.twilio.com/console/phone-numbers/verified) los números a los que desea mandar mensajes. 
 
-## Construir con:
+## Ejecutar utilizando las siguientes herramientas:
 - Visual estudio
 ```
 - Visual Studio 2015.
